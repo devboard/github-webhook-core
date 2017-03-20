@@ -67,6 +67,24 @@ class PushEventSpec extends ObjectBehavior
         $this->getSender()->shouldReturn($sender);
     }
 
+    public function it_exposes_if_push_event_is_for_a_branch(Ref $ref)
+    {
+        $ref->isBranchReference()->shouldBeCalled()->willReturn(true);
+        $this->isBranch()->shouldReturn(true);
+    }
+
+    public function it_exposes_if_push_event_is_for_a_tag(Ref $ref)
+    {
+        $ref->isTagReference()->shouldBeCalled()->willReturn(true);
+        $this->isTag()->shouldReturn(true);
+    }
+
+    public function it_exposes_if_this_is_a_delete_push_event(PushEventState $state)
+    {
+        $state->isDeleted()->shouldBeCalled()->willReturn(true);
+        $this->isDeleted()->shouldReturn(true);
+    }
+
     public function it_has_no_after_and_head_commit_for_delete(
         Ref $ref,
         GitHubCommitSha $before,
