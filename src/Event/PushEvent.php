@@ -124,4 +124,19 @@ class PushEvent
     {
         return $this->sender;
     }
+
+    public function isBranch(): bool
+    {
+        return $this->ref->isBranchReference();
+    }
+
+    public function isTag(): bool
+    {
+        return $this->ref->isTagReference();
+    }
+
+    public function isDeleted(): bool
+    {
+        return $this->state->isDeleted();
+    }
 }
