@@ -1,0 +1,463 @@
+{
+    "after": "ca15d6dd4155873de48d88fdd355dac80f39f1cc",
+    "base_ref": null,
+    "before": "de9960d566c32fd2ce70815cb92ef4acf1d1ff38",
+    "commits": [
+        {
+            "added": [
+                "spec/Fetch/Branch/GithubBranchSpec.php",
+                "src/Fetch/Branch/GithubBranch.php",
+                "tests/Fetch/Branch/GithubBranchTest.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "0bb06746f36404d55b1fb73be2122c7c5e6985c7",
+            "message": "w",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2017-02-04T12:39:57+01:00",
+            "tree_id": "f9033d23dc0bdb951733149ed58904c4701afe8d",
+            "url": "https://github.com/msvrtan/github-lib/commit/0bb06746f36404d55b1fb73be2122c7c5e6985c7"
+        },
+        {
+            "added": [
+                "spec/Fetch/Commit/GithubCommitSpec.php",
+                "tests/Fetch/Commit/GithubCommitTest.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "1d4769662c27053ec9a022f11b8616b7b6830f91",
+            "message": "w",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2017-02-04T12:41:18+01:00",
+            "tree_id": "0eb319688c303334975b09228a3648ea01de5ef4",
+            "url": "https://github.com/msvrtan/github-lib/commit/1d4769662c27053ec9a022f11b8616b7b6830f91"
+        },
+        {
+            "added": [
+                "src/Fetch/Commit/GithubCommit.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "c64c6d6dbdfe87ac6795a76d1c292c4171ffb7e4",
+            "message": "w",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2017-02-04T12:41:25+01:00",
+            "tree_id": "e1f84ca04793fe6ebb3d4bf9271e306ffc5d8a6c",
+            "url": "https://github.com/msvrtan/github-lib/commit/c64c6d6dbdfe87ac6795a76d1c292c4171ffb7e4"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "0a2dbf910b4f1f3cc2653fe9b56f95547efb406e",
+            "message": "w",
+            "modified": [
+                "spec/Fetch/Commit/GithubCommitSpec.php",
+                "src/Fetch/Commit/GithubCommit.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:41:35+01:00",
+            "tree_id": "6f9b5d8509180f9b84e9d78162840dd3f97a109f",
+            "url": "https://github.com/msvrtan/github-lib/commit/0a2dbf910b4f1f3cc2653fe9b56f95547efb406e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "9134f994c07d79f8282057565f989cdc7f2beeee",
+            "message": "w",
+            "modified": [
+                "spec/Fetch/Branch/GithubBranchSpec.php",
+                "src/Fetch/Branch/GithubBranch.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:43:22+01:00",
+            "tree_id": "99589723fbebddefa1cf446825e482222da1ca2a",
+            "url": "https://github.com/msvrtan/github-lib/commit/9134f994c07d79f8282057565f989cdc7f2beeee"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d83083f75df75336b797b54555a211a180a88649",
+            "message": "w",
+            "modified": [
+                "spec/Fetch/Branch/GithubBranchSpec.php",
+                "src/Fetch/Branch/GithubBranch.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:44:23+01:00",
+            "tree_id": "56f7e13a2da460b3e421a7a4bcc40b7c16626333",
+            "url": "https://github.com/msvrtan/github-lib/commit/d83083f75df75336b797b54555a211a180a88649"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "a00399460b8a0f9ecb21b00eb46c032295df41b0",
+            "message": "w",
+            "modified": [
+                "spec/Fetch/Branch/GithubBranchSpec.php",
+                "src/Fetch/Branch/GithubBranch.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:45:24+01:00",
+            "tree_id": "dc2fa23a4907d4ca9008d2e73efe39685ef61838",
+            "url": "https://github.com/msvrtan/github-lib/commit/a00399460b8a0f9ecb21b00eb46c032295df41b0"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "193f3d4daf65e933bb6be7dc674330792fca2f4d",
+            "message": "w",
+            "modified": [
+                "tests/Fetch/Branch/GithubBranchTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:46:08+01:00",
+            "tree_id": "ed4d88decdf796d7ee11f718c95a4d43d8fb5d2a",
+            "url": "https://github.com/msvrtan/github-lib/commit/193f3d4daf65e933bb6be7dc674330792fca2f4d"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "7fdac55c4650c53621fdfa96b366bdee0b62a279",
+            "message": "w",
+            "modified": [
+                "spec/Fetch/Branch/GithubBranchSpec.php",
+                "tests/Fetch/Branch/GithubBranchTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:46:51+01:00",
+            "tree_id": "4472f4e0d96d1955a77606223467fbbe6f7f3409",
+            "url": "https://github.com/msvrtan/github-lib/commit/7fdac55c4650c53621fdfa96b366bdee0b62a279"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "dd4c846866de0f0afaa10fc30373461ef3f69d96",
+            "message": "w",
+            "modified": [
+                "tests/Fetch/Branch/GithubBranchTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:47:18+01:00",
+            "tree_id": "34ada769a718a8407c98022b69f8d9ba96689658",
+            "url": "https://github.com/msvrtan/github-lib/commit/dd4c846866de0f0afaa10fc30373461ef3f69d96"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "50692656aeda41cc6ac84cdf0b9fb52759335225",
+            "message": "w",
+            "modified": [
+                "tests/Fetch/Branch/GithubBranchTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:48:00+01:00",
+            "tree_id": "b5803d79c7f37eecd5662a12ae109aa1110c8c96",
+            "url": "https://github.com/msvrtan/github-lib/commit/50692656aeda41cc6ac84cdf0b9fb52759335225"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "311450b783aa5f0bcfbc7ca59f33f4b8ac5dd9cd",
+            "message": "w",
+            "modified": [
+                "spec/Fetch/Commit/GithubCommitSpec.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:49:19+01:00",
+            "tree_id": "d53819c667cf13cbd18044ed5b00c109f0bd3e2c",
+            "url": "https://github.com/msvrtan/github-lib/commit/311450b783aa5f0bcfbc7ca59f33f4b8ac5dd9cd"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "b73f0985f7b97b220c3a4a95947bb5529410c9eb",
+            "message": "w",
+            "modified": [
+                "spec/Fetch/Commit/GithubCommitSpec.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:49:30+01:00",
+            "tree_id": "4b16e763d36b1e21f450047d6f17605accff893f",
+            "url": "https://github.com/msvrtan/github-lib/commit/b73f0985f7b97b220c3a4a95947bb5529410c9eb"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ca15d6dd4155873de48d88fdd355dac80f39f1cc",
+            "message": "w",
+            "modified": [
+                "src/Fetch/Commit/GithubCommit.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-04T12:50:04+01:00",
+            "tree_id": "d5be9e3e8b26807e59daa7b6f6e0132e681bff53",
+            "url": "https://github.com/msvrtan/github-lib/commit/ca15d6dd4155873de48d88fdd355dac80f39f1cc"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/github-lib/compare/de9960d566c3...ca15d6dd4155",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "ca15d6dd4155873de48d88fdd355dac80f39f1cc",
+        "message": "w",
+        "modified": [
+            "src/Fetch/Commit/GithubCommit.php"
+        ],
+        "removed": [],
+        "timestamp": "2017-02-04T12:50:04+01:00",
+        "tree_id": "d5be9e3e8b26807e59daa7b6f6e0132e681bff53",
+        "url": "https://github.com/msvrtan/github-lib/commit/ca15d6dd4155873de48d88fdd355dac80f39f1cc"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/35-fetch-github-branch",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/github-lib/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/github-lib/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/github-lib/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/github-lib/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/github-lib.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/github-lib/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/github-lib/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/github-lib/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/github-lib/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/github-lib/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/github-lib/contributors",
+        "created_at": 1485379937,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/github-lib/deployments",
+        "description": "Github lib",
+        "downloads_url": "https://api.github.com/repos/msvrtan/github-lib/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/github-lib/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/github-lib/forks",
+        "full_name": "msvrtan/github-lib",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/github-lib/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/github-lib/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/github-lib/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/github-lib.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/github-lib/hooks",
+        "html_url": "https://github.com/msvrtan/github-lib",
+        "id": 80059972,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/github-lib/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/github-lib/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/github-lib/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/github-lib/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/github-lib/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/github-lib/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/github-lib/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/github-lib/milestones{/number}",
+        "mirror_url": null,
+        "name": "github-lib",
+        "notifications_url": "https://api.github.com/repos/msvrtan/github-lib/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/github-lib/pulls{/number}",
+        "pushed_at": 1486209061,
+        "releases_url": "https://api.github.com/repos/msvrtan/github-lib/releases{/id}",
+        "size": 136,
+        "ssh_url": "git@github.com:msvrtan/github-lib.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/github-lib/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/github-lib/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/github-lib/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/github-lib/subscription",
+        "svn_url": "https://github.com/msvrtan/github-lib",
+        "tags_url": "https://api.github.com/repos/msvrtan/github-lib/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/github-lib/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/github-lib/git/trees{/sha}",
+        "updated_at": "2017-01-25T22:36:07Z",
+        "url": "https://github.com/msvrtan/github-lib",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

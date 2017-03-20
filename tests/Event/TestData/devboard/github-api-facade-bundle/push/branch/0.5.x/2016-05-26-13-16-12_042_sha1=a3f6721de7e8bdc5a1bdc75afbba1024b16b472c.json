@@ -1,0 +1,193 @@
+{
+    "after": "b58822e8f83169fa5b70bc27d9212825f0f4efb1",
+    "base_ref": null,
+    "before": "22819c8f8e38cedf503e8cc1f9220e3b0846a8f7",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "12c37d6ae1ee20d39982f335e0b191b7954aa865",
+            "message": "Added minimum-stability dev",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-26T14:49:21+02:00",
+            "tree_id": "ffe0e19ddc1d5ed31283f9c357bcd39934b22ba0",
+            "url": "https://github.com/devboard/github-api-facade-bundle/commit/12c37d6ae1ee20d39982f335e0b191b7954aa865"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "b58822e8f83169fa5b70bc27d9212825f0f4efb1",
+            "message": "Updated composer.lock for changes",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-26T14:49:22+02:00",
+            "tree_id": "aaf0d7cc2441858bbbe0fb2a91db17f711c5d60a",
+            "url": "https://github.com/devboard/github-api-facade-bundle/commit/b58822e8f83169fa5b70bc27d9212825f0f4efb1"
+        }
+    ],
+    "compare": "https://github.com/devboard/github-api-facade-bundle/compare/22819c8f8e38...b58822e8f831",
+    "created": false,
+    "deleted": false,
+    "forced": true,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "b58822e8f83169fa5b70bc27d9212825f0f4efb1",
+        "message": "Updated composer.lock for changes",
+        "modified": [
+            "composer.lock"
+        ],
+        "removed": [],
+        "timestamp": "2016-05-26T14:49:22+02:00",
+        "tree_id": "aaf0d7cc2441858bbbe0fb2a91db17f711c5d60a",
+        "url": "https://github.com/devboard/github-api-facade-bundle/commit/b58822e8f83169fa5b70bc27d9212825f0f4efb1"
+    },
+    "organization": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/13396338?v=3",
+        "description": null,
+        "events_url": "https://api.github.com/orgs/devboard/events",
+        "hooks_url": "https://api.github.com/orgs/devboard/hooks",
+        "id": 13396338,
+        "issues_url": "https://api.github.com/orgs/devboard/issues",
+        "login": "devboard",
+        "members_url": "https://api.github.com/orgs/devboard/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/devboard/public_members{/member}",
+        "repos_url": "https://api.github.com/orgs/devboard/repos",
+        "url": "https://api.github.com/orgs/devboard"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/0.5.x",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/branches{/branch}",
+        "clone_url": "https://github.com/devboard/github-api-facade-bundle.git",
+        "collaborators_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/comments{/number}",
+        "commits_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/contributors",
+        "created_at": 1455211572,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/downloads",
+        "events_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/events",
+        "fork": false,
+        "forks": 1,
+        "forks_count": 1,
+        "forks_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/forks",
+        "full_name": "devboard/github-api-facade-bundle",
+        "git_commits_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/git/tags{/sha}",
+        "git_url": "git://github.com/devboard/github-api-facade-bundle.git",
+        "has_downloads": true,
+        "has_issues": true,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/hooks",
+        "html_url": "https://github.com/devboard/github-api-facade-bundle",
+        "id": 51532097,
+        "issue_comment_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/issues{/number}",
+        "keys_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/merges",
+        "milestones_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/milestones{/number}",
+        "mirror_url": null,
+        "name": "github-api-facade-bundle",
+        "notifications_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "organization": "devboard",
+        "owner": {
+            "email": null,
+            "name": "devboard"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/pulls{/number}",
+        "pushed_at": 1464266968,
+        "releases_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/releases{/id}",
+        "size": 55,
+        "ssh_url": "git@github.com:devboard/github-api-facade-bundle.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/stargazers",
+        "statuses_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/subscribers",
+        "subscription_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/subscription",
+        "svn_url": "https://github.com/devboard/github-api-facade-bundle",
+        "tags_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/tags",
+        "teams_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/teams",
+        "trees_url": "https://api.github.com/repos/devboard/github-api-facade-bundle/git/trees{/sha}",
+        "updated_at": "2016-02-11T17:38:43Z",
+        "url": "https://github.com/devboard/github-api-facade-bundle",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

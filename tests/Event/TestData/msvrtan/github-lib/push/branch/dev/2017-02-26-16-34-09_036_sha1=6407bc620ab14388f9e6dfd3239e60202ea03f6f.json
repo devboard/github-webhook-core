@@ -1,0 +1,219 @@
+{
+    "after": "ba2e016be9d412f5c0d8eea7b777fd4b66474ef0",
+    "base_ref": "refs/heads/master",
+    "before": "2c19707bb2f6dfb2ddfd1a0d0ea69128b4c3f32c",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "ca8a15386c3d20d5092112cf81045144ca5fcb7d",
+            "message": "Update composer.lock\n\nUpdating:\n - symfony/yaml (v3.2.3 => v3.2.4)\n - sebastian/object-enumerator (2.0.0 => 2.0.1)\n - phpunit/php-token-stream (1.4.9 => 1.4.10)\n - phpunit/php-code-coverage (4.0.5 => 4.0.6)\n - phpunit/phpunit (5.7.13 => 5.7.14)\n - symfony/debug (v3.2.3 => v3.2.4)\n - symfony/console (v3.2.3 => v3.2.4)\n - symfony/stopwatch (v3.2.3 => v3.2.4)\n - symfony/filesystem (v3.2.3 => v3.2.4)\n - symfony/config (v3.2.3 => v3.2.4)\n - symfony/event-dispatcher (v3.2.3 => v3.2.4)\n - codeclimate/php-test-reporter (v0.4.3 => v0.4.4)\n - symfony/finder (v3.2.3 => v3.2.4)\n - nette/php-generator (v2.5.0 => v2.6.0)\n - nette/di (v2.4.6 => v2.4.7)\n - nette/bootstrap (v2.4.2 => v2.4.3)\n - phpstan/phpstan (0.6.3 => 0.6.4)\n - symfony/process (v3.2.3 => v3.2.4)\n - container-interop/container-interop (1.1.0 => 1.2.0)\n - symfony/translation (v3.2.3 => v3.2.4)\n - guzzlehttp/psr7 (1.3.1 => 1.4.0)\n - symfony/security-core (v3.2.3 => v3.2.4)\n - symfony/security-csrf (v3.2.3 => v3.2.4)\n - symfony/routing (v3.2.3 => v3.2.4)\n - symfony/http-foundation (v3.2.3 => v3.2.4)\n - symfony/http-kernel (v3.2.3 => v3.2.4)\n - symfony/dependency-injection (v3.2.3 => v3.2.4)\n - symfony/class-loader (v3.2.3 => v3.2.4)\n - symfony/cache (v3.2.3 => v3.2.4)\n - symfony/framework-bundle (v3.2.3 => v3.2.4)\n - broadway/broadway dev-master (d563317 => 3a02c67)\n\nInstalling:\n - psr/container (1.0.0)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-25T16:06:07+01:00",
+            "tree_id": "8b10b12427eda2a5ba059ceaba4b4eebe054d904",
+            "url": "https://github.com/msvrtan/github-lib/commit/ca8a15386c3d20d5092112cf81045144ca5fcb7d"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "ba807b27f14b148c487a89ccb7d7b5be9c2f96a6",
+            "message": "Upgrade to sebastian/phpcpd 3.x",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-25T16:09:56+01:00",
+            "tree_id": "5a49b3db5b9a09350af42bfda7da4a64a144fc2c",
+            "url": "https://github.com/msvrtan/github-lib/commit/ba807b27f14b148c487a89ccb7d7b5be9c2f96a6"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "ba2e016be9d412f5c0d8eea7b777fd4b66474ef0",
+            "message": "Update composer.lock for upgrading to sebastian/phpcpd 3.x",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-25T16:09:56+01:00",
+            "tree_id": "ac2eafe22c068f2c7f5fb886f6baebba88f8632d",
+            "url": "https://github.com/msvrtan/github-lib/commit/ba2e016be9d412f5c0d8eea7b777fd4b66474ef0"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/github-lib/compare/2c19707bb2f6...ba2e016be9d4",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": false,
+        "id": "ba2e016be9d412f5c0d8eea7b777fd4b66474ef0",
+        "message": "Update composer.lock for upgrading to sebastian/phpcpd 3.x",
+        "modified": [
+            "composer.lock"
+        ],
+        "removed": [],
+        "timestamp": "2017-02-25T16:09:56+01:00",
+        "tree_id": "ac2eafe22c068f2c7f5fb886f6baebba88f8632d",
+        "url": "https://github.com/msvrtan/github-lib/commit/ba2e016be9d412f5c0d8eea7b777fd4b66474ef0"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/dev",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/github-lib/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/github-lib/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/github-lib/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/github-lib/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/github-lib.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/github-lib/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/github-lib/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/github-lib/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/github-lib/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/github-lib/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/github-lib/contributors",
+        "created_at": 1485379937,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/github-lib/deployments",
+        "description": "Github lib",
+        "downloads_url": "https://api.github.com/repos/msvrtan/github-lib/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/github-lib/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/github-lib/forks",
+        "full_name": "msvrtan/github-lib",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/github-lib/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/github-lib/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/github-lib/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/github-lib.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/github-lib/hooks",
+        "html_url": "https://github.com/msvrtan/github-lib",
+        "id": 80059972,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/github-lib/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/github-lib/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/github-lib/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/github-lib/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/github-lib/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/github-lib/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/github-lib/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/github-lib/milestones{/number}",
+        "mirror_url": null,
+        "name": "github-lib",
+        "notifications_url": "https://api.github.com/repos/msvrtan/github-lib/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+            "email": "msvrtan@users.noreply.github.com",
+            "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+            "followers_url": "https://api.github.com/users/msvrtan/followers",
+            "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/msvrtan",
+            "id": 1780572,
+            "login": "msvrtan",
+            "name": "msvrtan",
+            "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+            "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+            "repos_url": "https://api.github.com/users/msvrtan/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/github-lib/pulls{/number}",
+        "pushed_at": 1488035438,
+        "releases_url": "https://api.github.com/repos/msvrtan/github-lib/releases{/id}",
+        "size": 198,
+        "ssh_url": "git@github.com:msvrtan/github-lib.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/github-lib/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/github-lib/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/github-lib/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/github-lib/subscription",
+        "svn_url": "https://github.com/msvrtan/github-lib",
+        "tags_url": "https://api.github.com/repos/msvrtan/github-lib/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/github-lib/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/github-lib/git/trees{/sha}",
+        "updated_at": "2017-01-25T22:36:07Z",
+        "url": "https://github.com/msvrtan/github-lib",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

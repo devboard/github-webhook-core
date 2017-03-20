@@ -1,0 +1,224 @@
+{
+    "after": "1c2db76f59920934d9b9584ea9eb7439052041cd",
+    "base_ref": null,
+    "before": "b2a51652dea92e9e1ef995d9e32afb09388483db",
+    "commits": [
+        {
+            "added": [
+                "tests/CodeGenerator/BaseCodeGeneratorTest.php"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": true,
+            "id": "bceed5ca5ddd74d35f6bbaf2abe96426baef88d3",
+            "message": "Merge pull request #60 from msvrtan/refactoring-test-suite\n\nMoved test data providers into base test",
+            "modified": [
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T15:02:32+02:00",
+            "tree_id": "494bf8a1593e7bd4aec3a7831a14cb8ef997beb3",
+            "url": "https://github.com/msvrtan/generator/commit/bceed5ca5ddd74d35f6bbaf2abe96426baef88d3"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "c40e980da5dc9f5c3595c7644700855a0a6c6ee9",
+            "message": "Added getFullName() to TypeDeclaration interface",
+            "modified": [
+                "src/Definition/PHP/Types/TypeDeclaration/TypeDeclaration.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T15:17:47+02:00",
+            "tree_id": "fffe1087353322d584be5a102edfd4a2a1b666c9",
+            "url": "https://github.com/msvrtan/generator/commit/c40e980da5dc9f5c3595c7644700855a0a6c6ee9"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "1c2db76f59920934d9b9584ea9eb7439052041cd",
+            "message": "Covering TypeDeclaration getName() && getFullName()",
+            "modified": [
+                "spec/Definition/PHP/Types/TypeDeclaration/ArrayTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/BoolTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/FloatTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/IntTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/StringTypeSpec.php",
+                "src/Definition/PHP/Types/TypeDeclaration/ArrayType.php",
+                "src/Definition/PHP/Types/TypeDeclaration/BoolType.php",
+                "src/Definition/PHP/Types/TypeDeclaration/FloatType.php",
+                "src/Definition/PHP/Types/TypeDeclaration/IntType.php",
+                "src/Definition/PHP/Types/TypeDeclaration/StringType.php",
+                "src/Definition/PHP/Types/TypeDeclaration/TypeDeclaration.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T15:17:47+02:00",
+            "tree_id": "67c7d4ecd462e9f82aad2eada87396586034c563",
+            "url": "https://github.com/msvrtan/generator/commit/1c2db76f59920934d9b9584ea9eb7439052041cd"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/generator/compare/b2a51652dea9...1c2db76f5992",
+    "created": false,
+    "deleted": false,
+    "forced": true,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "1c2db76f59920934d9b9584ea9eb7439052041cd",
+        "message": "Covering TypeDeclaration getName() && getFullName()",
+        "modified": [
+            "spec/Definition/PHP/Types/TypeDeclaration/ArrayTypeSpec.php",
+            "spec/Definition/PHP/Types/TypeDeclaration/BoolTypeSpec.php",
+            "spec/Definition/PHP/Types/TypeDeclaration/FloatTypeSpec.php",
+            "spec/Definition/PHP/Types/TypeDeclaration/IntTypeSpec.php",
+            "spec/Definition/PHP/Types/TypeDeclaration/StringTypeSpec.php",
+            "src/Definition/PHP/Types/TypeDeclaration/ArrayType.php",
+            "src/Definition/PHP/Types/TypeDeclaration/BoolType.php",
+            "src/Definition/PHP/Types/TypeDeclaration/FloatType.php",
+            "src/Definition/PHP/Types/TypeDeclaration/IntType.php",
+            "src/Definition/PHP/Types/TypeDeclaration/StringType.php",
+            "src/Definition/PHP/Types/TypeDeclaration/TypeDeclaration.php"
+        ],
+        "removed": [],
+        "timestamp": "2016-06-18T15:17:47+02:00",
+        "tree_id": "67c7d4ecd462e9f82aad2eada87396586034c563",
+        "url": "https://github.com/msvrtan/generator/commit/1c2db76f59920934d9b9584ea9eb7439052041cd"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/improving-missing-tests",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/generator/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/generator/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/generator/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/generator/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/generator.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/generator/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/generator/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/generator/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/generator/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/generator/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/generator/contributors",
+        "created_at": 1464896063,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/generator/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/msvrtan/generator/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/generator/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/generator/forks",
+        "full_name": "msvrtan/generator",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/generator/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/generator/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/generator/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/generator.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/generator/hooks",
+        "html_url": "https://github.com/msvrtan/generator",
+        "id": 60291903,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/generator/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/generator/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/generator/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/generator/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/generator/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/generator/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/generator/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/generator/milestones{/number}",
+        "mirror_url": null,
+        "name": "generator",
+        "notifications_url": "https://api.github.com/repos/msvrtan/generator/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/generator/pulls{/number}",
+        "pushed_at": 1466255873,
+        "releases_url": "https://api.github.com/repos/msvrtan/generator/releases{/id}",
+        "size": 162,
+        "ssh_url": "git@github.com:msvrtan/generator.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/generator/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/generator/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/generator/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/generator/subscription",
+        "svn_url": "https://github.com/msvrtan/generator",
+        "tags_url": "https://api.github.com/repos/msvrtan/generator/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/generator/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/generator/git/trees{/sha}",
+        "updated_at": "2016-06-11T15:05:35Z",
+        "url": "https://github.com/msvrtan/generator",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

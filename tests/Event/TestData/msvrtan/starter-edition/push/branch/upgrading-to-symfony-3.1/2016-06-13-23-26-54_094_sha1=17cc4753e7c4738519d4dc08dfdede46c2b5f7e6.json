@@ -1,0 +1,184 @@
+{
+    "after": "aa847a45622c22dc9cfb46d31d76f44c559c1f0e",
+    "base_ref": null,
+    "before": "eeeeda8d039e29f6cc7cb7056f5ac27955749ec1",
+    "commits": [
+        {
+            "added": [
+                "LICENSE"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "14f51f14ac6e1558ec187bcb4bbffdca4cff6281",
+            "message": "Changes from Symfony standard edition 3.1 [starter-edition]",
+            "modified": [
+                "app/config/config_prod.yml",
+                "composer.json",
+                "phpunit.xml",
+                "web/app.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:34:50+02:00",
+            "tree_id": "c96af5ff2af163ffc99324cb2fe535802d45df35",
+            "url": "https://github.com/msvrtan/starter-edition/commit/14f51f14ac6e1558ec187bcb4bbffdca4cff6281"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "aa847a45622c22dc9cfb46d31d76f44c559c1f0e",
+            "message": "deleted lock",
+            "modified": [],
+            "removed": [
+                "composer.lock"
+            ],
+            "timestamp": "2016-06-03T22:35:50+02:00",
+            "tree_id": "e36ff61d8e1a3acba474f093318293dde1424fb4",
+            "url": "https://github.com/msvrtan/starter-edition/commit/aa847a45622c22dc9cfb46d31d76f44c559c1f0e"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/starter-edition/compare/eeeeda8d039e...aa847a45622c",
+    "created": false,
+    "deleted": false,
+    "forced": true,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "aa847a45622c22dc9cfb46d31d76f44c559c1f0e",
+        "message": "deleted lock",
+        "modified": [],
+        "removed": [
+            "composer.lock"
+        ],
+        "timestamp": "2016-06-03T22:35:50+02:00",
+        "tree_id": "e36ff61d8e1a3acba474f093318293dde1424fb4",
+        "url": "https://github.com/msvrtan/starter-edition/commit/aa847a45622c22dc9cfb46d31d76f44c559c1f0e"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/upgrading-to-symfony-3.1",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/starter-edition/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/starter-edition/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/starter-edition/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/starter-edition/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/starter-edition.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/starter-edition/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/starter-edition/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/starter-edition/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/starter-edition/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/starter-edition/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/starter-edition/contributors",
+        "created_at": 1457126496,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/starter-edition/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/msvrtan/starter-edition/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/starter-edition/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/starter-edition/forks",
+        "full_name": "msvrtan/starter-edition",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/starter-edition/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/starter-edition/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/starter-edition/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/starter-edition.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/starter-edition/hooks",
+        "html_url": "https://github.com/msvrtan/starter-edition",
+        "id": 53166288,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/starter-edition/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/starter-edition/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/starter-edition/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/starter-edition/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/starter-edition/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/starter-edition/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/starter-edition/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/starter-edition/milestones{/number}",
+        "mirror_url": null,
+        "name": "starter-edition",
+        "notifications_url": "https://api.github.com/repos/msvrtan/starter-edition/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/starter-edition/pulls{/number}",
+        "pushed_at": 1464986155,
+        "releases_url": "https://api.github.com/repos/msvrtan/starter-edition/releases{/id}",
+        "size": 483,
+        "ssh_url": "git@github.com:msvrtan/starter-edition.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/starter-edition/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/starter-edition/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/starter-edition/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/starter-edition/subscription",
+        "svn_url": "https://github.com/msvrtan/starter-edition",
+        "tags_url": "https://api.github.com/repos/msvrtan/starter-edition/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/starter-edition/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/starter-edition/git/trees{/sha}",
+        "updated_at": "2016-03-05T11:08:04Z",
+        "url": "https://github.com/msvrtan/starter-edition",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

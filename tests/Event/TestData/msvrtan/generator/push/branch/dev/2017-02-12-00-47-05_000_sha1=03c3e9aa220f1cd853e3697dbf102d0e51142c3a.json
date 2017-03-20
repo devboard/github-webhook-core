@@ -1,0 +1,930 @@
+{
+    "after": "bf8bb843d125b28d0eaaf1974fac914e1042fc41",
+    "base_ref": null,
+    "before": "e25460d8d6d93bf521123189437ff2eb570ce2ab",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "0efbbe187c1305a1647d6631e903e323f0ae0818",
+            "message": "Using ::class for phpspec type definitions instead of FQCN",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/ClassGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/MethodFactorySpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/AggregateRootIdGetterGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/CreateGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/RepositoryConstructorGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/ConstructorGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/DeserializeGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/GetterGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/PhpSpec/InitializableGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/PhpSpec/LetGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/SerializeGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/ToStringGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/UuidCreateGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParserGeneratorFactorySpec.php",
+                "spec/CodeGenerator/PhpParserGeneratorSpec.php",
+                "spec/Definition/PHP/DefinitionFactorySpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/CreateMethodSpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethodSpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/RepositoryConstructorMethodSpec.php",
+                "spec/Definition/PHP/Methods/ConstructorMethodSpec.php",
+                "spec/Definition/PHP/Methods/DeserializeMethodSpec.php",
+                "spec/Definition/PHP/Methods/GetterMethodSpec.php",
+                "spec/Definition/PHP/Methods/PhpSpec/InitializableMethodSpec.php",
+                "spec/Definition/PHP/Methods/PhpSpec/LetMethodSpec.php",
+                "spec/Definition/PHP/Methods/SerializeMethodSpec.php",
+                "spec/Definition/PHP/Methods/ToStringMethodSpec.php",
+                "spec/Definition/PHP/Methods/UuidCreateMethodSpec.php",
+                "spec/Definition/PHP/ParameterSpec.php",
+                "spec/Definition/PHP/Types/ClassTypeSpec.php",
+                "spec/Definition/PHP/Types/InterfaceTypeSpec.php",
+                "spec/Definition/PHP/Types/TraitTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/ArrayTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/BoolTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/FloatTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/IntTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeDeclaration/StringTypeSpec.php",
+                "spec/Definition/PHP/Types/TypeFactorySpec.php",
+                "spec/File/FileFactorySpec.php",
+                "spec/File/FileGeneratorSpec.php",
+                "spec/File/FileResourceSpec.php",
+                "spec/Path/Psr0PathSpec.php",
+                "spec/Path/Psr4PathSpec.php",
+                "spec/Path/Readers/SourceCodePathReaderSpec.php",
+                "spec/Path/SpecPsr0PathSpec.php",
+                "spec/Path/SpecPsr4PathSpec.php",
+                "spec/Path/TestPsr0PathSpec.php",
+                "spec/Path/TestPsr4PathSpec.php",
+                "spec/Source/ClassSourceFactorySpec.php",
+                "spec/Source/ImprovedClassSourceSpec.php",
+                "spec/SourceFactory/Broadway/CommandSourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/EventSourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/EventSourcedAggregateRootSourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/EventSourcingRepositorySourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/ReadProjectorSourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/ReadRepositorySourceFactorySpec.php",
+                "spec/SourceFactory/UuidIdentitySourceFactorySpec.php",
+                "spec/SpecGenerator/SpecGeneratorSpec.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T21:46:47+01:00",
+            "tree_id": "c6414e9834ed914f93f4ebb3320e0620a6658d89",
+            "url": "https://github.com/msvrtan/generator/commit/0efbbe187c1305a1647d6631e903e323f0ae0818"
+        },
+        {
+            "added": [
+                "spec/CodeGenerator/PhpParser/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersGeneratorSpec.php",
+                "spec/Definition/PHP/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersMethodSpec.php",
+                "src/CodeGenerator/PhpParser/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersGenerator.php",
+                "src/Definition/PHP/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersMethod.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "75ee1be6c5a21b8173a756ef3839a5ccb58a34e2",
+            "message": "Expose constructor arguments in spec files",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/MethodFactorySpec.php",
+                "src/CodeGenerator/PhpParser/MethodFactory.php",
+                "src/CodeGenerator/PhpParserGeneratorFactory.php",
+                "src/SpecGenerator/SpecGenerator.php",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-command-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-event-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-model-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-read-entity-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-read-projector-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-read-repository-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/uuid-identifier-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-all-1-classless-param-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-all-1-param-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-all-1-scalartypes-param-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-all-2-param-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-all-3-param-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-all-multi-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-all-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-interface-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-parent-spec.output",
+                "tests/CodeGenerator/sample-files/spec/class-with-trait-spec.output"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T22:32:13+01:00",
+            "tree_id": "28942dccceee5314ee7bf69da79e2947d70166f7",
+            "url": "https://github.com/msvrtan/generator/commit/75ee1be6c5a21b8173a756ef3839a5ccb58a34e2"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "39dec76457e066fdd029cbdc5c9da320a88865dc",
+            "message": "Fixes",
+            "modified": [
+                "src/CodeGenerator/PhpParser/MethodFactory.php",
+                "src/CodeGenerator/PhpParser/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersGenerator.php",
+                "src/SpecGenerator/SpecGenerator.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T22:43:54+01:00",
+            "tree_id": "ebd3ebbf52143a0cd236b1648bed0022e04f0f83",
+            "url": "https://github.com/msvrtan/generator/commit/39dec76457e066fdd029cbdc5c9da320a88865dc"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "71f3f6f33d03be9a09b6e6b28720ccd2e526dcae",
+            "message": "Update composer.lock, package update\n\n - paragonie/random_compat (v2.0.3->v2.0.4)\n - sensio/generator-bundle (v3.0.11->v3.1.1)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T13:21:13+01:00",
+            "tree_id": "aac986fa482b7336a023542211cc24457e7a86fc",
+            "url": "https://github.com/msvrtan/generator/commit/71f3f6f33d03be9a09b6e6b28720ccd2e526dcae"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "5d568bf8aa19e20fbe032118ba5b115fb438029e",
+            "message": "Fix spacing between spec methods",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/AggregateRootIdGetterGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/RepositoryConstructorGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/DeserializeGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/GetterGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/SerializeGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/ToStringGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/UuidCreateGeneratorSpec.php",
+                "spec/Definition/PHP/DefinitionFactorySpec.php",
+                "spec/Definition/PHP/Methods/GetterMethodSpec.php",
+                "spec/Path/Psr4PathSpec.php",
+                "spec/Path/SpecPsr0PathSpec.php",
+                "spec/Path/SpecPsr4PathSpec.php",
+                "spec/Path/TestPsr0PathSpec.php",
+                "spec/Path/TestPsr4PathSpec.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T13:30:55+01:00",
+            "tree_id": "87757a7f7469fd5be42b64027a501b0ddab42444",
+            "url": "https://github.com/msvrtan/generator/commit/5d568bf8aa19e20fbe032118ba5b115fb438029e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "0566348469e167012056fff7c41da32871c239c8",
+            "message": "Fixing some small spacing issues",
+            "modified": [
+                "src/CodeGenerator/PhpParser/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersGenerator.php",
+                "src/Definition/PHP/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersMethod.php",
+                "src/Definition/PHP/Types/ConceptName.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T13:31:38+01:00",
+            "tree_id": "b80a68ba4c6e287aeccf1dd21cd3b4cbfe388437",
+            "url": "https://github.com/msvrtan/generator/commit/0566348469e167012056fff7c41da32871c239c8"
+        },
+        {
+            "added": [
+                "tests/CodeGenerator/sample-files/broadway-code/read/elasticsearch/entity.output",
+                "tests/CodeGenerator/sample-files/broadway-code/read/elasticsearch/projector.output",
+                "tests/CodeGenerator/sample-files/broadway-code/read/elasticsearch/repository.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "7f4b61e5edc6fe947d6817e60e064fee85c87383",
+            "message": "Move broadway read outputs into subfolders\n\nAs we are adding doctrine ORM read generators, it's better to keep outputs in separate folder",
+            "modified": [
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [
+                "tests/CodeGenerator/sample-files/broadway-code/broadway-read-entity.output",
+                "tests/CodeGenerator/sample-files/broadway-code/broadway-read-projector.output",
+                "tests/CodeGenerator/sample-files/broadway-code/broadway-read-repository.output"
+            ],
+            "timestamp": "2016-11-12T15:52:47+01:00",
+            "tree_id": "f06eb60dbacf35e7618ed2b61cd91300cfde4404",
+            "url": "https://github.com/msvrtan/generator/commit/7f4b61e5edc6fe947d6817e60e064fee85c87383"
+        },
+        {
+            "added": [
+                "tests/CodeGenerator/BroadwayGeneratorTest.php",
+                "tests/CodeGenerator/BroadwaySpecGeneratorTest.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "84eac90869e8bd9ab31a650603227f05b74018c6",
+            "message": "Separate Broadway PHP & Spec outputs to separate test",
+            "modified": [
+                "tests/CodeGenerator/PhpParserGeneratorTest.php",
+                "tests/CodeGenerator/PhpParserSpecGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T15:52:47+01:00",
+            "tree_id": "1c2c7b8c86b6e6a8cf09d8200b11aec7e636fb6b",
+            "url": "https://github.com/msvrtan/generator/commit/84eac90869e8bd9ab31a650603227f05b74018c6"
+        },
+        {
+            "added": [
+                "tests/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/entity-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/projector-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/repository-spec.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "2fea1b14ca446b6a85f1c61f759115dfc7a1bd58",
+            "message": "Move Broadway read spec outputs to separate folder",
+            "modified": [
+                "tests/CodeGenerator/BroadwaySpecGeneratorTest.php"
+            ],
+            "removed": [
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-read-entity-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-read-projector-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-read-repository-spec.output"
+            ],
+            "timestamp": "2016-11-12T15:52:47+01:00",
+            "tree_id": "ac5381cb8a3f04d70c9c8809b8ebe747809f8a2d",
+            "url": "https://github.com/msvrtan/generator/commit/2fea1b14ca446b6a85f1c61f759115dfc7a1bd58"
+        },
+        {
+            "added": [
+                "spec/Broadway/CodeGenerator/PhpParser/Methods/Model/AggregateRootIdGetterGeneratorSpec.php",
+                "spec/Broadway/CodeGenerator/PhpParser/Methods/Model/CreateGeneratorSpec.php",
+                "spec/Broadway/CodeGenerator/PhpParser/Methods/Model/ReadModelIdGetterGeneratorSpec.php",
+                "spec/Broadway/CodeGenerator/PhpParser/Methods/Model/RepositoryConstructorGeneratorSpec.php",
+                "spec/Broadway/Definition/PHP/Methods/Model/AggregateRootIdGetterMethodSpec.php",
+                "spec/Broadway/Definition/PHP/Methods/Model/CreateMethodSpec.php",
+                "spec/Broadway/Definition/PHP/Methods/Model/ReadModelIdGetterMethodSpec.php",
+                "spec/Broadway/Definition/PHP/Methods/Model/RepositoryConstructorMethodSpec.php",
+                "spec/Broadway/SourceFactory/CommandSourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/EventSourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/EventSourcedAggregateRootSourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/EventSourcingRepositorySourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/ReadEntitySourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/ReadProjectorSourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/ReadRepositorySourceFactorySpec.php",
+                "src/Broadway/CodeGenerator/PhpParser/Methods/Model/AggregateRootIdGetterGenerator.php",
+                "src/Broadway/CodeGenerator/PhpParser/Methods/Model/CreateGenerator.php",
+                "src/Broadway/CodeGenerator/PhpParser/Methods/Model/ReadModelIdGetterGenerator.php",
+                "src/Broadway/CodeGenerator/PhpParser/Methods/Model/RepositoryConstructorGenerator.php",
+                "src/Broadway/Definition/PHP/Methods/Model/AggregateRootIdGetterMethod.php",
+                "src/Broadway/Definition/PHP/Methods/Model/CreateMethod.php",
+                "src/Broadway/Definition/PHP/Methods/Model/ReadModelIdGetterMethod.php",
+                "src/Broadway/Definition/PHP/Methods/Model/RepositoryConstructorMethod.php",
+                "src/Broadway/SourceFactory/CommandSourceFactory.php",
+                "src/Broadway/SourceFactory/EventSourceFactory.php",
+                "src/Broadway/SourceFactory/EventSourcedAggregateRootSourceFactory.php",
+                "src/Broadway/SourceFactory/EventSourcingRepositorySourceFactory.php",
+                "src/Broadway/SourceFactory/ReadEntitySourceFactory.php",
+                "src/Broadway/SourceFactory/ReadProjectorSourceFactory.php",
+                "src/Broadway/SourceFactory/ReadRepositorySourceFactory.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "6b40b509136e1d2f1f28dce361aee186d10f8777",
+            "message": "Moving Broadway related code to separate namespace",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/MethodFactorySpec.php",
+                "spec/Definition/PHP/DefinitionFactorySpec.php",
+                "src/CodeGenerator/PhpParser/MethodFactory.php",
+                "src/CodeGenerator/PhpParserGeneratorFactory.php",
+                "src/Definition/PHP/DefinitionFactory.php",
+                "src/SpecGenerator/SpecGenerator.php",
+                "tests/CodeGenerator/BaseCodeGeneratorTest.php"
+            ],
+            "removed": [
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/AggregateRootIdGetterGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/CreateGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/RepositoryConstructorGeneratorSpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/AggregateRootIdGetterMethodSpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/CreateMethodSpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethodSpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/RepositoryConstructorMethodSpec.php",
+                "spec/SourceFactory/Broadway/CommandSourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/EventSourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/EventSourcedAggregateRootSourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/EventSourcingRepositorySourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/ReadProjectorSourceFactorySpec.php",
+                "spec/SourceFactory/Broadway/ReadRepositorySourceFactorySpec.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/AggregateRootIdGetterGenerator.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/CreateGenerator.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGenerator.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/RepositoryConstructorGenerator.php",
+                "src/Definition/PHP/Methods/Broadway/Model/AggregateRootIdGetterMethod.php",
+                "src/Definition/PHP/Methods/Broadway/Model/CreateMethod.php",
+                "src/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethod.php",
+                "src/Definition/PHP/Methods/Broadway/Model/RepositoryConstructorMethod.php",
+                "src/SourceFactory/Broadway/CommandSourceFactory.php",
+                "src/SourceFactory/Broadway/EventSourceFactory.php",
+                "src/SourceFactory/Broadway/EventSourcedAggregateRootSourceFactory.php",
+                "src/SourceFactory/Broadway/EventSourcingRepositorySourceFactory.php",
+                "src/SourceFactory/Broadway/ReadEntitySourceFactory.php",
+                "src/SourceFactory/Broadway/ReadProjectorSourceFactory.php",
+                "src/SourceFactory/Broadway/ReadRepositorySourceFactory.php"
+            ],
+            "timestamp": "2016-11-12T17:15:30+01:00",
+            "tree_id": "05d1d450dbd6eb4be0b9247c0a0965507548f694",
+            "url": "https://github.com/msvrtan/generator/commit/6b40b509136e1d2f1f28dce361aee186d10f8777"
+        },
+        {
+            "added": [
+                "spec/PhpSpec/CodeGenerator/PhpParser/Methods/ExposeConstructorArgumentsAsGettersGeneratorSpec.php",
+                "spec/PhpSpec/CodeGenerator/PhpParser/Methods/InitializableGeneratorSpec.php",
+                "spec/PhpSpec/CodeGenerator/PhpParser/Methods/LetGeneratorSpec.php",
+                "spec/PhpSpec/Definition/PHP/Methods/ExposeConstructorArgumentsAsGettersMethodSpec.php",
+                "spec/PhpSpec/Definition/PHP/Methods/InitializableMethodSpec.php",
+                "spec/PhpSpec/Definition/PHP/Methods/LetMethodSpec.php",
+                "src/PhpSpec/CodeGenerator/PhpParser/Methods/ExposeConstructorArgumentsAsGettersGenerator.php",
+                "src/PhpSpec/CodeGenerator/PhpParser/Methods/InitializableGenerator.php",
+                "src/PhpSpec/CodeGenerator/PhpParser/Methods/LetGenerator.php",
+                "src/PhpSpec/Definition/PHP/Methods/ExposeConstructorArgumentsAsGettersMethod.php",
+                "src/PhpSpec/Definition/PHP/Methods/InitializableMethod.php",
+                "src/PhpSpec/Definition/PHP/Methods/LetMethod.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "cad906986f2a5e713101619d4bc7dbb822291cd5",
+            "message": "Moving PHPSpec to separate namespace",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/MethodFactorySpec.php",
+                "src/CodeGenerator/PhpParser/MethodFactory.php",
+                "src/CodeGenerator/PhpParserGeneratorFactory.php",
+                "src/SpecGenerator/SpecGenerator.php"
+            ],
+            "removed": [
+                "spec/CodeGenerator/PhpParser/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/PhpSpec/InitializableGeneratorSpec.php",
+                "spec/CodeGenerator/PhpParser/Methods/PhpSpec/LetGeneratorSpec.php",
+                "spec/Definition/PHP/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersMethodSpec.php",
+                "spec/Definition/PHP/Methods/PhpSpec/InitializableMethodSpec.php",
+                "spec/Definition/PHP/Methods/PhpSpec/LetMethodSpec.php",
+                "src/CodeGenerator/PhpParser/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersGenerator.php",
+                "src/CodeGenerator/PhpParser/Methods/PhpSpec/InitializableGenerator.php",
+                "src/CodeGenerator/PhpParser/Methods/PhpSpec/LetGenerator.php",
+                "src/Definition/PHP/Methods/PhpSpec/ExposeConstructorArgumentsAsGettersMethod.php",
+                "src/Definition/PHP/Methods/PhpSpec/InitializableMethod.php",
+                "src/Definition/PHP/Methods/PhpSpec/LetMethod.php"
+            ],
+            "timestamp": "2016-11-12T17:15:30+01:00",
+            "tree_id": "cf7b531ede71a9f28c7d86bebf10046b12b8c6aa",
+            "url": "https://github.com/msvrtan/generator/commit/cad906986f2a5e713101619d4bc7dbb822291cd5"
+        },
+        {
+            "added": [
+                "tests/Broadway/CodeGenerator/BaseCodeGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwayGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwaySpecGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/broadway-command.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/broadway-event.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/broadway-model-repository.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/broadway-model.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/read/elasticsearch/entity.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/read/elasticsearch/projector.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/read/elasticsearch/repository.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/uuid-identifier.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/broadway-command-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/broadway-event-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/broadway-model-repository-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/broadway-model-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/entity-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/projector-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/repository-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/uuid-identifier-spec.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "3163232c8165c039a30a126bd63e65ef9713fccf",
+            "message": "Move broadway related tests to separate namespace",
+            "modified": [
+                "tests/CodeGenerator/BaseCodeGeneratorTest.php",
+                "tests/CodeGenerator/PhpParserGeneratorTest.php",
+                "tests/CodeGenerator/PhpParserSpecGeneratorTest.php"
+            ],
+            "removed": [
+                "tests/CodeGenerator/BroadwayGeneratorTest.php",
+                "tests/CodeGenerator/BroadwaySpecGeneratorTest.php",
+                "tests/CodeGenerator/sample-files/broadway-code/broadway-command.output",
+                "tests/CodeGenerator/sample-files/broadway-code/broadway-event.output",
+                "tests/CodeGenerator/sample-files/broadway-code/broadway-model-repository.output",
+                "tests/CodeGenerator/sample-files/broadway-code/broadway-model.output",
+                "tests/CodeGenerator/sample-files/broadway-code/read/elasticsearch/entity.output",
+                "tests/CodeGenerator/sample-files/broadway-code/read/elasticsearch/projector.output",
+                "tests/CodeGenerator/sample-files/broadway-code/read/elasticsearch/repository.output",
+                "tests/CodeGenerator/sample-files/broadway-code/uuid-identifier.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-command-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-event-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-model-repository-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/broadway-model-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/entity-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/projector-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/repository-spec.output",
+                "tests/CodeGenerator/sample-files/broadway-spec/uuid-identifier-spec.output"
+            ],
+            "timestamp": "2016-11-12T17:15:30+01:00",
+            "tree_id": "0c1e9192401e4519e3491860fcb17d0cbc50df6c",
+            "url": "https://github.com/msvrtan/generator/commit/3163232c8165c039a30a126bd63e65ef9713fccf"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "a0e4999b31e49722267fbbf9c9ae24a258663b0a",
+            "message": "Rename provideSourceFor* to provide*",
+            "modified": [
+                "tests/Broadway/CodeGenerator/BaseCodeGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwayGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwaySpecGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T17:15:30+01:00",
+            "tree_id": "0cf7f98bfb24d705d0d155a53c0ff1bdfe6721c0",
+            "url": "https://github.com/msvrtan/generator/commit/a0e4999b31e49722267fbbf9c9ae24a258663b0a"
+        },
+        {
+            "added": [
+                "tests/Broadway/CodeGenerator/sample-files/code/broadway-command.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/broadway-event.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/broadway-model-repository.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/broadway-model.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/read/elasticsearch/entity.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/read/elasticsearch/projector.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/read/elasticsearch/repository.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/uuid-identifier.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/broadway-command-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/broadway-event-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/broadway-model-repository-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/broadway-model-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/read/elasticsearch/entity-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/read/elasticsearch/projector-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/read/elasticsearch/repository-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/uuid-identifier-spec.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "c9c4ad9bc480e8f608e45f1ef02c6bf071de05f5",
+            "message": "Move sample files for broadway",
+            "modified": [
+                "tests/Broadway/CodeGenerator/BroadwayGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwaySpecGeneratorTest.php"
+            ],
+            "removed": [
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/broadway-command.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/broadway-event.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/broadway-model-repository.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/broadway-model.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/read/elasticsearch/entity.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/read/elasticsearch/projector.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/read/elasticsearch/repository.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-code/uuid-identifier.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/broadway-command-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/broadway-event-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/broadway-model-repository-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/broadway-model-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/entity-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/projector-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/read/elasticsearch/repository-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/broadway-spec/uuid-identifier-spec.output"
+            ],
+            "timestamp": "2016-11-12T17:15:30+01:00",
+            "tree_id": "fec213c6e829169227c5e1ae3b46dae202bf5794",
+            "url": "https://github.com/msvrtan/generator/commit/c9c4ad9bc480e8f608e45f1ef02c6bf071de05f5"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ca03016e1df069ff74fdbf5585de5238817eb8de",
+            "message": "Rename provideBroadwayRead* with provideBroadwayElasticSearchRead* method names",
+            "modified": [
+                "tests/Broadway/CodeGenerator/BaseCodeGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwayGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwaySpecGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T17:31:25+01:00",
+            "tree_id": "8b56d7e740cfbbe8a0516e0ee944338e8e5f7da8",
+            "url": "https://github.com/msvrtan/generator/commit/ca03016e1df069ff74fdbf5585de5238817eb8de"
+        },
+        {
+            "added": [
+                "spec/Broadway/SourceFactory/Read/ElasticSearch/ReadEntitySourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/Read/ElasticSearch/ReadProjectorSourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/Read/ElasticSearch/ReadRepositorySourceFactorySpec.php",
+                "src/Broadway/SourceFactory/Read/ElasticSearch/ReadEntitySourceFactory.php",
+                "src/Broadway/SourceFactory/Read/ElasticSearch/ReadProjectorSourceFactory.php",
+                "src/Broadway/SourceFactory/Read/ElasticSearch/ReadRepositorySourceFactory.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "0e7567add39f3e7bfdc1470df0837e91dc2e57cd",
+            "message": "Move read related classes to separate namespace",
+            "modified": [
+                "tests/Broadway/CodeGenerator/BaseCodeGeneratorTest.php"
+            ],
+            "removed": [
+                "spec/Broadway/SourceFactory/ReadEntitySourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/ReadProjectorSourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/ReadRepositorySourceFactorySpec.php",
+                "src/Broadway/SourceFactory/ReadEntitySourceFactory.php",
+                "src/Broadway/SourceFactory/ReadProjectorSourceFactory.php",
+                "src/Broadway/SourceFactory/ReadRepositorySourceFactory.php"
+            ],
+            "timestamp": "2016-11-12T17:31:25+01:00",
+            "tree_id": "58e41bfe82f6b63f75c4b824bd1c6cc04c91d186",
+            "url": "https://github.com/msvrtan/generator/commit/0e7567add39f3e7bfdc1470df0837e91dc2e57cd"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "44249d8764c72ad1847ae3f5101b63be5cd0dc6b",
+            "message": "Use matrix directly",
+            "modified": [
+                ".travis.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T18:02:31+01:00",
+            "tree_id": "630c76f05b7a0d3e3b5b0de9034280f09c1a0167",
+            "url": "https://github.com/msvrtan/generator/commit/44249d8764c72ad1847ae3f5101b63be5cd0dc6b"
+        },
+        {
+            "added": [
+                "tests/Broadway/CodeGenerator/sample-files/code/read/doctrine-orm/entity.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/read/doctrine-orm/factory.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/read/doctrine-orm/projector.output",
+                "tests/Broadway/CodeGenerator/sample-files/code/read/doctrine-orm/repository.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/read/doctrine-orm/entity-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/read/doctrine-orm/factory-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/read/doctrine-orm/projector-spec.output",
+                "tests/Broadway/CodeGenerator/sample-files/spec/read/doctrine-orm/repository-spec.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d4fa539df4b822541f7473a2105a84574ad3c6cf",
+            "message": "Add expected doctrine-orm outputs",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-11-12T19:20:48+01:00",
+            "tree_id": "2217b804bc14f9dd18c635d3dd7df351f1fe618d",
+            "url": "https://github.com/msvrtan/generator/commit/d4fa539df4b822541f7473a2105a84574ad3c6cf"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "7c985c5296e300cfc08706415ea2d07be175c271",
+            "message": "Adding DoctrineORM read tests",
+            "modified": [
+                "tests/Broadway/CodeGenerator/BaseCodeGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwayGeneratorTest.php",
+                "tests/Broadway/CodeGenerator/BroadwaySpecGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T19:20:48+01:00",
+            "tree_id": "fb6ce3e5359115bbc57012a94537afa6638194ae",
+            "url": "https://github.com/msvrtan/generator/commit/7c985c5296e300cfc08706415ea2d07be175c271"
+        },
+        {
+            "added": [
+                "spec/Broadway/SourceFactory/Read/DoctrineOrm/ReadEntitySourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/Read/DoctrineOrm/ReadFactorySourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/Read/DoctrineOrm/ReadProjectorSourceFactorySpec.php",
+                "spec/Broadway/SourceFactory/Read/DoctrineOrm/ReadRepositorySourceFactorySpec.php",
+                "src/Broadway/SourceFactory/Read/DoctrineOrm/ReadEntitySourceFactory.php",
+                "src/Broadway/SourceFactory/Read/DoctrineOrm/ReadFactorySourceFactory.php",
+                "src/Broadway/SourceFactory/Read/DoctrineOrm/ReadProjectorSourceFactory.php",
+                "src/Broadway/SourceFactory/Read/DoctrineOrm/ReadRepositorySourceFactory.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "bf8bb843d125b28d0eaaf1974fac914e1042fc41",
+            "message": "Adding DoctrineORM read code generation",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-11-12T19:20:48+01:00",
+            "tree_id": "df2580d917cfde4e8325d0165ec4d78b625cf3fd",
+            "url": "https://github.com/msvrtan/generator/commit/bf8bb843d125b28d0eaaf1974fac914e1042fc41"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/generator/compare/e25460d8d6d9...bf8bb843d125",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [
+            "spec/Broadway/SourceFactory/Read/DoctrineOrm/ReadEntitySourceFactorySpec.php",
+            "spec/Broadway/SourceFactory/Read/DoctrineOrm/ReadFactorySourceFactorySpec.php",
+            "spec/Broadway/SourceFactory/Read/DoctrineOrm/ReadProjectorSourceFactorySpec.php",
+            "spec/Broadway/SourceFactory/Read/DoctrineOrm/ReadRepositorySourceFactorySpec.php",
+            "src/Broadway/SourceFactory/Read/DoctrineOrm/ReadEntitySourceFactory.php",
+            "src/Broadway/SourceFactory/Read/DoctrineOrm/ReadFactorySourceFactory.php",
+            "src/Broadway/SourceFactory/Read/DoctrineOrm/ReadProjectorSourceFactory.php",
+            "src/Broadway/SourceFactory/Read/DoctrineOrm/ReadRepositorySourceFactory.php"
+        ],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "bf8bb843d125b28d0eaaf1974fac914e1042fc41",
+        "message": "Adding DoctrineORM read code generation",
+        "modified": [],
+        "removed": [],
+        "timestamp": "2016-11-12T19:20:48+01:00",
+        "tree_id": "df2580d917cfde4e8325d0165ec4d78b625cf3fd",
+        "url": "https://github.com/msvrtan/generator/commit/bf8bb843d125b28d0eaaf1974fac914e1042fc41"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/dev",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/generator/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/generator/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/generator/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/generator/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/generator.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/generator/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/generator/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/generator/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/generator/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/generator/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/generator/contributors",
+        "created_at": 1464896063,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/generator/deployments",
+        "description": null,
+        "downloads_url": "https://api.github.com/repos/msvrtan/generator/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/generator/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/generator/forks",
+        "full_name": "msvrtan/generator",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/generator/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/generator/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/generator/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/generator.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/generator/hooks",
+        "html_url": "https://github.com/msvrtan/generator",
+        "id": 60291903,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/generator/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/generator/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/generator/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/generator/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/generator/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/generator/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/generator/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/generator/milestones{/number}",
+        "mirror_url": null,
+        "name": "generator",
+        "notifications_url": "https://api.github.com/repos/msvrtan/generator/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/generator/pulls{/number}",
+        "pushed_at": 1478974876,
+        "releases_url": "https://api.github.com/repos/msvrtan/generator/releases{/id}",
+        "size": 250,
+        "ssh_url": "git@github.com:msvrtan/generator.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/generator/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/generator/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/generator/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/generator/subscription",
+        "svn_url": "https://github.com/msvrtan/generator",
+        "tags_url": "https://api.github.com/repos/msvrtan/generator/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/generator/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/generator/git/trees{/sha}",
+        "updated_at": "2016-06-11T15:05:35Z",
+        "url": "https://github.com/msvrtan/generator",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

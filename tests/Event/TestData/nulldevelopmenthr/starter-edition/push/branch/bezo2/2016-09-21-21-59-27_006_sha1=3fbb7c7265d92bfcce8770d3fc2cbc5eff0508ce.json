@@ -1,0 +1,664 @@
+{
+    "after": "80fd6c327e9ccb019726a570f23321cb6187e491",
+    "base_ref": null,
+    "before": "0000000000000000000000000000000000000000",
+    "commits": [
+        {
+            "added": [
+                "etc/travis-ci/disable-xdebug.sh",
+                "etc/travis-ci/enable-xdebug.sh"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "3446f62d12acbb571c8d46e8fc5e9242a46e4afc",
+            "message": "[starter-edition] Added enable/disable xdebug for TravisCI",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "b39fb0d2b01fe2b93968d08582462e393d2f513e",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/3446f62d12acbb571c8d46e8fc5e9242a46e4afc"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d1053c72739e4007ae9371f554fd79449230b5db",
+            "message": "[starter-edition] Running multi job TravisCI",
+            "modified": [
+                ".travis.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "d874d2a47f629147533e54d7b6baed91368b7f3f",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/d1053c72739e4007ae9371f554fd79449230b5db"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "3e859440cd16630ae09be20af2ed97e5af1487ff",
+            "message": "[starter-edition] Updated composer.lock, dependency update",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "512092d8f3d132f4ca1c2e939628c31b5433a1d2",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/3e859440cd16630ae09be20af2ed97e5af1487ff"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ff329521a36c453f57a123f57405bda9e2e0e33a",
+            "message": "[starter-edition] Switched to using friendsofphp/php-cs-fixer",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "edf2ec577f3f7addbaf431a016fb4a894af28f6e",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/ff329521a36c453f57a123f57405bda9e2e0e33a"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "db8bd746314583d5188a986fe71056430821b383",
+            "message": "[starter-edition] Updated composer.lock for switching to friendsofphp/php-cs-fixer",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "37bdec347a94fa85784766493c0f20ac3a175558",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/db8bd746314583d5188a986fe71056430821b383"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "261033a67f595b4291e0a5dd61c966467e4e7233",
+            "message": "[starter-edition] Code standards update of code",
+            "modified": [
+                "app/DoctrineMigrations/Version20150103180605.php",
+                "src/AppBundle/AppBundle.php",
+                "src/AppBundle/Controller/DefaultController.php",
+                "src/AppBundle/DataFixtures/ORM/EmptyFixtures.php",
+                "src/Resources/Behat/CleanDbTrait.php",
+                "src/Resources/Behat/DefaultContext.php",
+                "src/Resources/Behat/DomainContext.php",
+                "src/Resources/Behat/LoginDomainTrait.php",
+                "src/Resources/Behat/LoginWebTrait.php",
+                "src/Resources/Behat/ScreenshotTrait.php",
+                "src/Resources/Behat/Symfony2Trait.php",
+                "src/Resources/Behat/WebContext.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "d1450d95c30c06383c9d311acfb355c6df9e123a",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/261033a67f595b4291e0a5dd61c966467e4e7233"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "16c5c1042a6386ec06a07d6662cf7d31e8f99d0e",
+            "message": "[starter edition] Running apt-get update on CircleCI",
+            "modified": [
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "2c9dd089a5ff52da255e1bdf464404ab27b6b53f",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/16c5c1042a6386ec06a07d6662cf7d31e8f99d0e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d69a8f62d010f6ef32da4214ca3523e77039ae4f",
+            "message": "[starter-edition] Using selenium 2.53.0",
+            "modified": [
+                "etc/provisioning/settings.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "dcd9ecdbcfb10835ea1f0d18c17d5e2037844644",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/d69a8f62d010f6ef32da4214ca3523e77039ae4f"
+        },
+        {
+            "added": [
+                "etc/provisioning/roles/redis/tasks/main.yml"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d9feeb228460ce74846ab7be59724d2e21fbfbae",
+            "message": "[starter-edition] Added redis support in local vagrant provision",
+            "modified": [
+                "etc/provisioning/roles/php7/tasks/main.yml",
+                "etc/provisioning/setup.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "6a52b6b941f680b4393e477013c2f7d5f16cbdea",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/d9feeb228460ce74846ab7be59724d2e21fbfbae"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "b7097c5bce956c2817bb3c637e80b658c3158ea2",
+            "message": "[starter-edition] Disabled travis email notifications",
+            "modified": [
+                ".travis.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "5d1e44e16fefff7aeae9d90220ef5af4719305ef",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/b7097c5bce956c2817bb3c637e80b658c3158ea2"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "1091acf40262147d851731bd9d028ffee3bc4943",
+            "message": "[starter-edition] Updated composer.lock\n\n  - 'symfony/symfony (v3.0.6) -> (v3.0.7)\n  - 'doctrine/doctrine-bundle (1.6.2) -> (1.6.3)\n  - webmozart/assert (1.0.2)\n  - phpdocumentor/reflection-common (1.0)\n  - phpdocumentor/type-resolver (0.2)\n  - 'phpdocumentor/reflection-docblock (2.0.4) -> (3.1.0)\n  - 'phpspec/prophecy (v1.6.0) -> (v1.6.1)\n  - 'phpunit/phpunit (5.3.4) -> (5.3.5)\n  - 'squizlabs/php_codesniffer (2.6.0) -> (2.6.1)\n  - fabpot/php-cs-fixer (v1.11.3) -> friendsofphp/php-cs-fixer (v1.11.4)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:19+02:00",
+            "tree_id": "6ad2b47fe569c6c43d2d7f98ca1a2c8d2d0d870f",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/1091acf40262147d851731bd9d028ffee3bc4943"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "4be176730259cf821b6cd0bc082b54095df3fdff",
+            "message": "--- Initial bezospie2 commit ---",
+            "modified": [
+                "README.md"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:20+02:00",
+            "tree_id": "5d4711cce9d30daa2fb2e782d1330f8fcdaf073e",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/4be176730259cf821b6cd0bc082b54095df3fdff"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "4dd611f62e68b8e5eb9133e777d9235f206fd34d",
+            "message": "Set vagrant IP addr to a unique one",
+            "modified": [
+                "Vagrantfile"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:20+02:00",
+            "tree_id": "f9adfa3835328cdfecc3cccbdd7312d6cab22345",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/4dd611f62e68b8e5eb9133e777d9235f206fd34d"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "45c358d2adf9b3465f316ece1f65cae96acb4075",
+            "message": "Set project name to bezospie2",
+            "modified": [
+                ".travis.yml",
+                "Vagrantfile",
+                "app/Resources/views/base.html.twig",
+                "app/config/config_test.yml",
+                "app/config/parameters.yml.dist",
+                "behat.yml",
+                "etc/circleci/app/config/parameters.yml",
+                "etc/circleci/setup-app-config.sh",
+                "etc/circleci/setup-nginx.sh",
+                "etc/circleci/symfony2-test-application.conf",
+                "etc/dev/app/config/parameters.yml",
+                "etc/provisioning/settings.yml",
+                "etc/scrutinizer-ci/app/config/parameters.yml",
+                "etc/shippable-ci/app/config/parameters.yml",
+                "etc/travis-ci/app/config/parameters.yml",
+                "features/basic-site-check.feature"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:20+02:00",
+            "tree_id": "75afd7eb78137f232beb821f37ecc0d84710aeaa",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/45c358d2adf9b3465f316ece1f65cae96acb4075"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "7a252135deb87cee313c1f73c5a685db4358b5c1",
+            "message": "Update composer.lock, package updates\n\nPackages updated:\n\n- ocramius/package-versions (1.0.4 -> 1.1.1)\n- twig/twig (v1.24.1 -> v1.24.2)\n- symfony/symfony (v3.0.7 -> v3.0.9)\n- psr/log (1.0.0 -> 1.0.1)\n- doctrine/dbal (v2.5.4 -> v2.5.5)\n- doctrine/orm (v2.5.4 -> v2.5.5)\n- zendframework/zend-code (3.0.2 -> 3.0.4)\n- squizlabs/php_codesniffer (2.6.1 -> 2.7.0)\n- ocramius/proxy-manager (2.0.2 -> 2.0.3)\n- doctrine/doctrine-bundle (1.6.3 -> 1.6.4)\n- doctrine/doctrine-migrations-bundle (1.1.1 -> v1.2.0)\n- sensio/distribution-bundle (v5.0.6 -> v5.0.12)\n- sensio/generator-bundle (v3.0.6 -> v3.0.8)\n- symfony/phpunit-bridge (v3.1.0 -> v3.1.4)\n- behat/gherkin (v4.4.1 -> v4.4.4)\n- friendsofphp/php-cs-fixer (v1.11.4 -> v1.12.1)\n- monolog/monolog (1.19.0 -> 1.21.0)\n- swiftmailer/swiftmailer (v5.4.2 -> v5.4.3)\n- sebastian/exporter (1.2.1 -> 1.2.2)\n- doctrine/data-fixtures (v1.1.1 -> v1.2.1)\n- myclabs/deep-copy (1.5.1 -> 1.5.4)\n- sebastian/environment (1.3.7 -> 1.3.8)\n- webmozart/assert (1.0.2 -> 1.1.0)\n- behat/behat (v3.1.0 -> v3.2.0)\n- rmiller/phpspec-extension (0.2.0 -> 0.2.1)\n- psr/http-message (1.0 -> 1.0.1)\n- guzzlehttp/psr7 (1.3.0 -> 1.3.1)\n- guzzlehttp/guzzle (6.2.0 -> 6.2.1)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:20+02:00",
+            "tree_id": "f6757d89816153d09ef2ba79f16a77f37d7dcb31",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/7a252135deb87cee313c1f73c5a685db4358b5c1"
+        },
+        {
+            "added": [
+                "CHANGELOG.md"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "bb96ebb3ba55a9b70b6a3226ccc969160c7678f8",
+            "message": "Add changelog file",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-09-21T21:59:20+02:00",
+            "tree_id": "0ab70bbbdc0320caabe26459542581f705ac7bad",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/bb96ebb3ba55a9b70b6a3226ccc969160c7678f8"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "64f3ef7b43f01290d8f7bf2ad2867e34fbe3863f",
+            "message": "Symfony requirement file changes",
+            "modified": [
+                "bin/symfony_requirements",
+                "var/SymfonyRequirements.php",
+                "web/config.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:08:44+02:00",
+            "tree_id": "90c7f1406fdbeb19aab7a5208bfdd4c58b0dbc7e",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/64f3ef7b43f01290d8f7bf2ad2867e34fbe3863f"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "24de8fd93d95c05a336cc24c433bcaf2eabf98ab",
+            "message": "Switch to using msvrtan/thesting\n\nThis way, general package will take care of testing lib dependencies.",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:08:44+02:00",
+            "tree_id": "32fa2ad50826bf799909112b4f5dbe1d4470f61a",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/24de8fd93d95c05a336cc24c433bcaf2eabf98ab"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "e5c5602992bf4de4eefb11cb12ce9927a12c1e9b",
+            "message": "Update composer.lock, using msvrtan/thesting\n\nInstalling packages:\n- msvrtan/thesting (v0.2.0)\n- Installing theseer/fdomdocument (1.6.1)\n- Installing sebastian/finder-facade (1.2.1)\n- Installing sebastian/phpcpd (2.0.4)\n- Installing liuggio/fastest (v1.4.0)\n\nUpdating packages:\n- phpunit/php-code-coverage (3.3.3 -> 4.0.1)\n- phpunit/phpunit-mock-objects (3.1.3 -> 3.2.7)\n- phpspec/php-diff (v1.0.2 -> v1.1.0)\n- phpunit/phpunit (5.3.5 -> 5.5.5)\n- phpspec/phpspec (2.5.0 -> 3.1.0)\n- ciaranmcnulty/phpspec-typehintedmethods (1.1.3 -> 2.0.0)\n- henrikbjorn/phpspec-code-coverage (2.1.0 -> 3.0.1)\n\nRemoved unused packages:\n- rmiller/error-extension (0.1.0)\n- rmiller/caser (0.1.0)\n- rmiller/behat-spec (0.3.0)\n- coduo/phpspec-data-provider-extension (1.0.3)\n- rmiller/phpspec-run-extension (0.2.0)\n- rmiller/exemplify-extension (0.2.0)\n- rmiller/phpspec-extension (0.2.1)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:08:45+02:00",
+            "tree_id": "5ec86dd56692ca100ed5f91896abf10cf9c28e61",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/e5c5602992bf4de4eefb11cb12ce9927a12c1e9b"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "083f129dec3c79d4b6467a8d89a37a96a93c8aa6",
+            "message": "Removed excess ;",
+            "modified": [
+                "src/Resources/Behat/WebContext.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:09:35+02:00",
+            "tree_id": "5d0adaf9b5d1de093b362d24341cdf078b0d9ae1",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/083f129dec3c79d4b6467a8d89a37a96a93c8aa6"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "80fd6c327e9ccb019726a570f23321cb6187e491",
+            "message": "Getting PHPSpec configs up to 3.0 standard",
+            "modified": [
+                "etc/ci/phpspec.yml",
+                "phpspec.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:11:21+02:00",
+            "tree_id": "5199f5d5aac9c78e54429b8ee8b7bdd6f2dd6b76",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/80fd6c327e9ccb019726a570f23321cb6187e491"
+        }
+    ],
+    "compare": "https://github.com/nulldevelopmenthr/starter-edition/compare/3446f62d12ac^...80fd6c327e9c",
+    "created": true,
+    "deleted": false,
+    "forced": true,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "80fd6c327e9ccb019726a570f23321cb6187e491",
+        "message": "Getting PHPSpec configs up to 3.0 standard",
+        "modified": [
+            "etc/ci/phpspec.yml",
+            "phpspec.yml"
+        ],
+        "removed": [],
+        "timestamp": "2016-09-21T22:11:21+02:00",
+        "tree_id": "5199f5d5aac9c78e54429b8ee8b7bdd6f2dd6b76",
+        "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/80fd6c327e9ccb019726a570f23321cb6187e491"
+    },
+    "organization": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/7399051?v=3",
+        "description": null,
+        "events_url": "https://api.github.com/orgs/nulldevelopmenthr/events",
+        "hooks_url": "https://api.github.com/orgs/nulldevelopmenthr/hooks",
+        "id": 7399051,
+        "issues_url": "https://api.github.com/orgs/nulldevelopmenthr/issues",
+        "login": "nulldevelopmenthr",
+        "members_url": "https://api.github.com/orgs/nulldevelopmenthr/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/nulldevelopmenthr/public_members{/member}",
+        "repos_url": "https://api.github.com/orgs/nulldevelopmenthr/repos",
+        "url": "https://api.github.com/orgs/nulldevelopmenthr"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/bezo2",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/branches{/branch}",
+        "clone_url": "https://github.com/nulldevelopmenthr/starter-edition.git",
+        "collaborators_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/comments{/number}",
+        "commits_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/contributors",
+        "created_at": 1457126474,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/downloads",
+        "events_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/events",
+        "fork": false,
+        "forks": 1,
+        "forks_count": 1,
+        "forks_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/forks",
+        "full_name": "nulldevelopmenthr/starter-edition",
+        "git_commits_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/tags{/sha}",
+        "git_url": "git://github.com/nulldevelopmenthr/starter-edition.git",
+        "has_downloads": true,
+        "has_issues": true,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/hooks",
+        "html_url": "https://github.com/nulldevelopmenthr/starter-edition",
+        "id": 53166268,
+        "issue_comment_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/issues{/number}",
+        "keys_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/merges",
+        "milestones_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/milestones{/number}",
+        "mirror_url": null,
+        "name": "starter-edition",
+        "notifications_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/notifications{?since,all,participating}",
+        "open_issues": 2,
+        "open_issues_count": 2,
+        "organization": "nulldevelopmenthr",
+        "owner": {
+            "email": null,
+            "name": "nulldevelopmenthr"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/pulls{/number}",
+        "pushed_at": 1474488814,
+        "releases_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/releases{/id}",
+        "size": 507,
+        "ssh_url": "git@github.com:nulldevelopmenthr/starter-edition.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/stargazers",
+        "statuses_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/subscribers",
+        "subscription_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/subscription",
+        "svn_url": "https://github.com/nulldevelopmenthr/starter-edition",
+        "tags_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/tags",
+        "teams_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/teams",
+        "trees_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/trees{/sha}",
+        "updated_at": "2016-03-05T11:07:17Z",
+        "url": "https://github.com/nulldevelopmenthr/starter-edition",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

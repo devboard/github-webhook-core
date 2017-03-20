@@ -1,0 +1,467 @@
+{
+    "after": "fe98897453bb3e28aafb2874e0d1f17110fea075",
+    "base_ref": null,
+    "before": "66c5c24ccb9d88c522d2180686f673d51c177ebe",
+    "commits": [
+        {
+            "added": [
+                "src/Mirko/Model/MarkoId.php",
+                "src/Mirko/Model/MarkoModel.php",
+                "src/Mirko/Model/MarkoRepository.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "48c626deefe957bd0c30142e4f2e7a5930abdc62",
+            "message": "d",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-06-18T21:26:59+02:00",
+            "tree_id": "871fbfe6008a87d94c901859d249353f2abe30d0",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/48c626deefe957bd0c30142e4f2e7a5930abdc62"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "413644a7ed08c7af267f659461005ccd1d48ce50",
+            "message": "d",
+            "modified": [
+                "src/Mirko/Model/MarkoId.php",
+                "src/Mirko/Model/MarkoModel.php",
+                "src/Mirko/Model/MarkoRepository.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:27:04+02:00",
+            "tree_id": "be8d536df6ad7e437f3628e00cca8c5d2906c45a",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/413644a7ed08c7af267f659461005ccd1d48ce50"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "67ceacce0e13507561e443a844d59f0f193c2ed9",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BroadwayModelCliCommand.php",
+                "src/NullDev/SkeletonBundle/Resources/config/services.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:33:09+02:00",
+            "tree_id": "0ee27002a2e903e66507700b4aedbeba029dc1b5",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/67ceacce0e13507561e443a844d59f0f193c2ed9"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "23b926b6a5b7e7cf0a2a5eff666d29db9b1945a2",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Resources/config/services.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:33:48+02:00",
+            "tree_id": "21b913a2bd852c4ecca296ecda315a2ffaabd763",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/23b926b6a5b7e7cf0a2a5eff666d29db9b1945a2"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "25a415b447731b3c91f0d48b5b6c1ab409daf762",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BroadwayModelCliCommand.php",
+                "src/NullDev/SkeletonBundle/Resources/config/services.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:34:01+02:00",
+            "tree_id": "6fa0008b1cee06213588c9a28c02fcc333e2767a",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/25a415b447731b3c91f0d48b5b6c1ab409daf762"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "be3f8c07f38f3902f56e9da4abfd6dc3149d5a70",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BroadwayModelCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:35:05+02:00",
+            "tree_id": "bda2b1bcd9fc27c8dc4c4e875e41172b50ea4163",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/be3f8c07f38f3902f56e9da4abfd6dc3149d5a70"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "3f33b5ad53a459bdcf59d87bf3538994ab379938",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BroadwayModelCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:35:32+02:00",
+            "tree_id": "15a514d1b4d59e21b9f95eeff3d378e13ad59d80",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/3f33b5ad53a459bdcf59d87bf3538994ab379938"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "e52feceaa774fe5692cadcfde7bed1256519298f",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BroadwayModelCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:35:40+02:00",
+            "tree_id": "a124a6d2db094d5d887653fd7042b149c753459f",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/e52feceaa774fe5692cadcfde7bed1256519298f"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "1abc08c503d1e1356dbc38090112052785e5d944",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BaseSkeletonGeneratorCommand.php",
+                "src/NullDev/SkeletonBundle/Command/BroadwayModelCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:36:57+02:00",
+            "tree_id": "242836561e0ceded763a4fc05fd919ba5e8dda15",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/1abc08c503d1e1356dbc38090112052785e5d944"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ddc807d7432083ce4057fcdb941338e8092c7137",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BaseSkeletonGeneratorCommand.php",
+                "src/NullDev/SkeletonBundle/Resources/config/services.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:38:46+02:00",
+            "tree_id": "544ac719bfe5f04c07b3c4c77cb1d7af756d7a7c",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/ddc807d7432083ce4057fcdb941338e8092c7137"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "a149d9e313f55ebf02dd10b306666d62491525da",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/UuidIdentityCommand.php",
+                "src/NullDev/SkeletonBundle/Resources/config/services.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:40:18+02:00",
+            "tree_id": "a365cf405940de1cc66773d9c26a0cfcc5361e99",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/a149d9e313f55ebf02dd10b306666d62491525da"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "6f14c43be64cf1cb1d8630569df9d225c3e3b8fb",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BroadwayEventCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:40:41+02:00",
+            "tree_id": "a97178d5be7d7b8550ba77a62151a0a616e2d9f7",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/6f14c43be64cf1cb1d8630569df9d225c3e3b8fb"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "0a79e6707e9ab892f554070280a97398be083ec1",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BroadwayEventCliCommand.php",
+                "src/NullDev/SkeletonBundle/Resources/config/services.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:41:54+02:00",
+            "tree_id": "7d1d27e5bf012fc8fd4b78a58c080395de35c170",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/0a79e6707e9ab892f554070280a97398be083ec1"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "fe98897453bb3e28aafb2874e0d1f17110fea075",
+            "message": "e",
+            "modified": [
+                "src/NullDev/SkeletonBundle/Command/BroadwayCommandCliCommand.php",
+                "src/NullDev/SkeletonBundle/Resources/config/services.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T21:43:00+02:00",
+            "tree_id": "36fc44f2ef3b1f6694ddf539753560eb4140588d",
+            "url": "https://github.com/msvrtan/skeleton-sandbox/commit/fe98897453bb3e28aafb2874e0d1f17110fea075"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/skeleton-sandbox/compare/66c5c24ccb9d...fe98897453bb",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "fe98897453bb3e28aafb2874e0d1f17110fea075",
+        "message": "e",
+        "modified": [
+            "src/NullDev/SkeletonBundle/Command/BroadwayCommandCliCommand.php",
+            "src/NullDev/SkeletonBundle/Resources/config/services.yml"
+        ],
+        "removed": [],
+        "timestamp": "2016-06-18T21:43:00+02:00",
+        "tree_id": "36fc44f2ef3b1f6694ddf539753560eb4140588d",
+        "url": "https://github.com/msvrtan/skeleton-sandbox/commit/fe98897453bb3e28aafb2874e0d1f17110fea075"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/adding-bundle",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/skeleton-sandbox.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/contributors",
+        "created_at": 1466255196,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/events",
+        "fork": false,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/forks",
+        "full_name": "msvrtan/skeleton-sandbox",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/skeleton-sandbox.git",
+        "has_downloads": true,
+        "has_issues": true,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/hooks",
+        "html_url": "https://github.com/msvrtan/skeleton-sandbox",
+        "id": 61433867,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/milestones{/number}",
+        "mirror_url": null,
+        "name": "skeleton-sandbox",
+        "notifications_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/pulls{/number}",
+        "pushed_at": 1466278993,
+        "releases_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/releases{/id}",
+        "size": 655,
+        "ssh_url": "git@github.com:msvrtan/skeleton-sandbox.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/subscription",
+        "svn_url": "https://github.com/msvrtan/skeleton-sandbox",
+        "tags_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/skeleton-sandbox/git/trees{/sha}",
+        "updated_at": "2016-06-18T13:08:11Z",
+        "url": "https://github.com/msvrtan/skeleton-sandbox",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

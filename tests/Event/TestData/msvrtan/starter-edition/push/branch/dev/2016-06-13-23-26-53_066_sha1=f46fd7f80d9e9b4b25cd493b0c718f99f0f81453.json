@@ -1,0 +1,310 @@
+{
+    "after": "085b12c91fa272e39d005013585224543536eb4b",
+    "base_ref": "refs/heads/master",
+    "before": "cb6679a7a4f75300322b661785c2ecd035b966a4",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "58272bbd9cf4703ca9a1002ade5f85d41d620284",
+            "message": "[starter-edition] Updated composer.lock, dependency update",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:08:33+02:00",
+            "tree_id": "512092d8f3d132f4ca1c2e939628c31b5433a1d2",
+            "url": "https://github.com/msvrtan/starter-edition/commit/58272bbd9cf4703ca9a1002ade5f85d41d620284"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "d3b18b88dbde6e4709c14c4a83801892646c6168",
+            "message": "[starter-edition] Switched to using friendsofphp/php-cs-fixer",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:08:40+02:00",
+            "tree_id": "edf2ec577f3f7addbaf431a016fb4a894af28f6e",
+            "url": "https://github.com/msvrtan/starter-edition/commit/d3b18b88dbde6e4709c14c4a83801892646c6168"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "7021f793f3d2a07a32415b106c4997c4626c919e",
+            "message": "[starter-edition] Updated composer.lock for switching to friendsofphp/php-cs-fixer",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:08:42+02:00",
+            "tree_id": "37bdec347a94fa85784766493c0f20ac3a175558",
+            "url": "https://github.com/msvrtan/starter-edition/commit/7021f793f3d2a07a32415b106c4997c4626c919e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "817e41562984088a5e860809b043cf48aa6ddc6d",
+            "message": "[starter-edition] Code standards update of code",
+            "modified": [
+                "app/DoctrineMigrations/Version20150103180605.php",
+                "src/AppBundle/AppBundle.php",
+                "src/AppBundle/Controller/DefaultController.php",
+                "src/AppBundle/DataFixtures/ORM/EmptyFixtures.php",
+                "src/Resources/Behat/CleanDbTrait.php",
+                "src/Resources/Behat/DefaultContext.php",
+                "src/Resources/Behat/DomainContext.php",
+                "src/Resources/Behat/LoginDomainTrait.php",
+                "src/Resources/Behat/LoginWebTrait.php",
+                "src/Resources/Behat/ScreenshotTrait.php",
+                "src/Resources/Behat/Symfony2Trait.php",
+                "src/Resources/Behat/WebContext.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:10:01+02:00",
+            "tree_id": "d1450d95c30c06383c9d311acfb355c6df9e123a",
+            "url": "https://github.com/msvrtan/starter-edition/commit/817e41562984088a5e860809b043cf48aa6ddc6d"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "9ef1031b16583b64df0f74563352c2c32d42064b",
+            "message": "[starter edition] Running apt-get update on CircleCI",
+            "modified": [
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:13:41+02:00",
+            "tree_id": "2c9dd089a5ff52da255e1bdf464404ab27b6b53f",
+            "url": "https://github.com/msvrtan/starter-edition/commit/9ef1031b16583b64df0f74563352c2c32d42064b"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "085b12c91fa272e39d005013585224543536eb4b",
+            "message": "Merge pull request #16 from msvrtan/update-deps-2016-06-03\n\nUpdate deps 2016 06 03",
+            "modified": [
+                "app/DoctrineMigrations/Version20150103180605.php",
+                "circle.yml",
+                "composer.json",
+                "composer.lock",
+                "src/AppBundle/AppBundle.php",
+                "src/AppBundle/Controller/DefaultController.php",
+                "src/AppBundle/DataFixtures/ORM/EmptyFixtures.php",
+                "src/Resources/Behat/CleanDbTrait.php",
+                "src/Resources/Behat/DefaultContext.php",
+                "src/Resources/Behat/DomainContext.php",
+                "src/Resources/Behat/LoginDomainTrait.php",
+                "src/Resources/Behat/LoginWebTrait.php",
+                "src/Resources/Behat/ScreenshotTrait.php",
+                "src/Resources/Behat/Symfony2Trait.php",
+                "src/Resources/Behat/WebContext.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:16:57+02:00",
+            "tree_id": "2c9dd089a5ff52da255e1bdf464404ab27b6b53f",
+            "url": "https://github.com/msvrtan/starter-edition/commit/085b12c91fa272e39d005013585224543536eb4b"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/starter-edition/compare/cb6679a7a4f7...085b12c91fa2",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": false,
+        "id": "085b12c91fa272e39d005013585224543536eb4b",
+        "message": "Merge pull request #16 from msvrtan/update-deps-2016-06-03\n\nUpdate deps 2016 06 03",
+        "modified": [
+            "app/DoctrineMigrations/Version20150103180605.php",
+            "circle.yml",
+            "composer.json",
+            "composer.lock",
+            "src/AppBundle/AppBundle.php",
+            "src/AppBundle/Controller/DefaultController.php",
+            "src/AppBundle/DataFixtures/ORM/EmptyFixtures.php",
+            "src/Resources/Behat/CleanDbTrait.php",
+            "src/Resources/Behat/DefaultContext.php",
+            "src/Resources/Behat/DomainContext.php",
+            "src/Resources/Behat/LoginDomainTrait.php",
+            "src/Resources/Behat/LoginWebTrait.php",
+            "src/Resources/Behat/ScreenshotTrait.php",
+            "src/Resources/Behat/Symfony2Trait.php",
+            "src/Resources/Behat/WebContext.php"
+        ],
+        "removed": [],
+        "timestamp": "2016-06-03T22:16:57+02:00",
+        "tree_id": "2c9dd089a5ff52da255e1bdf464404ab27b6b53f",
+        "url": "https://github.com/msvrtan/starter-edition/commit/085b12c91fa272e39d005013585224543536eb4b"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/dev",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/starter-edition/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/starter-edition/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/starter-edition/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/starter-edition/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/starter-edition.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/starter-edition/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/starter-edition/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/starter-edition/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/starter-edition/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/starter-edition/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/starter-edition/contributors",
+        "created_at": 1457126496,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/starter-edition/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/msvrtan/starter-edition/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/starter-edition/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/starter-edition/forks",
+        "full_name": "msvrtan/starter-edition",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/starter-edition/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/starter-edition/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/starter-edition/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/starter-edition.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/starter-edition/hooks",
+        "html_url": "https://github.com/msvrtan/starter-edition",
+        "id": 53166288,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/starter-edition/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/starter-edition/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/starter-edition/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/starter-edition/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/starter-edition/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/starter-edition/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/starter-edition/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/starter-edition/milestones{/number}",
+        "mirror_url": null,
+        "name": "starter-edition",
+        "notifications_url": "https://api.github.com/repos/msvrtan/starter-edition/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/starter-edition/pulls{/number}",
+        "pushed_at": 1464985201,
+        "releases_url": "https://api.github.com/repos/msvrtan/starter-edition/releases{/id}",
+        "size": 474,
+        "ssh_url": "git@github.com:msvrtan/starter-edition.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/starter-edition/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/starter-edition/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/starter-edition/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/starter-edition/subscription",
+        "svn_url": "https://github.com/msvrtan/starter-edition",
+        "tags_url": "https://api.github.com/repos/msvrtan/starter-edition/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/starter-edition/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/starter-edition/git/trees{/sha}",
+        "updated_at": "2016-03-05T11:08:04Z",
+        "url": "https://github.com/msvrtan/starter-edition",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

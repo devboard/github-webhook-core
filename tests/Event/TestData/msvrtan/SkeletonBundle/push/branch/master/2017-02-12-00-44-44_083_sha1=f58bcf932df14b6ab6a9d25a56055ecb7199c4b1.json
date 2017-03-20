@@ -1,0 +1,327 @@
+{
+    "after": "04535f018dd8a9d1a93242c87fdf8f196e8a0d44",
+    "base_ref": "refs/heads/0.4.x",
+    "before": "b03fa0ec613bf428ae0a2a1a473667e47bce4fce",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "e31ef5597140dc0c696a410108d5deb9db62c753",
+            "message": "Update composer.lock, using generator v0.2.3\n\nPackages updated:\n - nulldevelopmenthr/generator (v0.2.2 => v0.2.3)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T21:09:38+01:00",
+            "tree_id": "7c6e7207cdfe6ad0d45b31f82bbde6c06e6a7c4b",
+            "url": "https://github.com/msvrtan/SkeletonBundle/commit/e31ef5597140dc0c696a410108d5deb9db62c753"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "32f2e34cde3560afcd2582a622b81427d836c220",
+            "message": "Switching to nulldevelopmenthr/generator: 0.3.x-dev",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T22:34:00+01:00",
+            "tree_id": "b5661d9cb1f4d4c6c2b4d653ac362a98411c6f8b",
+            "url": "https://github.com/msvrtan/SkeletonBundle/commit/32f2e34cde3560afcd2582a622b81427d836c220"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "73153dfe6034761fe601c0ed369f2a5dd2d36d79",
+            "message": "Update composer.lock for switching to nulldevelopmenthr/generator: 0.3.x-dev",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T22:34:10+01:00",
+            "tree_id": "7df833cb0a44975237a4d272d97939cf5ff053ac",
+            "url": "https://github.com/msvrtan/SkeletonBundle/commit/73153dfe6034761fe601c0ed369f2a5dd2d36d79"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "582f4b906f18ee957c131246cd21a8c37af5941b",
+            "message": "Adding strict types + cs fixes",
+            "modified": [
+                "spec/PathsSpec.php",
+                "src/Command/BaseSkeletonGeneratorCommand.php",
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Command/BroadwayModelCliCommand.php",
+                "src/Command/BroadwayReadCliCommand.php",
+                "src/Command/UuidIdentityCommand.php",
+                "src/DependencyInjection/Configuration.php",
+                "src/DependencyInjection/NullDevSkeletonExtension.php",
+                "src/NullDevSkeletonBundle.php",
+                "src/Paths.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T22:38:00+01:00",
+            "tree_id": "f2ac0a3ed25c166c25a06cc48da0c11427d3eb1a",
+            "url": "https://github.com/msvrtan/SkeletonBundle/commit/582f4b906f18ee957c131246cd21a8c37af5941b"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "6c5aae58d236f335a26bb2c88f217c6ef6613a2e",
+            "message": "Update composer.lock, fixes on generator",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T22:45:33+01:00",
+            "tree_id": "30afdbccad3c353f38e2a97830eb04c73ad9e411",
+            "url": "https://github.com/msvrtan/SkeletonBundle/commit/6c5aae58d236f335a26bb2c88f217c6ef6613a2e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "84f3c010579597a3fd42876382d12bd7c8208931",
+            "message": "Use generator 0.3.x-dev@dev",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T22:52:47+01:00",
+            "tree_id": "5a7953e27da40b11da280cd1c51c2987fa3783ed",
+            "url": "https://github.com/msvrtan/SkeletonBundle/commit/84f3c010579597a3fd42876382d12bd7c8208931"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "8d3d45390f6bee4860a061213ea9fb119085dce9",
+            "message": "Update composer.lock for 0.3.x-dev@dev",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-01T22:52:58+01:00",
+            "tree_id": "1c97f6dcaf2344b0d71974e1ad6dc81f6d957a9b",
+            "url": "https://github.com/msvrtan/SkeletonBundle/commit/8d3d45390f6bee4860a061213ea9fb119085dce9"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "04535f018dd8a9d1a93242c87fdf8f196e8a0d44",
+            "message": "Update composer.lock, package update\n\n - paragonie/random_compat (v2.0.3->v2.0.4)\n - sensio/generator-bundle (v3.0.11->v3.1.1)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-11-12T13:34:17+01:00",
+            "tree_id": "74f2c2334055e72fa6469e12630575f29591b8db",
+            "url": "https://github.com/msvrtan/SkeletonBundle/commit/04535f018dd8a9d1a93242c87fdf8f196e8a0d44"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/SkeletonBundle/compare/b03fa0ec613b...04535f018dd8",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": false,
+        "id": "04535f018dd8a9d1a93242c87fdf8f196e8a0d44",
+        "message": "Update composer.lock, package update\n\n - paragonie/random_compat (v2.0.3->v2.0.4)\n - sensio/generator-bundle (v3.0.11->v3.1.1)",
+        "modified": [
+            "composer.lock"
+        ],
+        "removed": [],
+        "timestamp": "2016-11-12T13:34:17+01:00",
+        "tree_id": "74f2c2334055e72fa6469e12630575f29591b8db",
+        "url": "https://github.com/msvrtan/SkeletonBundle/commit/04535f018dd8a9d1a93242c87fdf8f196e8a0d44"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/master",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/SkeletonBundle.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/contributors",
+        "created_at": 1466255067,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/deployments",
+        "description": null,
+        "downloads_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/forks",
+        "full_name": "msvrtan/SkeletonBundle",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/SkeletonBundle.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/hooks",
+        "html_url": "https://github.com/msvrtan/SkeletonBundle",
+        "id": 61433779,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/milestones{/number}",
+        "mirror_url": null,
+        "name": "SkeletonBundle",
+        "notifications_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/pulls{/number}",
+        "pushed_at": 1478954102,
+        "releases_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/releases{/id}",
+        "size": 48,
+        "ssh_url": "git@github.com:msvrtan/SkeletonBundle.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/subscription",
+        "svn_url": "https://github.com/msvrtan/SkeletonBundle",
+        "tags_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/SkeletonBundle/git/trees{/sha}",
+        "updated_at": "2016-06-18T22:36:02Z",
+        "url": "https://github.com/msvrtan/SkeletonBundle",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

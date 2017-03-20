@@ -1,0 +1,404 @@
+{
+    "after": "9bdda7a989526bdbca616cbfeee9c35e5d579a54",
+    "base_ref": null,
+    "before": "099b24457714076b803e2bd9d0eb5cfd181be6db",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "5a3edefedf9f28bae6d16822933243167022b271",
+            "message": "w",
+            "modified": [
+                "tests/Devboard/Core/GitHub/Repo/Application/CommandHandler/ProcessFetchedGitHubBranchesTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:06:14+01:00",
+            "tree_id": "d75d662b74c036f16574f5343600dc02aa40c733",
+            "url": "https://github.com/devboard/devboard-core/commit/5a3edefedf9f28bae6d16822933243167022b271"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ad2720eb78edc68d90245f8bb828abf58348b446",
+            "message": "w",
+            "modified": [
+                "tests/Devboard/Core/GitHub/Repo/Application/CommandHandler/ProcessFetchedGitHubBranchesTest.php",
+                "tests/Devboard/Core/GitHub/Repo/GitHubBranchTestDataFactory.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:09:58+01:00",
+            "tree_id": "ebf9663c4762d6476a76f4009c59d73e07d7924c",
+            "url": "https://github.com/devboard/devboard-core/commit/ad2720eb78edc68d90245f8bb828abf58348b446"
+        },
+        {
+            "added": [
+                "spec/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchDeletedSpec.php",
+                "src/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchDeleted.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "80f4f8aa4d79823dd84c63d099da06b094ce7157",
+            "message": "w",
+            "modified": [
+                "tests/Devboard/Core/GitHub/Repo/Application/CommandHandler/ProcessFetchedGitHubBranchesTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:14:17+01:00",
+            "tree_id": "071b9d7b4bcbaec18c51b48b568fb769e5e3b804",
+            "url": "https://github.com/devboard/devboard-core/commit/80f4f8aa4d79823dd84c63d099da06b094ce7157"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "5602890489141727c3caf1a29420324fc85a95da",
+            "message": "w2",
+            "modified": [
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubRepoModel.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:15:50+01:00",
+            "tree_id": "edf6b8c5d2ccb5b0144ef00b530d649f8f3c5bb8",
+            "url": "https://github.com/devboard/devboard-core/commit/5602890489141727c3caf1a29420324fc85a95da"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "66c6e2ee43847fe2bc0d81be323d59a8ef87e2b3",
+            "message": "w2",
+            "modified": [
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubBranchCollection.php",
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubBranchEntity.php",
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubRepoModel.php",
+                "tests/Devboard/Core/GitHub/Repo/Application/CommandHandler/ProcessFetchedGitHubBranchesTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:24:33+01:00",
+            "tree_id": "bd20cf702e19586b07942b80ca6f62d7fe2de804",
+            "url": "https://github.com/devboard/devboard-core/commit/66c6e2ee43847fe2bc0d81be323d59a8ef87e2b3"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "5db1cc92c97fd1cc16256ef92f491e744e7d0db2",
+            "message": "w2",
+            "modified": [
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubRepoModel.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:25:55+01:00",
+            "tree_id": "79c51d925c5df1830b65435907f57c46c2690b2b",
+            "url": "https://github.com/devboard/devboard-core/commit/5db1cc92c97fd1cc16256ef92f491e744e7d0db2"
+        },
+        {
+            "added": [
+                "src/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchEvent.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "6125ffcba84b6e25a54ab4513299de37e2b70392",
+            "message": "w2",
+            "modified": [
+                "src/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchDeleted.php",
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubBranchEntity.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:28:45+01:00",
+            "tree_id": "7e36def8e535235704afd0855a007bfd6bc59567",
+            "url": "https://github.com/devboard/devboard-core/commit/6125ffcba84b6e25a54ab4513299de37e2b70392"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "c70b32b7710a00d644402a660fabbf73a97c3e35",
+            "message": "w2",
+            "modified": [
+                "src/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchDeleted.php",
+                "src/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchEvent.php",
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubRepoModel.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:29:05+01:00",
+            "tree_id": "ee0adbc3f9a7c7d10802f4ef9819fa23d2d7bb25",
+            "url": "https://github.com/devboard/devboard-core/commit/c70b32b7710a00d644402a660fabbf73a97c3e35"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "619fb38fb3621c1bff2a98ba13b6a36013b0b161",
+            "message": "w2",
+            "modified": [
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubBranchEntity.php",
+                "tests/Devboard/Core/GitHub/Repo/Application/CommandHandler/ProcessFetchedGitHubBranchesTest.php",
+                "tests/Devboard/Core/GitHub/Repo/GitHubRepoTestDataFactory.php",
+                "tests/Devboard/Core/GitHub/Repo/GitHubUserTestDataFactory.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:32:43+01:00",
+            "tree_id": "3c1b17bd56882f00f5c38988aa70404bc9cb905e",
+            "url": "https://github.com/devboard/devboard-core/commit/619fb38fb3621c1bff2a98ba13b6a36013b0b161"
+        },
+        {
+            "added": [
+                "spec/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchUpdatedSpec.php",
+                "src/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchUpdated.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "9bdda7a989526bdbca616cbfeee9c35e5d579a54",
+            "message": "w2",
+            "modified": [
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubBranchEntity.php",
+                "src/Devboard/Core/GitHub/Repo/Domain/GitHubRepoModel.php",
+                "tests/Devboard/Core/GitHub/Repo/GitHubBranchTestDataFactory.php",
+                "tests/Devboard/Core/GitHub/Repo/GitHubCommitTestDataFactory.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-11T16:38:16+01:00",
+            "tree_id": "569f2295da0b94c691c15a83d2c3b34c712175e8",
+            "url": "https://github.com/devboard/devboard-core/commit/9bdda7a989526bdbca616cbfeee9c35e5d579a54"
+        }
+    ],
+    "compare": "https://github.com/devboard/devboard-core/compare/099b24457714...9bdda7a98952",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [
+            "spec/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchUpdatedSpec.php",
+            "src/Devboard/Core/GitHub/Repo/Domain/Event/GitHubBranchUpdated.php"
+        ],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "9bdda7a989526bdbca616cbfeee9c35e5d579a54",
+        "message": "w2",
+        "modified": [
+            "src/Devboard/Core/GitHub/Repo/Domain/GitHubBranchEntity.php",
+            "src/Devboard/Core/GitHub/Repo/Domain/GitHubRepoModel.php",
+            "tests/Devboard/Core/GitHub/Repo/GitHubBranchTestDataFactory.php",
+            "tests/Devboard/Core/GitHub/Repo/GitHubCommitTestDataFactory.php"
+        ],
+        "removed": [],
+        "timestamp": "2017-02-11T16:38:16+01:00",
+        "tree_id": "569f2295da0b94c691c15a83d2c3b34c712175e8",
+        "url": "https://github.com/devboard/devboard-core/commit/9bdda7a989526bdbca616cbfeee9c35e5d579a54"
+    },
+    "organization": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/13396338?v=3",
+        "description": null,
+        "events_url": "https://api.github.com/orgs/devboard/events",
+        "hooks_url": "https://api.github.com/orgs/devboard/hooks",
+        "id": 13396338,
+        "issues_url": "https://api.github.com/orgs/devboard/issues",
+        "login": "devboard",
+        "members_url": "https://api.github.com/orgs/devboard/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/devboard/public_members{/member}",
+        "repos_url": "https://api.github.com/orgs/devboard/repos",
+        "url": "https://api.github.com/orgs/devboard"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/04-remove-branches-not-given-in-process",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/devboard/devboard-core/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/devboard/devboard-core/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/devboard/devboard-core/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/devboard/devboard-core/branches{/branch}",
+        "clone_url": "https://github.com/devboard/devboard-core.git",
+        "collaborators_url": "https://api.github.com/repos/devboard/devboard-core/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/devboard/devboard-core/comments{/number}",
+        "commits_url": "https://api.github.com/repos/devboard/devboard-core/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/devboard/devboard-core/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/devboard/devboard-core/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/devboard/devboard-core/contributors",
+        "created_at": 1461957870,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/devboard/devboard-core/deployments",
+        "description": null,
+        "downloads_url": "https://api.github.com/repos/devboard/devboard-core/downloads",
+        "events_url": "https://api.github.com/repos/devboard/devboard-core/events",
+        "fork": false,
+        "forks": 1,
+        "forks_count": 1,
+        "forks_url": "https://api.github.com/repos/devboard/devboard-core/forks",
+        "full_name": "devboard/devboard-core",
+        "git_commits_url": "https://api.github.com/repos/devboard/devboard-core/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/devboard/devboard-core/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/devboard/devboard-core/git/tags{/sha}",
+        "git_url": "git://github.com/devboard/devboard-core.git",
+        "has_downloads": true,
+        "has_issues": true,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/devboard/devboard-core/hooks",
+        "html_url": "https://github.com/devboard/devboard-core",
+        "id": 57407854,
+        "issue_comment_url": "https://api.github.com/repos/devboard/devboard-core/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/devboard/devboard-core/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/devboard/devboard-core/issues{/number}",
+        "keys_url": "https://api.github.com/repos/devboard/devboard-core/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/devboard/devboard-core/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/devboard/devboard-core/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/devboard/devboard-core/merges",
+        "milestones_url": "https://api.github.com/repos/devboard/devboard-core/milestones{/number}",
+        "mirror_url": null,
+        "name": "devboard-core",
+        "notifications_url": "https://api.github.com/repos/devboard/devboard-core/notifications{?since,all,participating}",
+        "open_issues": 2,
+        "open_issues_count": 2,
+        "organization": "devboard",
+        "owner": {
+            "email": null,
+            "name": "devboard"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/devboard/devboard-core/pulls{/number}",
+        "pushed_at": 1486827502,
+        "releases_url": "https://api.github.com/repos/devboard/devboard-core/releases{/id}",
+        "size": 953,
+        "ssh_url": "git@github.com:devboard/devboard-core.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/devboard/devboard-core/stargazers",
+        "statuses_url": "https://api.github.com/repos/devboard/devboard-core/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/devboard/devboard-core/subscribers",
+        "subscription_url": "https://api.github.com/repos/devboard/devboard-core/subscription",
+        "svn_url": "https://github.com/devboard/devboard-core",
+        "tags_url": "https://api.github.com/repos/devboard/devboard-core/tags",
+        "teams_url": "https://api.github.com/repos/devboard/devboard-core/teams",
+        "trees_url": "https://api.github.com/repos/devboard/devboard-core/git/trees{/sha}",
+        "updated_at": "2017-02-05T12:32:10Z",
+        "url": "https://github.com/devboard/devboard-core",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}
