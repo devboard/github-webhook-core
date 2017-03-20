@@ -1,0 +1,53 @@
+version: 2
+executorType: docker
+containerInfo:
+  - image: msvrtan/square:0.2.0
+
+stages:
+  build:
+    workDir: /var/www
+    steps:
+      - type: checkout
+
+      - type: cache-restore
+        key: cache-{{ checksum "composer.lock" }}
+
+      - type: shell
+        name: Disable xdebug
+        command: ./etc/circleci2/disable-xdebug.sh
+
+      - type: shell
+        shell: bash --login
+        name: Composer install
+        command: composer install --no-interaction
+
+      - type: shell
+        name: PHPUnit
+        command: ./bin/phpunit
+
+      - type: shell
+        name: PHPSpec
+        command: ./bin/phpspec run --no-interaction
+
+      - type: shell
+        name: Check codestandards
+        command: ./bin/phing check-codestandards
+
+      - type: shell
+        name: Static analysis
+        command: ./bin/phing phpstan
+
+      - type: shell
+        name: Enable xdebug
+        command: ./etc/circleci2/enable-xdebug.sh
+
+      - type: shell
+        name: Humbug
+        command: ./bin/humbug
+
+      - type: cache-save
+        key: cache-{{ checksum "composer.lock" }}
+        paths:
+          - /var/www/vendor
+          - /var/www/bin
+
