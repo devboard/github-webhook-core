@@ -139,4 +139,9 @@ class PushEvent
     {
         return $this->state->isDeleted();
     }
+
+    public function getName(): string
+    {
+        return $this->ref->getReferenceName();
+    }
 }
