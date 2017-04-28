@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "597b30cd3daad7cc67eb67844246742c",
+    "content-hash": "9d9c61cedff67a5e733e0d087b8981e8",
     "packages": [
         {
             "name": "devboard/github-lib",
-            "version": "v0.3.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-lib.git",
-                "reference": "7a7fe4c3073d52f4867e7967f8d62989e9c99cd3"
+                "reference": "228021a64c0f8fee58ff17c90c6950bdb4d5a4c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-lib/zipball/7a7fe4c3073d52f4867e7967f8d62989e9c99cd3",
-                "reference": "7a7fe4c3073d52f4867e7967f8d62989e9c99cd3",
+                "url": "https://api.github.com/repos/devboard/github-lib/zipball/228021a64c0f8fee58ff17c90c6950bdb4d5a4c6",
+                "reference": "228021a64c0f8fee58ff17c90c6950bdb4d5a4c6",
                 "shasum": ""
             },
             "require": {
@@ -40,6 +40,11 @@
                 "squizlabs/php_codesniffer": "2.*"
             },
             "type": "project",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Devboard\\GitHub\\": "src/",
@@ -50,7 +55,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-04-27T19:52:54+00:00"
+            "time": "2017-04-28 18:09:57"
         }
     ],
     "packages-dev": [
@@ -4364,6 +4369,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "devboard/github-lib": 20,
         "humbug/humbug": 20
     },
     "prefer-stable": false,
