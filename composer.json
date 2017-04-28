@@ -38,5 +38,10 @@
             "php": "7.1.0"
         },
         "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.4.x-dev"
+        }
     }
 }
