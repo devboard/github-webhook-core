@@ -15,7 +15,7 @@
     },
     "require": {
         "php":                                      ">=7.1.0",
-        "devboard/github-lib":                      "^0.3.0"
+        "devboard/github-lib":                      "^0.4@dev"
     },
     "require-dev": {
         "phpunit/phpunit":                          "^5",
