@@ -1,53 +1,53 @@
 version: 2
-executorType: docker
-containerInfo:
-  - image: msvrtan/square:0.2.0
-
 stages:
   build:
+    docker:
+      - image: msvrtan/square:0.2.0
     workDir: /var/www
     steps:
-      - type: checkout
+      - checkout
 
-      - type: cache-restore
-        key: cache-{{ checksum "composer.lock" }}
+      - restore_cache:
+          key: cache-{{ checksum "composer.lock" }}
 
-      - type: shell
-        name: Disable xdebug
-        command: ./etc/circleci2/disable-xdebug.sh
+      - run:
+          name: Composer install
+          command: composer install --no-interaction
 
-      - type: shell
-        shell: bash --login
-        name: Composer install
-        command: composer install --no-interaction
+      - save_cache:
+          key: cache-{{ checksum "composer.lock" }}
+          paths:
+            - /var/www/vendor
+            - /var/www/bin
 
-      - type: shell
-        name: PHPUnit
-        command: ./bin/phpunit
+      - run:
+          name: Disable xdebug
+          command: ./etc/circleci2/disable-xdebug.sh
 
-      - type: shell
-        name: PHPSpec
-        command: ./bin/phpspec run --no-interaction
+      - run:
+          name: PHPUnit
+          command: ./bin/phpunit
 
-      - type: shell
-        name: Check codestandards
-        command: ./bin/phing check-codestandards
+      - run:
+          name: PHPSpec
+          command: ./bin/phpspec run --no-interaction
 
-      - type: shell
-        name: Static analysis
-        command: ./bin/phing phpstan
+      - run:
+          name: Check codestandards
+          command: ./bin/phing check-codestandards
 
-      - type: shell
-        name: Enable xdebug
-        command: ./etc/circleci2/enable-xdebug.sh
+      - run:
+          name: Static analysis
+          command: ./bin/phing phpstan
 
-      - type: shell
-        name: Humbug
-        command: ./bin/humbug
+      - run:
+          name: Enable xdebug
+          command: ./etc/circleci2/enable-xdebug.sh
 
-      - type: cache-save
-        key: cache-{{ checksum "composer.lock" }}
-        paths:
-          - /var/www/vendor
-          - /var/www/bin
+      - run:
+          name: Humbug
+          command: ./bin/humbug
 
+      - store_artifacts:
+          path: build
+          destination: build
