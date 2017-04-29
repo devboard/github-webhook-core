@@ -6,7 +6,7 @@ namespace tests\Devboard\GitHub\Webhook\Core\Repo;
 
 use Devboard\GitHub\Repo\GitHubRepoTimestamps;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory;
-use tests\Devboard\GitHub\Webhook\Core\Event\TestData\TestDataProvider;
+use Devboard\Thesting\Source\JsonSource;
 
 /**
  * @covers \Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory
@@ -24,9 +24,7 @@ class GitHubRepoTimestampsFactoryTest extends \PHPUnit_Framework_TestCase
 
     public function provideData(): \Generator
     {
-        $provider = new TestDataProvider();
-
-        foreach ($provider->getGitHubPushEventData() as $item) {
+        foreach (JsonSource::create()->getGitHubPushEventData() as $item) {
             yield[$item['repository']];
         }
     }

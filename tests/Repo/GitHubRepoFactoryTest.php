@@ -9,8 +9,8 @@ use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoEndpointsFactory;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoStatsFactory;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory;
+use Devboard\Thesting\Source\JsonSource;
 use Generator;
-use tests\Devboard\GitHub\Webhook\Core\Event\TestData\TestDataProvider;
 
 /**
  * @covers \Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory
@@ -34,9 +34,7 @@ class GitHubRepoFactoryTest extends \PHPUnit_Framework_TestCase
 
     public function provideData(): Generator
     {
-        $provider = new TestDataProvider();
-
-        foreach ($provider->getGitHubPushEventData() as $item) {
+        foreach (JsonSource::create()->getGitHubPushEventData() as $item) {
             yield [$item['repository']];
         }
     }
