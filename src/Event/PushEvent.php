@@ -7,6 +7,7 @@ namespace Devboard\GitHub\Webhook\Core\Event;
 use Devboard\GitHub\Commit\GitHubCommitSha;
 use Devboard\GitHub\GitHubCommit;
 use Devboard\GitHub\GitHubRepo;
+use Devboard\GitHub\Repo\GitHubRepoFullName;
 use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
@@ -113,6 +114,11 @@ class PushEvent
     public function getRepo(): GitHubRepo
     {
         return $this->repo;
+    }
+
+    public function getRepoFullName(): GitHubRepoFullName
+    {
+        return $this->repo->getFullName();
     }
 
     public function getPusher(): Pusher
