@@ -6,8 +6,8 @@ namespace tests\Devboard\GitHub\Webhook\Core\Commit;
 
 use Devboard\GitHub\Commit\GitHubCommitAuthor;
 use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitAuthorFactory;
+use Devboard\Thesting\Source\JsonSource;
 use Generator;
-use tests\Devboard\GitHub\Webhook\Core\Event\TestData\TestDataProvider;
 
 /**
  * @covers \Devboard\GitHub\Webhook\Core\Commit\GitHubCommitAuthorFactory
@@ -30,9 +30,7 @@ class GitHubCommitAuthorFactoryTest extends \PHPUnit_Framework_TestCase
 
     public function provideHeadCommits(): Generator
     {
-        $provider = new TestDataProvider();
-
-        foreach ($provider->getGitHubPushEventData() as $item) {
+        foreach (JsonSource::create()->getGitHubPushEventData() as $item) {
             if (false === empty($item['head_commit'])) {
                 yield [$item['head_commit']];
             }
@@ -41,9 +39,7 @@ class GitHubCommitAuthorFactoryTest extends \PHPUnit_Framework_TestCase
 
     public function provideCommits(): Generator
     {
-        $provider = new TestDataProvider();
-
-        foreach ($provider->getGitHubPushEventData() as $item) {
+        foreach (JsonSource::create()->getGitHubPushEventData() as $item) {
             foreach ($item['commits'] as $commit) {
                 yield [$commit];
             }
