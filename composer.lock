@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-lib.git",
-                "reference": "14b0898efbf2d8289457ceca31108efb30dbd0c7"
+                "reference": "571fc49737f4001f9217f8594f4e14e287d312b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-lib/zipball/14b0898efbf2d8289457ceca31108efb30dbd0c7",
-                "reference": "14b0898efbf2d8289457ceca31108efb30dbd0c7",
+                "url": "https://api.github.com/repos/devboard/github-lib/zipball/571fc49737f4001f9217f8594f4e14e287d312b5",
+                "reference": "571fc49737f4001f9217f8594f4e14e287d312b5",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-06-17 15:29:40"
+            "time": "2017-06-24 23:52:36"
         }
     ],
     "packages-dev": [
@@ -231,12 +231,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/thesting-data-source.git",
-                "reference": "babecf6961a61d8d9ea818283eee08d72ce5be21"
+                "reference": "b0ea0643fc6e92a6942e2fae213c3e735efe8f9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/thesting-data-source/zipball/babecf6961a61d8d9ea818283eee08d72ce5be21",
-                "reference": "babecf6961a61d8d9ea818283eee08d72ce5be21",
+                "url": "https://api.github.com/repos/devboard/thesting-data-source/zipball/b0ea0643fc6e92a6942e2fae213c3e735efe8f9f",
+                "reference": "b0ea0643fc6e92a6942e2fae213c3e735efe8f9f",
                 "shasum": ""
             },
             "require": {
@@ -275,7 +275,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-06-17T15:30:02+00:00"
+            "time": "2017-06-24T21:51:55+00:00"
         },
         {
             "name": "doctrine/annotations",
