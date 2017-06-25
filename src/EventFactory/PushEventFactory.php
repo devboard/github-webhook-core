@@ -41,7 +41,7 @@ class PushEventFactory
         $this->senderFactory = $senderFactory;
     }
 
-    public function create(array $data)
+    public function create(array $data): PushEvent
     {
         $ref     = null;
         $baseRef = null;
