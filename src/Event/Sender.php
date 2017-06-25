@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Devboard\GitHub\Webhook\Core\Event;
 
+use Devboard\GitHub\Account\GitHubAccountType;
+use Devboard\GitHub\Account\GitHubAccountTypeFactory;
 use Devboard\GitHub\User\GitHubUserApiUrl;
 use Devboard\GitHub\User\GitHubUserAvatarUrl;
 use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\User\GitHubUserType;
-use Devboard\GitHub\User\GitHubUserTypeFactory;
 
 /**
  * @see SenderSpec
@@ -23,8 +23,8 @@ class Sender
     private $userId;
     /** @var GitHubUserLogin */
     private $login;
-    /** @var GitHubUserType */
-    private $githubUserType;
+    /** @var GitHubAccountType */
+    private $gitHubAccountType;
     /** @var GitHubUserAvatarUrl */
     private $avatarUrl;
     /** @var GitHubUserGravatarId */
@@ -39,21 +39,21 @@ class Sender
     public function __construct(
         GitHubUserId $userId,
         GitHubUserLogin $login,
-        GitHubUserType $githubUserType,
+        GitHubAccountType $gitHubAccountType,
         GitHubUserAvatarUrl $avatarUrl,
         GitHubUserGravatarId $gravatarId,
         GitHubUserHtmlUrl $htmlUrl,
         GitHubUserApiUrl $apiUrl,
         bool $siteAdmin
     ) {
-        $this->userId         = $userId;
-        $this->login          = $login;
-        $this->githubUserType = $githubUserType;
-        $this->avatarUrl      = $avatarUrl;
-        $this->gravatarId     = $gravatarId;
-        $this->htmlUrl        = $htmlUrl;
-        $this->apiUrl         = $apiUrl;
-        $this->siteAdmin      = $siteAdmin;
+        $this->userId            = $userId;
+        $this->login             = $login;
+        $this->gitHubAccountType = $gitHubAccountType;
+        $this->avatarUrl         = $avatarUrl;
+        $this->gravatarId        = $gravatarId;
+        $this->htmlUrl           = $htmlUrl;
+        $this->apiUrl            = $apiUrl;
+        $this->siteAdmin         = $siteAdmin;
     }
 
     public function getUserId(): GitHubUserId
@@ -66,9 +66,9 @@ class Sender
         return $this->login;
     }
 
-    public function getGitHubUserType(): GitHubUserType
+    public function getGitHubAccountType(): GitHubAccountType
     {
-        return $this->githubUserType;
+        return $this->gitHubAccountType;
     }
 
     public function getAvatarUrl(): GitHubUserAvatarUrl
@@ -99,14 +99,14 @@ class Sender
     public function serialize(): array
     {
         return [
-            'userId'         => $this->userId->getValue(),
-            'login'          => (string) $this->login,
-            'githubUserType' => (string) $this->githubUserType,
-            'avatarUrl'      => (string) $this->avatarUrl,
-            'gravatarId'     => (string) $this->gravatarId,
-            'htmlUrl'        => (string) $this->htmlUrl,
-            'apiUrl'         => (string) $this->apiUrl,
-            'siteAdmin'      => $this->siteAdmin,
+            'userId'            => $this->userId->getValue(),
+            'login'             => (string) $this->login,
+            'gitHubAccountType' => (string) $this->gitHubAccountType,
+            'avatarUrl'         => (string) $this->avatarUrl,
+            'gravatarId'        => (string) $this->gravatarId,
+            'htmlUrl'           => (string) $this->htmlUrl,
+            'apiUrl'            => (string) $this->apiUrl,
+            'siteAdmin'         => $this->siteAdmin,
         ];
     }
 
@@ -115,7 +115,7 @@ class Sender
         return new self(
             new GitHubUserId($data['userId']),
             new GitHubUserLogin($data['login']),
-            GitHubUserTypeFactory::create($data['githubUserType']),
+            GitHubAccountTypeFactory::create($data['gitHubAccountType']),
             new GitHubUserAvatarUrl($data['avatarUrl']),
             new GitHubUserGravatarId($data['gravatarId']),
             new GitHubUserHtmlUrl($data['htmlUrl']),

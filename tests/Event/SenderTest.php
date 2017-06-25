@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace tests\Devboard\GitHub\Webhook\Core\Event;
 
+use Devboard\GitHub\Account\GitHubAccountType;
 use Devboard\GitHub\User\GitHubUserApiUrl;
 use Devboard\GitHub\User\GitHubUserAvatarUrl;
 use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\User\GitHubUserType;
 use Devboard\GitHub\User\Type\Organization;
 use Devboard\GitHub\User\Type\User;
 use Devboard\GitHub\Webhook\Core\Event\Sender;
@@ -25,7 +25,7 @@ class SenderTest extends \PHPUnit_Framework_TestCase
     public function testCreating(
         GitHubUserId $userId,
         GitHubUserLogin $login,
-        GitHubUserType $githubUserType,
+        GitHubAccountType $gitHubAccountType,
         GitHubUserAvatarUrl $avatarUrl,
         GitHubUserGravatarId $gravatarId,
         GitHubUserHtmlUrl $htmlUrl,
@@ -33,12 +33,12 @@ class SenderTest extends \PHPUnit_Framework_TestCase
         bool $siteAdmin
     ) {
         $sut = new Sender(
-            $userId, $login, $githubUserType, $avatarUrl, $gravatarId, $htmlUrl, $apiUrl, $siteAdmin
+            $userId, $login, $gitHubAccountType, $avatarUrl, $gravatarId, $htmlUrl, $apiUrl, $siteAdmin
         );
 
         $this->assertSame($userId, $sut->getUserId());
         $this->assertSame($login, $sut->getLogin());
-        $this->assertSame($githubUserType, $sut->getGitHubUserType());
+        $this->assertSame($gitHubAccountType, $sut->getGitHubAccountType());
         $this->assertSame($avatarUrl, $sut->getAvatarUrl());
         $this->assertSame($gravatarId, $sut->getGravatarId());
         $this->assertSame($htmlUrl, $sut->getHtmlUrl());
@@ -50,7 +50,7 @@ class SenderTest extends \PHPUnit_Framework_TestCase
     public function testSerializationAndDeserialization(
         GitHubUserId $userId,
         GitHubUserLogin $login,
-        GitHubUserType $githubUserType,
+        GitHubAccountType $gitHubAccountType,
         GitHubUserAvatarUrl $avatarUrl,
         GitHubUserGravatarId $gravatarId,
         GitHubUserHtmlUrl $htmlUrl,
@@ -58,7 +58,7 @@ class SenderTest extends \PHPUnit_Framework_TestCase
         bool $siteAdmin
     ) {
         $sut = new Sender(
-            $userId, $login, $githubUserType, $avatarUrl, $gravatarId, $htmlUrl, $apiUrl, $siteAdmin
+            $userId, $login, $gitHubAccountType, $avatarUrl, $gravatarId, $htmlUrl, $apiUrl, $siteAdmin
         );
 
         $serialized = $sut->serialize();

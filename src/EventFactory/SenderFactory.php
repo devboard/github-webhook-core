@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Devboard\GitHub\Webhook\Core\EventFactory;
 
+use Devboard\GitHub\Account\GitHubAccountTypeFactory;
 use Devboard\GitHub\User\GitHubUserApiUrl;
 use Devboard\GitHub\User\GitHubUserAvatarUrl;
 use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\User\GitHubUserTypeFactory;
 use Devboard\GitHub\Webhook\Core\Event\Sender;
 
 /**
@@ -24,7 +24,7 @@ class SenderFactory
         return new Sender(
             new GitHubUserId($data['id']),
             new GitHubUserLogin($data['login']),
-            GitHubUserTypeFactory::create($data['type']),
+            GitHubAccountTypeFactory::create($data['type']),
             new GitHubUserAvatarUrl($data['avatar_url']),
             new GitHubUserGravatarId($data['gravatar_id']),
             new GitHubUserHtmlUrl($data['html_url']),
