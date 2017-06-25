@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace tests\Devboard\GitHub\Webhook\Core\Event;
 
+use Devboard\GitHub\Account\Type\User;
 use Devboard\GitHub\Commit\Author\GitHubCommitAuthorEmail;
 use Devboard\GitHub\Commit\Author\GitHubCommitAuthorName;
 use Devboard\GitHub\Commit\Committer\GitHubCommitCommitterEmail;
@@ -37,7 +38,6 @@ use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\User\Type\User;
 use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;

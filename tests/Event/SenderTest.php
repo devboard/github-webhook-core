@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace tests\Devboard\GitHub\Webhook\Core\Event;
 
 use Devboard\GitHub\Account\GitHubAccountType;
+use Devboard\GitHub\Account\Type\Organization;
+use Devboard\GitHub\Account\Type\User;
 use Devboard\GitHub\User\GitHubUserApiUrl;
 use Devboard\GitHub\User\GitHubUserAvatarUrl;
 use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\User\Type\Organization;
-use Devboard\GitHub\User\Type\User;
 use Devboard\GitHub\Webhook\Core\Event\Sender;
 
 /**
