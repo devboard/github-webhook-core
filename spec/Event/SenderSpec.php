@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace spec\Devboard\GitHub\Webhook\Core\Event;
 
+use Devboard\GitHub\Account\GitHubAccountType;
 use Devboard\GitHub\User\GitHubUserApiUrl;
 use Devboard\GitHub\User\GitHubUserAvatarUrl;
 use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\User\GitHubUserType;
 use Devboard\GitHub\Webhook\Core\Event\Sender;
 use PhpSpec\ObjectBehavior;
 
@@ -19,7 +19,7 @@ class SenderSpec extends ObjectBehavior
     public function let(
         GitHubUserId $userId,
         GitHubUserLogin $login,
-        GitHubUserType $githubUserType,
+        GitHubAccountType $GitHubAccountType,
         GitHubUserAvatarUrl $avatarUrl,
         GitHubUserGravatarId $gravatarId,
         GitHubUserHtmlUrl $htmlUrl,
@@ -28,7 +28,7 @@ class SenderSpec extends ObjectBehavior
         $this->beConstructedWith(
             $userId,
             $login,
-            $githubUserType,
+            $GitHubAccountType,
             $avatarUrl,
             $gravatarId,
             $htmlUrl,
@@ -45,7 +45,7 @@ class SenderSpec extends ObjectBehavior
     public function it_should_expose_all_values_via_getters(
         GitHubUserId $userId,
         GitHubUserLogin $login,
-        GitHubUserType $githubUserType,
+        GitHubAccountType $GitHubAccountType,
         GitHubUserAvatarUrl $avatarUrl,
         GitHubUserGravatarId $gravatarId,
         GitHubUserHtmlUrl $htmlUrl,
@@ -53,7 +53,7 @@ class SenderSpec extends ObjectBehavior
     ) {
         $this->getUserId()->shouldReturn($userId);
         $this->getLogin()->shouldReturn($login);
-        $this->getGitHubUserType()->shouldReturn($githubUserType);
+        $this->getGitHubAccountType()->shouldReturn($GitHubAccountType);
         $this->getAvatarUrl()->shouldReturn($avatarUrl);
         $this->getGravatarId()->shouldReturn($gravatarId);
         $this->getHtmlUrl()->shouldReturn($htmlUrl);
