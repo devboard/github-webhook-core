@@ -1,0 +1,228 @@
+{
+    "after": "37c058360baa4882210e207bd2857fb1ca402ddc",
+    "base_ref": "refs/heads/master",
+    "before": "44ef0deea37cb6455218378244fc0c0fee26cb07",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "c5a6019d16424800b060f890e248da30385bfa65",
+            "message": "Removed ClassLoader from file resources",
+            "modified": [
+                "spec/File/FileFactorySpec.php",
+                "spec/File/FileResourceSpec.php",
+                "src/File/FileFactory.php",
+                "src/File/FileResource.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T17:45:39+02:00",
+            "tree_id": "764b35178e08681db0d2c2c59deb57a7c1dc9ba3",
+            "url": "https://github.com/msvrtan/generator/commit/c5a6019d16424800b060f890e248da30385bfa65"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "f54e5337e56e67b2f1021e42584847accc9eaa63",
+            "message": "Removed class loader from commands",
+            "modified": [
+                "bin/skeleton",
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Command/BroadwayModelCliCommand.php",
+                "src/Command/BroadwayReadCliCommand.php",
+                "src/Command/UuidIdentityCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T17:45:53+02:00",
+            "tree_id": "18d2bb41fc458da53d218e09ba9f860189fffa91",
+            "url": "https://github.com/msvrtan/generator/commit/f54e5337e56e67b2f1021e42584847accc9eaa63"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": false,
+            "id": "37c058360baa4882210e207bd2857fb1ca402ddc",
+            "message": "Merge pull request #62 from msvrtan/removing-class-loader\n\nRemoving class loader",
+            "modified": [
+                "bin/skeleton",
+                "spec/File/FileFactorySpec.php",
+                "spec/File/FileResourceSpec.php",
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Command/BroadwayModelCliCommand.php",
+                "src/Command/BroadwayReadCliCommand.php",
+                "src/Command/UuidIdentityCommand.php",
+                "src/File/FileFactory.php",
+                "src/File/FileResource.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-18T17:49:06+02:00",
+            "tree_id": "18d2bb41fc458da53d218e09ba9f860189fffa91",
+            "url": "https://github.com/msvrtan/generator/commit/37c058360baa4882210e207bd2857fb1ca402ddc"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/generator/compare/44ef0deea37c...37c058360baa",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+        },
+        "distinct": false,
+        "id": "37c058360baa4882210e207bd2857fb1ca402ddc",
+        "message": "Merge pull request #62 from msvrtan/removing-class-loader\n\nRemoving class loader",
+        "modified": [
+            "bin/skeleton",
+            "spec/File/FileFactorySpec.php",
+            "spec/File/FileResourceSpec.php",
+            "src/Command/BroadwayCommandCliCommand.php",
+            "src/Command/BroadwayEventCliCommand.php",
+            "src/Command/BroadwayModelCliCommand.php",
+            "src/Command/BroadwayReadCliCommand.php",
+            "src/Command/UuidIdentityCommand.php",
+            "src/File/FileFactory.php",
+            "src/File/FileResource.php"
+        ],
+        "removed": [],
+        "timestamp": "2016-06-18T17:49:06+02:00",
+        "tree_id": "18d2bb41fc458da53d218e09ba9f860189fffa91",
+        "url": "https://github.com/msvrtan/generator/commit/37c058360baa4882210e207bd2857fb1ca402ddc"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/dev",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/generator/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/generator/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/generator/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/generator/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/generator.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/generator/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/generator/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/generator/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/generator/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/generator/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/generator/contributors",
+        "created_at": 1464896063,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/generator/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/msvrtan/generator/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/generator/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/generator/forks",
+        "full_name": "msvrtan/generator",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/generator/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/generator/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/generator/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/generator.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/generator/hooks",
+        "html_url": "https://github.com/msvrtan/generator",
+        "id": 60291903,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/generator/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/generator/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/generator/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/generator/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/generator/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/generator/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/generator/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/generator/milestones{/number}",
+        "mirror_url": null,
+        "name": "generator",
+        "notifications_url": "https://api.github.com/repos/msvrtan/generator/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/generator/pulls{/number}",
+        "pushed_at": 1466264968,
+        "releases_url": "https://api.github.com/repos/msvrtan/generator/releases{/id}",
+        "size": 166,
+        "ssh_url": "git@github.com:msvrtan/generator.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/generator/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/generator/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/generator/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/generator/subscription",
+        "svn_url": "https://github.com/msvrtan/generator",
+        "tags_url": "https://api.github.com/repos/msvrtan/generator/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/generator/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/generator/git/trees{/sha}",
+        "updated_at": "2016-06-11T15:05:35Z",
+        "url": "https://github.com/msvrtan/generator",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

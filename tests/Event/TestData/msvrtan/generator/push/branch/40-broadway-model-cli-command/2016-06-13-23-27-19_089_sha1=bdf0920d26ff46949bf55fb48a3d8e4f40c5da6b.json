@@ -1,0 +1,376 @@
+{
+    "after": "68a1e81f6b149a0e4b88a1982e74e068891befe4",
+    "base_ref": "refs/heads/dev",
+    "before": "51d3729918c8342d793c9adb9f8d651c5cbf2661",
+    "commits": [
+        {
+            "added": [
+                "tests/CodeGenerator/sample-files/broadway-read-entity.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "c44fe201adced0b936eba2308d4831ed3c779c8f",
+            "message": "Added test for read entity #43",
+            "modified": [
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:33:30+02:00",
+            "tree_id": "230fff180b24d338ce280532b7823bfa09a384b0",
+            "url": "https://github.com/msvrtan/generator/commit/c44fe201adced0b936eba2308d4831ed3c779c8f"
+        },
+        {
+            "added": [
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethodSpec.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGenerator.php",
+                "src/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethod.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "b34f82984a8cf25223869434eeec6b426941cab3",
+            "message": "Added read model id getter  #43",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/MethodFactorySpec.php",
+                "spec/Definition/PHP/DefinitionFactorySpec.php",
+                "spec/SourceFactory/Broadway/EventSourcingRepositorySourceFactorySpec.php",
+                "src/CodeGenerator/PhpParser/MethodFactory.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/RepositoryConstructorGenerator.php",
+                "src/CodeGenerator/PhpParserGeneratorFactory.php",
+                "src/Definition/PHP/DefinitionFactory.php",
+                "src/Definition/PHP/Methods/Broadway/Model/RepositoryConstructorMethod.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:34:23+02:00",
+            "tree_id": "2495ce964581414bacce756b32d445ce1b1c59a0",
+            "url": "https://github.com/msvrtan/generator/commit/b34f82984a8cf25223869434eeec6b426941cab3"
+        },
+        {
+            "added": [
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadEntitySourceFactory.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "a4e4776b6e3ae31d34a31f282b4368742da85e66",
+            "message": "Added ReadEntitySourceFactory  #43",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-06-13T22:34:36+02:00",
+            "tree_id": "63cbbefa145d9048f115ae824a72f1e385d143e5",
+            "url": "https://github.com/msvrtan/generator/commit/a4e4776b6e3ae31d34a31f282b4368742da85e66"
+        },
+        {
+            "added": [
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+                "spec/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethodSpec.php",
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGenerator.php",
+                "src/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethod.php",
+                "src/SourceFactory/Broadway/ReadEntitySourceFactory.php",
+                "tests/CodeGenerator/sample-files/broadway-read-entity.output"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": false,
+            "id": "0607a38423ac9d638cb4114f2eb021728acf2826",
+            "message": "Merge pull request #47 from msvrtan/43-read-entity\n\nAdding ReadEntity source factory",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/MethodFactorySpec.php",
+                "spec/Definition/PHP/DefinitionFactorySpec.php",
+                "spec/SourceFactory/Broadway/EventSourcingRepositorySourceFactorySpec.php",
+                "src/CodeGenerator/PhpParser/MethodFactory.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/RepositoryConstructorGenerator.php",
+                "src/CodeGenerator/PhpParserGeneratorFactory.php",
+                "src/Definition/PHP/DefinitionFactory.php",
+                "src/Definition/PHP/Methods/Broadway/Model/RepositoryConstructorMethod.php",
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:41:27+02:00",
+            "tree_id": "63cbbefa145d9048f115ae824a72f1e385d143e5",
+            "url": "https://github.com/msvrtan/generator/commit/0607a38423ac9d638cb4114f2eb021728acf2826"
+        },
+        {
+            "added": [
+                "spec/SourceFactory/Broadway/ReadRepositorySourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadRepositorySourceFactory.php",
+                "tests/CodeGenerator/sample-files/broadway-read-repository.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "9db8aa0ccfa8ca3611345c8586b810fb56d85f15",
+            "message": "Added ReadRepositorySourceFactory #44",
+            "modified": [
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:42:01+02:00",
+            "tree_id": "e9f6d397362a5ce197e27e874ade2437726be3cd",
+            "url": "https://github.com/msvrtan/generator/commit/9db8aa0ccfa8ca3611345c8586b810fb56d85f15"
+        },
+        {
+            "added": [
+                "spec/SourceFactory/Broadway/ReadRepositorySourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadRepositorySourceFactory.php",
+                "tests/CodeGenerator/sample-files/broadway-read-repository.output"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": false,
+            "id": "8954b046b2e837c814c6554c8bac2192bc2831f5",
+            "message": "Merge pull request #48 from msvrtan/44-read-repository\n\nAdded ReadRepositorySourceFactory #44",
+            "modified": [
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T23:51:09+02:00",
+            "tree_id": "e9f6d397362a5ce197e27e874ade2437726be3cd",
+            "url": "https://github.com/msvrtan/generator/commit/8954b046b2e837c814c6554c8bac2192bc2831f5"
+        },
+        {
+            "added": [
+                "spec/SourceFactory/Broadway/ReadProjectorSourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadProjectorSourceFactory.php",
+                "tests/CodeGenerator/sample-files/broadway-read-projector.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "8c8ea37e41e34432e42eed574f753f1efb46dbcb",
+            "message": "Added read projector #45",
+            "modified": [
+                "spec/SourceFactory/Broadway/ReadRepositorySourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadRepositorySourceFactory.php",
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-14T00:02:15+02:00",
+            "tree_id": "a8812f557b1a76eef1ad9b43bd08549d74540eac",
+            "url": "https://github.com/msvrtan/generator/commit/8c8ea37e41e34432e42eed574f753f1efb46dbcb"
+        },
+        {
+            "added": [
+                "spec/SourceFactory/Broadway/ReadProjectorSourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadProjectorSourceFactory.php",
+                "tests/CodeGenerator/sample-files/broadway-read-projector.output"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": false,
+            "id": "68a1e81f6b149a0e4b88a1982e74e068891befe4",
+            "message": "Merge pull request #49 from nulldevelopmenthr/45-read-projector\n\nAdded read projector #45",
+            "modified": [
+                "spec/SourceFactory/Broadway/ReadRepositorySourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadRepositorySourceFactory.php",
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-14T00:05:09+02:00",
+            "tree_id": "a8812f557b1a76eef1ad9b43bd08549d74540eac",
+            "url": "https://github.com/msvrtan/generator/commit/68a1e81f6b149a0e4b88a1982e74e068891befe4"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/generator/compare/51d3729918c8...68a1e81f6b14",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [
+            "spec/SourceFactory/Broadway/ReadProjectorSourceFactorySpec.php",
+            "src/SourceFactory/Broadway/ReadProjectorSourceFactory.php",
+            "tests/CodeGenerator/sample-files/broadway-read-projector.output"
+        ],
+        "author": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+        },
+        "distinct": false,
+        "id": "68a1e81f6b149a0e4b88a1982e74e068891befe4",
+        "message": "Merge pull request #49 from nulldevelopmenthr/45-read-projector\n\nAdded read projector #45",
+        "modified": [
+            "spec/SourceFactory/Broadway/ReadRepositorySourceFactorySpec.php",
+            "src/SourceFactory/Broadway/ReadRepositorySourceFactory.php",
+            "tests/CodeGenerator/PhpParserGeneratorTest.php"
+        ],
+        "removed": [],
+        "timestamp": "2016-06-14T00:05:09+02:00",
+        "tree_id": "a8812f557b1a76eef1ad9b43bd08549d74540eac",
+        "url": "https://github.com/msvrtan/generator/commit/68a1e81f6b149a0e4b88a1982e74e068891befe4"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/40-broadway-model-cli-command",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/generator/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/generator/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/generator/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/generator/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/generator.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/generator/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/generator/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/generator/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/generator/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/generator/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/generator/contributors",
+        "created_at": 1464896063,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/generator/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/msvrtan/generator/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/generator/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/generator/forks",
+        "full_name": "msvrtan/generator",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/generator/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/generator/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/generator/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/generator.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/generator/hooks",
+        "html_url": "https://github.com/msvrtan/generator",
+        "id": 60291903,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/generator/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/generator/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/generator/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/generator/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/generator/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/generator/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/generator/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/generator/milestones{/number}",
+        "mirror_url": null,
+        "name": "generator",
+        "notifications_url": "https://api.github.com/repos/msvrtan/generator/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/generator/pulls{/number}",
+        "pushed_at": 1465855593,
+        "releases_url": "https://api.github.com/repos/msvrtan/generator/releases{/id}",
+        "size": 136,
+        "ssh_url": "git@github.com:msvrtan/generator.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/generator/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/generator/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/generator/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/generator/subscription",
+        "svn_url": "https://github.com/msvrtan/generator",
+        "tags_url": "https://api.github.com/repos/msvrtan/generator/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/generator/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/generator/git/trees{/sha}",
+        "updated_at": "2016-06-11T15:05:35Z",
+        "url": "https://github.com/msvrtan/generator",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

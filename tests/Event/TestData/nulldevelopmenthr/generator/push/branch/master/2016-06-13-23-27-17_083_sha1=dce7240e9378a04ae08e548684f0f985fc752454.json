@@ -1,0 +1,310 @@
+{
+    "after": "d08d07f6bdc56f1ba9069f12c43a2970d257e3aa",
+    "base_ref": null,
+    "before": "bc9ff687ceb222d4eb2becbff8d943f863608943",
+    "commits": [
+        {
+            "added": [
+                "spec/Definition/PHP/Types/TypeFactorySpec.php",
+                "src/Definition/PHP/Types/TypeFactory.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ec49d9fa2f47b8adf7217314f587150506a4475a",
+            "message": "Added TypeFactory",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-06-12T20:13:48+02:00",
+            "tree_id": "a6605ae4a83cc4c956e75f43c5ac82acffc9a919",
+            "url": "https://github.com/nulldevelopmenthr/generator/commit/ec49d9fa2f47b8adf7217314f587150506a4475a"
+        },
+        {
+            "added": [
+                "src/Command/BroadwayCommandCliCommand.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "0e24d520d5c03345d6f9ec96f618349fc13cfb87",
+            "message": "Added BroadwayCommandCliCommand #15",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-06-12T20:13:48+02:00",
+            "tree_id": "50e80b9875a4b73798f0b105b2f9326c571f5305",
+            "url": "https://github.com/nulldevelopmenthr/generator/commit/0e24d520d5c03345d6f9ec96f618349fc13cfb87"
+        },
+        {
+            "added": [
+                "src/Command/BroadwayEventCliCommand.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "24f561413c1f42eae141edc704eeafee4ba9ccc9",
+            "message": "Added BroadwayEventCliCommand #16",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-06-12T20:13:49+02:00",
+            "tree_id": "eaa85fd008e3195dc92147d173d055921e5c2c45",
+            "url": "https://github.com/nulldevelopmenthr/generator/commit/24f561413c1f42eae141edc704eeafee4ba9ccc9"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "68367911365d51e881694903689935376a68ecf5",
+            "message": "Added both new CLI commands to console",
+            "modified": [
+                "app/console"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-12T20:13:49+02:00",
+            "tree_id": "d3b50f7deeb4e15c5cbf07224f307df2b552ae52",
+            "url": "https://github.com/nulldevelopmenthr/generator/commit/68367911365d51e881694903689935376a68ecf5"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "162370a29531b3be999bde5f4bb232e11b269d7c",
+            "message": "Cleaning up code",
+            "modified": [
+                "spec/File/FileResourceSpec.php",
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Definition/PHP/Types/ConceptName.php",
+                "src/Definition/PHP/Types/TypeFactory.php",
+                "src/Source/ImprovedClassSource.php",
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-12T20:13:52+02:00",
+            "tree_id": "843d809ef784a33300e79fb972b756f23cd95b77",
+            "url": "https://github.com/nulldevelopmenthr/generator/commit/162370a29531b3be999bde5f4bb232e11b269d7c"
+        },
+        {
+            "added": [
+                "spec/Definition/PHP/Types/TypeFactorySpec.php",
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Definition/PHP/Types/TypeFactory.php"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": true,
+            "id": "d08d07f6bdc56f1ba9069f12c43a2970d257e3aa",
+            "message": "Merge pull request #36 from msvrtan/15-broadway-command\n\nAdded broadway commands",
+            "modified": [
+                "app/console",
+                "spec/File/FileResourceSpec.php",
+                "src/Definition/PHP/Types/ConceptName.php",
+                "src/Source/ImprovedClassSource.php",
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-12T20:17:37+02:00",
+            "tree_id": "843d809ef784a33300e79fb972b756f23cd95b77",
+            "url": "https://github.com/nulldevelopmenthr/generator/commit/d08d07f6bdc56f1ba9069f12c43a2970d257e3aa"
+        }
+    ],
+    "compare": "https://github.com/nulldevelopmenthr/generator/compare/bc9ff687ceb2...d08d07f6bdc5",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [
+            "spec/Definition/PHP/Types/TypeFactorySpec.php",
+            "src/Command/BroadwayCommandCliCommand.php",
+            "src/Command/BroadwayEventCliCommand.php",
+            "src/Definition/PHP/Types/TypeFactory.php"
+        ],
+        "author": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+        },
+        "distinct": true,
+        "id": "d08d07f6bdc56f1ba9069f12c43a2970d257e3aa",
+        "message": "Merge pull request #36 from msvrtan/15-broadway-command\n\nAdded broadway commands",
+        "modified": [
+            "app/console",
+            "spec/File/FileResourceSpec.php",
+            "src/Definition/PHP/Types/ConceptName.php",
+            "src/Source/ImprovedClassSource.php",
+            "tests/CodeGenerator/PhpParserGeneratorTest.php"
+        ],
+        "removed": [],
+        "timestamp": "2016-06-12T20:17:37+02:00",
+        "tree_id": "843d809ef784a33300e79fb972b756f23cd95b77",
+        "url": "https://github.com/nulldevelopmenthr/generator/commit/d08d07f6bdc56f1ba9069f12c43a2970d257e3aa"
+    },
+    "organization": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/7399051?v=3",
+        "description": null,
+        "events_url": "https://api.github.com/orgs/nulldevelopmenthr/events",
+        "hooks_url": "https://api.github.com/orgs/nulldevelopmenthr/hooks",
+        "id": 7399051,
+        "issues_url": "https://api.github.com/orgs/nulldevelopmenthr/issues",
+        "login": "nulldevelopmenthr",
+        "members_url": "https://api.github.com/orgs/nulldevelopmenthr/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/nulldevelopmenthr/public_members{/member}",
+        "repos_url": "https://api.github.com/orgs/nulldevelopmenthr/repos",
+        "url": "https://api.github.com/orgs/nulldevelopmenthr"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/master",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/nulldevelopmenthr/generator/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/nulldevelopmenthr/generator/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/nulldevelopmenthr/generator/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/nulldevelopmenthr/generator/branches{/branch}",
+        "clone_url": "https://github.com/nulldevelopmenthr/generator.git",
+        "collaborators_url": "https://api.github.com/repos/nulldevelopmenthr/generator/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/nulldevelopmenthr/generator/comments{/number}",
+        "commits_url": "https://api.github.com/repos/nulldevelopmenthr/generator/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/nulldevelopmenthr/generator/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/nulldevelopmenthr/generator/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/nulldevelopmenthr/generator/contributors",
+        "created_at": 1464896049,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/nulldevelopmenthr/generator/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/nulldevelopmenthr/generator/downloads",
+        "events_url": "https://api.github.com/repos/nulldevelopmenthr/generator/events",
+        "fork": false,
+        "forks": 1,
+        "forks_count": 1,
+        "forks_url": "https://api.github.com/repos/nulldevelopmenthr/generator/forks",
+        "full_name": "nulldevelopmenthr/generator",
+        "git_commits_url": "https://api.github.com/repos/nulldevelopmenthr/generator/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/nulldevelopmenthr/generator/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/nulldevelopmenthr/generator/git/tags{/sha}",
+        "git_url": "git://github.com/nulldevelopmenthr/generator.git",
+        "has_downloads": true,
+        "has_issues": true,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/nulldevelopmenthr/generator/hooks",
+        "html_url": "https://github.com/nulldevelopmenthr/generator",
+        "id": 60291891,
+        "issue_comment_url": "https://api.github.com/repos/nulldevelopmenthr/generator/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/nulldevelopmenthr/generator/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/nulldevelopmenthr/generator/issues{/number}",
+        "keys_url": "https://api.github.com/repos/nulldevelopmenthr/generator/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/nulldevelopmenthr/generator/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/nulldevelopmenthr/generator/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/nulldevelopmenthr/generator/merges",
+        "milestones_url": "https://api.github.com/repos/nulldevelopmenthr/generator/milestones{/number}",
+        "mirror_url": null,
+        "name": "generator",
+        "notifications_url": "https://api.github.com/repos/nulldevelopmenthr/generator/notifications{?since,all,participating}",
+        "open_issues": 1,
+        "open_issues_count": 1,
+        "organization": "nulldevelopmenthr",
+        "owner": {
+            "email": null,
+            "name": "nulldevelopmenthr"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/nulldevelopmenthr/generator/pulls{/number}",
+        "pushed_at": 1465755459,
+        "releases_url": "https://api.github.com/repos/nulldevelopmenthr/generator/releases{/id}",
+        "size": 99,
+        "ssh_url": "git@github.com:nulldevelopmenthr/generator.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/nulldevelopmenthr/generator/stargazers",
+        "statuses_url": "https://api.github.com/repos/nulldevelopmenthr/generator/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/nulldevelopmenthr/generator/subscribers",
+        "subscription_url": "https://api.github.com/repos/nulldevelopmenthr/generator/subscription",
+        "svn_url": "https://github.com/nulldevelopmenthr/generator",
+        "tags_url": "https://api.github.com/repos/nulldevelopmenthr/generator/tags",
+        "teams_url": "https://api.github.com/repos/nulldevelopmenthr/generator/teams",
+        "trees_url": "https://api.github.com/repos/nulldevelopmenthr/generator/git/trees{/sha}",
+        "updated_at": "2016-06-11T15:03:43Z",
+        "url": "https://github.com/nulldevelopmenthr/generator",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

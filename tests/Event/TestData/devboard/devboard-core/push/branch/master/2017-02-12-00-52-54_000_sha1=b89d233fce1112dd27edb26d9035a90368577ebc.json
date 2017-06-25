@@ -1,0 +1,298 @@
+{
+    "after": "05be07cefecef79f61b31872416d0ef158b855e0",
+    "base_ref": null,
+    "before": "820c9cf9bfa2e8201419e0509e495134792225d1",
+    "commits": [
+        {
+            "added": [
+                "src/NullDev/Theater/Behat/BaseApplicationContext.php",
+                "src/NullDev/Theater/Behat/BaseInfrastructureContext.php",
+                "src/NullDev/Theater/CommandBus/BroadwayCommandBus.php",
+                "src/NullDev/Theater/CommandBus/Queue/BeanstalkQueuedCommandBus.php",
+                "src/NullDev/Theater/Doctrine/BaseUuidType.php",
+                "src/NullDev/Theater/DoctrineOrm/EntityRepository.php",
+                "src/NullDev/Theater/DummyEventStore.php",
+                "src/NullDev/Theater/Identifier.php",
+                "src/NullDev/TheaterBundle/DependencyInjection/Configuration.php",
+                "src/NullDev/TheaterBundle/DependencyInjection/NullDevTheaterExtension.php",
+                "src/NullDev/TheaterBundle/Entity/BroadwayEventStore.php",
+                "src/NullDev/TheaterBundle/Entity/BroadwayEventStoreRepository.php",
+                "src/NullDev/TheaterBundle/NullDevTheaterBundle.php",
+                "src/NullDev/TheaterBundle/Resources/config/services.yml"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "0c9d6908a7d03159288f9802ed282e7df76a8f86",
+            "message": "Add NullDevTheater & NullDevTheaterBundle",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2017-02-12T01:18:18+01:00",
+            "tree_id": "fff9b19ae9b76392ee40437193a002791f722d91",
+            "url": "https://github.com/devboard/devboard-core/commit/0c9d6908a7d03159288f9802ed282e7df76a8f86"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "0ce69bcc06a6dbb9031c1ef838ba2e4b4cc5c265",
+            "message": "Integrate in NullDevTheaterBundle",
+            "modified": [
+                "app/AppKernel.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-12T01:18:18+01:00",
+            "tree_id": "9cb2d193ab0202bcc3175e85c96282a7865c4668",
+            "url": "https://github.com/devboard/devboard-core/commit/0ce69bcc06a6dbb9031c1ef838ba2e4b4cc5c265"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "2e3813c23849d07342633bcd155a2dda2c3ea023",
+            "message": "Add ramsey/uuid-doctrine",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-12T01:18:18+01:00",
+            "tree_id": "f1b8608255aac0cff36eae8eba06619593385bf2",
+            "url": "https://github.com/devboard/devboard-core/commit/2e3813c23849d07342633bcd155a2dda2c3ea023"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "cdb30fb14d5986f265ff6f7f6d074b3608cdbbc6",
+            "message": "Update composer.lock for adding ramsey/uuid-doctrine",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-12T01:18:18+01:00",
+            "tree_id": "55fe4ca5c5fd5dad0ebe8e98d9d7b75269081552",
+            "url": "https://github.com/devboard/devboard-core/commit/cdb30fb14d5986f265ff6f7f6d074b3608cdbbc6"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "519232318f34a235e7c18f0b42d8ec1f03bac08f",
+            "message": "Integrate in uuid_binary",
+            "modified": [
+                "app/config/config.yml"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-12T01:18:18+01:00",
+            "tree_id": "e658b059ec6ab917f553fccc857f6e5c5d1f76d5",
+            "url": "https://github.com/devboard/devboard-core/commit/519232318f34a235e7c18f0b42d8ec1f03bac08f"
+        },
+        {
+            "added": [
+                "app/DoctrineMigrations/Version20170212001121.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "05be07cefecef79f61b31872416d0ef158b855e0",
+            "message": "Add migration for BroadwayEventStore",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2017-02-12T01:18:18+01:00",
+            "tree_id": "d1497004ea191b61970993ea20c8b5fb32ff3eac",
+            "url": "https://github.com/devboard/devboard-core/commit/05be07cefecef79f61b31872416d0ef158b855e0"
+        }
+    ],
+    "compare": "https://github.com/devboard/devboard-core/compare/820c9cf9bfa2...05be07cefece",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [
+            "app/DoctrineMigrations/Version20170212001121.php"
+        ],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "05be07cefecef79f61b31872416d0ef158b855e0",
+        "message": "Add migration for BroadwayEventStore",
+        "modified": [],
+        "removed": [],
+        "timestamp": "2017-02-12T01:18:18+01:00",
+        "tree_id": "d1497004ea191b61970993ea20c8b5fb32ff3eac",
+        "url": "https://github.com/devboard/devboard-core/commit/05be07cefecef79f61b31872416d0ef158b855e0"
+    },
+    "organization": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/13396338?v=3",
+        "description": null,
+        "events_url": "https://api.github.com/orgs/devboard/events",
+        "hooks_url": "https://api.github.com/orgs/devboard/hooks",
+        "id": 13396338,
+        "issues_url": "https://api.github.com/orgs/devboard/issues",
+        "login": "devboard",
+        "members_url": "https://api.github.com/orgs/devboard/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/devboard/public_members{/member}",
+        "repos_url": "https://api.github.com/orgs/devboard/repos",
+        "url": "https://api.github.com/orgs/devboard"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/master",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/devboard/devboard-core/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/devboard/devboard-core/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/devboard/devboard-core/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/devboard/devboard-core/branches{/branch}",
+        "clone_url": "https://github.com/devboard/devboard-core.git",
+        "collaborators_url": "https://api.github.com/repos/devboard/devboard-core/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/devboard/devboard-core/comments{/number}",
+        "commits_url": "https://api.github.com/repos/devboard/devboard-core/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/devboard/devboard-core/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/devboard/devboard-core/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/devboard/devboard-core/contributors",
+        "created_at": 1461957870,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/devboard/devboard-core/deployments",
+        "description": null,
+        "downloads_url": "https://api.github.com/repos/devboard/devboard-core/downloads",
+        "events_url": "https://api.github.com/repos/devboard/devboard-core/events",
+        "fork": false,
+        "forks": 1,
+        "forks_count": 1,
+        "forks_url": "https://api.github.com/repos/devboard/devboard-core/forks",
+        "full_name": "devboard/devboard-core",
+        "git_commits_url": "https://api.github.com/repos/devboard/devboard-core/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/devboard/devboard-core/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/devboard/devboard-core/git/tags{/sha}",
+        "git_url": "git://github.com/devboard/devboard-core.git",
+        "has_downloads": true,
+        "has_issues": true,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/devboard/devboard-core/hooks",
+        "html_url": "https://github.com/devboard/devboard-core",
+        "id": 57407854,
+        "issue_comment_url": "https://api.github.com/repos/devboard/devboard-core/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/devboard/devboard-core/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/devboard/devboard-core/issues{/number}",
+        "keys_url": "https://api.github.com/repos/devboard/devboard-core/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/devboard/devboard-core/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/devboard/devboard-core/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/devboard/devboard-core/merges",
+        "milestones_url": "https://api.github.com/repos/devboard/devboard-core/milestones{/number}",
+        "mirror_url": null,
+        "name": "devboard-core",
+        "notifications_url": "https://api.github.com/repos/devboard/devboard-core/notifications{?since,all,participating}",
+        "open_issues": 11,
+        "open_issues_count": 11,
+        "organization": "devboard",
+        "owner": {
+            "email": null,
+            "name": "devboard"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/devboard/devboard-core/pulls{/number}",
+        "pushed_at": 1486858700,
+        "releases_url": "https://api.github.com/repos/devboard/devboard-core/releases{/id}",
+        "size": 972,
+        "ssh_url": "git@github.com:devboard/devboard-core.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/devboard/devboard-core/stargazers",
+        "statuses_url": "https://api.github.com/repos/devboard/devboard-core/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/devboard/devboard-core/subscribers",
+        "subscription_url": "https://api.github.com/repos/devboard/devboard-core/subscription",
+        "svn_url": "https://github.com/devboard/devboard-core",
+        "tags_url": "https://api.github.com/repos/devboard/devboard-core/tags",
+        "teams_url": "https://api.github.com/repos/devboard/devboard-core/teams",
+        "trees_url": "https://api.github.com/repos/devboard/devboard-core/git/trees{/sha}",
+        "updated_at": "2017-02-05T12:32:10Z",
+        "url": "https://github.com/devboard/devboard-core",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

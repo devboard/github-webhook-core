@@ -1,0 +1,278 @@
+{
+    "after": "67ded2fc037bb68fb8ff3d96503b00138a956939",
+    "base_ref": null,
+    "before": "2d5d08bccc6547f6f561627e6c1f7f9b7b2e952d",
+    "commits": [
+        {
+            "added": [
+                "spec/Devboard/Core/GitHub/BuildManager/Domain/Event/BranchBuildCreatedSpec.php",
+                "src/Devboard/Core/GitHub/BuildManager/Domain/Event/BranchBuildCreated.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": false,
+            "id": "7c745376395446523381b978b24db09f14359098",
+            "message": "Move BranchBuildCreated to event namespace\n\nBy mistake it was in ..\\Command\\ namespace :(",
+            "modified": [
+                "src/Devboard/Core/GitHub/BuildManager/Domain/GitHubBuildEntity.php",
+                "src/Devboard/Core/GitHub/BuildManager/Domain/GitHubBuildManagerModel.php",
+                "tests/Devboard/Core/GitHub/BuildManager/Application/CommandHandler/CreateBranchBuildTest.php"
+            ],
+            "removed": [
+                "spec/Devboard/Core/GitHub/BuildManager/Domain/Command/BranchBuildCreatedSpec.php",
+                "src/Devboard/Core/GitHub/BuildManager/Domain/Command/BranchBuildCreated.php"
+            ],
+            "timestamp": "2017-02-25T16:50:42+01:00",
+            "tree_id": "77964edec6992ea54cc82ec5dfa932936cce0ef9",
+            "url": "https://github.com/msvrtan/devboard-core/commit/7c745376395446523381b978b24db09f14359098"
+        },
+        {
+            "added": [
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadEntitySpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadFactorySpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadProjectorSpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadRepositorySpec.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadEntity.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadFactory.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadProjector.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadRepository.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "228fe8755b060c897d83438861f0d08c789687b2",
+            "message": "wip read",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2017-02-25T16:58:20+01:00",
+            "tree_id": "0a75a1d1d324e6efc355101350c6cb521d79d8d9",
+            "url": "https://github.com/msvrtan/devboard-core/commit/228fe8755b060c897d83438861f0d08c789687b2"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "dc2c5f61a883e369c54761c3baa7cc5debfe133b",
+            "message": "wip read",
+            "modified": [
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadEntitySpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadFactorySpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadProjectorSpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadRepositorySpec.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadEntity.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadFactory.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadProjector.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadRepository.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-25T16:58:38+01:00",
+            "tree_id": "ffd7e6b5af067e62504658820b3593d6a7c78863",
+            "url": "https://github.com/msvrtan/devboard-core/commit/dc2c5f61a883e369c54761c3baa7cc5debfe133b"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "67ded2fc037bb68fb8ff3d96503b00138a956939",
+            "message": "wip read",
+            "modified": [
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadEntitySpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadFactorySpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadProjectorSpec.php",
+                "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadRepositorySpec.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadEntity.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadFactory.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadProjector.php",
+                "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadRepository.php"
+            ],
+            "removed": [],
+            "timestamp": "2017-02-25T16:58:45+01:00",
+            "tree_id": "cdd83fc89d2e91c7e9dbd4c30c06e7582cdedad2",
+            "url": "https://github.com/msvrtan/devboard-core/commit/67ded2fc037bb68fb8ff3d96503b00138a956939"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/devboard-core/compare/2d5d08bccc65...67ded2fc037b",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "67ded2fc037bb68fb8ff3d96503b00138a956939",
+        "message": "wip read",
+        "modified": [
+            "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadEntitySpec.php",
+            "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadFactorySpec.php",
+            "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadProjectorSpec.php",
+            "spec/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadRepositorySpec.php",
+            "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadEntity.php",
+            "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadFactory.php",
+            "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadProjector.php",
+            "src/Devboard/Core/GitHub/BuildManager/Read/GitHubBuildManagerRead/GitHubBuildManagerReadRepository.php"
+        ],
+        "removed": [],
+        "timestamp": "2017-02-25T16:58:45+01:00",
+        "tree_id": "cdd83fc89d2e91c7e9dbd4c30c06e7582cdedad2",
+        "url": "https://github.com/msvrtan/devboard-core/commit/67ded2fc037bb68fb8ff3d96503b00138a956939"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/91-gh-build-manager-read",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/devboard-core/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/devboard-core/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/devboard-core/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/devboard-core/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/devboard-core.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/devboard-core/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/devboard-core/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/devboard-core/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/devboard-core/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/devboard-core/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/devboard-core/contributors",
+        "created_at": 1462620791,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/devboard-core/deployments",
+        "description": null,
+        "downloads_url": "https://api.github.com/repos/msvrtan/devboard-core/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/devboard-core/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/devboard-core/forks",
+        "full_name": "msvrtan/devboard-core",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/devboard-core/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/devboard-core/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/devboard-core/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/devboard-core.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/devboard-core/hooks",
+        "html_url": "https://github.com/msvrtan/devboard-core",
+        "id": 58263202,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/devboard-core/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/devboard-core/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/devboard-core/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/devboard-core/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/devboard-core/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/devboard-core/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/devboard-core/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/devboard-core/milestones{/number}",
+        "mirror_url": null,
+        "name": "devboard-core",
+        "notifications_url": "https://api.github.com/repos/msvrtan/devboard-core/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+            "email": "msvrtan@users.noreply.github.com",
+            "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+            "followers_url": "https://api.github.com/users/msvrtan/followers",
+            "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/msvrtan",
+            "id": 1780572,
+            "login": "msvrtan",
+            "name": "msvrtan",
+            "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+            "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+            "repos_url": "https://api.github.com/users/msvrtan/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/devboard-core/pulls{/number}",
+        "pushed_at": 1488038350,
+        "releases_url": "https://api.github.com/repos/msvrtan/devboard-core/releases{/id}",
+        "size": 2287,
+        "ssh_url": "git@github.com:msvrtan/devboard-core.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/devboard-core/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/devboard-core/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/devboard-core/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/devboard-core/subscription",
+        "svn_url": "https://github.com/msvrtan/devboard-core",
+        "tags_url": "https://api.github.com/repos/msvrtan/devboard-core/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/devboard-core/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/devboard-core/git/trees{/sha}",
+        "updated_at": "2016-05-07T11:40:17Z",
+        "url": "https://github.com/msvrtan/devboard-core",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

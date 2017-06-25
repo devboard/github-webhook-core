@@ -1,0 +1,406 @@
+{
+    "after": "142253b681ecd2a6f17c7d5850d72b18fbac99b7",
+    "base_ref": null,
+    "before": "51d3729918c8342d793c9adb9f8d651c5cbf2661",
+    "commits": [
+        {
+            "added": [
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadEntitySourceFactory.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "e2308bfb1838d45085da033fe980fd822b13c50b",
+            "message": "w",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-06-13T22:02:06+02:00",
+            "tree_id": "980808e767f77b7b1cd5d973dc31b7febf79d2de",
+            "url": "https://github.com/msvrtan/generator/commit/e2308bfb1838d45085da033fe980fd822b13c50b"
+        },
+        {
+            "added": [
+                "tests/CodeGenerator/sample-files/broadway-read-entity.output"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "8e146e029693b3888594595a0e104ac7d2912862",
+            "message": "w",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-06-13T22:06:05+02:00",
+            "tree_id": "e511b7fc32da1cc2d8f84f281274effd19471f61",
+            "url": "https://github.com/msvrtan/generator/commit/8e146e029693b3888594595a0e104ac7d2912862"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "a978719bba885814cf4e5691b9a96b311e1eba93",
+            "message": "w",
+            "modified": [
+                "tests/CodeGenerator/PhpParserGeneratorTest.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:07:44+02:00",
+            "tree_id": "090ec06a3e1263229b4dc842d1ce5a44078cc3c0",
+            "url": "https://github.com/msvrtan/generator/commit/a978719bba885814cf4e5691b9a96b311e1eba93"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "c5ccd05f5e26de8ee01548f19a9c8389a0c15070",
+            "message": "w",
+            "modified": [
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadEntitySourceFactory.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:08:55+02:00",
+            "tree_id": "9ce5eeb012a99cdd6d0699a13450619e128893a3",
+            "url": "https://github.com/msvrtan/generator/commit/c5ccd05f5e26de8ee01548f19a9c8389a0c15070"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "5b2ee31b7cb5081627302d54737c3f25d849274c",
+            "message": "w",
+            "modified": [
+                "src/SourceFactory/Broadway/ReadEntitySourceFactory.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:10:11+02:00",
+            "tree_id": "465b65659326169b8f1e3a6eb53ff71f697ff1e0",
+            "url": "https://github.com/msvrtan/generator/commit/5b2ee31b7cb5081627302d54737c3f25d849274c"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "28309f921908bb0832e36e0d89df61aff82315ad",
+            "message": "w",
+            "modified": [
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "src/SourceFactory/Broadway/ReadEntitySourceFactory.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:11:17+02:00",
+            "tree_id": "b7a714803337b9ec65f3b6973cdc9ba369355730",
+            "url": "https://github.com/msvrtan/generator/commit/28309f921908bb0832e36e0d89df61aff82315ad"
+        },
+        {
+            "added": [
+                "spec/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethodSpec.php",
+                "src/Definition/PHP/Methods/Broadway/Model/ReadModelIdGetterMethod.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ab30a2f526642615dad718195c9eb8c0ed437d73",
+            "message": "w2",
+            "modified": [
+                "spec/Definition/PHP/DefinitionFactorySpec.php",
+                "spec/SourceFactory/Broadway/ReadEntitySourceFactorySpec.php",
+                "src/Definition/PHP/DefinitionFactory.php",
+                "src/SourceFactory/Broadway/ReadEntitySourceFactory.php",
+                "tests/CodeGenerator/sample-files/broadway-read-entity.output"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:19:27+02:00",
+            "tree_id": "97cc112e4914db71d532aa35e09684ab17a1227d",
+            "url": "https://github.com/msvrtan/generator/commit/ab30a2f526642615dad718195c9eb8c0ed437d73"
+        },
+        {
+            "added": [
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGenerator.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "e0fdfdf958f2992610764b5bb208959cd15957e1",
+            "message": ";a",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-06-13T22:24:57+02:00",
+            "tree_id": "ea360d6f2ae14b60444fe60c061e43ea4b761ae3",
+            "url": "https://github.com/msvrtan/generator/commit/e0fdfdf958f2992610764b5bb208959cd15957e1"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "3aa8ac75f97cf9a28fe82d88d635f44703d18b89",
+            "message": ";a",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/MethodFactorySpec.php",
+                "src/CodeGenerator/PhpParser/MethodFactory.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:28:27+02:00",
+            "tree_id": "8ef556a5dd280907f9af85d674e193e0c0a0d317",
+            "url": "https://github.com/msvrtan/generator/commit/3aa8ac75f97cf9a28fe82d88d635f44703d18b89"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "2d417dc2df0ca3c871034ec129650ae2f9997b03",
+            "message": "a",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+                "src/CodeGenerator/PhpParser/MethodFactory.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGenerator.php",
+                "src/CodeGenerator/PhpParserGeneratorFactory.php",
+                "tests/CodeGenerator/sample-files/broadway-read-entity.output"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:30:04+02:00",
+            "tree_id": "86f9240e0846f36165f19ea03a9d93f4fc3dfcfb",
+            "url": "https://github.com/msvrtan/generator/commit/2d417dc2df0ca3c871034ec129650ae2f9997b03"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "142253b681ecd2a6f17c7d5850d72b18fbac99b7",
+            "message": "a",
+            "modified": [
+                "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+                "src/CodeGenerator/PhpParser/MethodFactory.php",
+                "src/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGenerator.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-13T22:31:11+02:00",
+            "tree_id": "9e5ac23dbc116b41635cba0d5e686ec1a7b2c10e",
+            "url": "https://github.com/msvrtan/generator/commit/142253b681ecd2a6f17c7d5850d72b18fbac99b7"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/generator/compare/51d3729918c8...142253b681ec",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "142253b681ecd2a6f17c7d5850d72b18fbac99b7",
+        "message": "a",
+        "modified": [
+            "spec/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGeneratorSpec.php",
+            "src/CodeGenerator/PhpParser/MethodFactory.php",
+            "src/CodeGenerator/PhpParser/Methods/Broadway/Model/ReadModelIdGetterGenerator.php"
+        ],
+        "removed": [],
+        "timestamp": "2016-06-13T22:31:11+02:00",
+        "tree_id": "9e5ac23dbc116b41635cba0d5e686ec1a7b2c10e",
+        "url": "https://github.com/msvrtan/generator/commit/142253b681ecd2a6f17c7d5850d72b18fbac99b7"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/43-read-entity",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/generator/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/generator/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/generator/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/generator/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/generator.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/generator/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/generator/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/generator/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/generator/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/generator/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/generator/contributors",
+        "created_at": 1464896063,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/generator/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/msvrtan/generator/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/generator/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/generator/forks",
+        "full_name": "msvrtan/generator",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/generator/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/generator/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/generator/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/generator.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/generator/hooks",
+        "html_url": "https://github.com/msvrtan/generator",
+        "id": 60291903,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/generator/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/generator/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/generator/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/generator/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/generator/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/generator/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/generator/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/generator/milestones{/number}",
+        "mirror_url": null,
+        "name": "generator",
+        "notifications_url": "https://api.github.com/repos/msvrtan/generator/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/generator/pulls{/number}",
+        "pushed_at": 1465849874,
+        "releases_url": "https://api.github.com/repos/msvrtan/generator/releases{/id}",
+        "size": 121,
+        "ssh_url": "git@github.com:msvrtan/generator.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/generator/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/generator/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/generator/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/generator/subscription",
+        "svn_url": "https://github.com/msvrtan/generator",
+        "tags_url": "https://api.github.com/repos/msvrtan/generator/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/generator/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/generator/git/trees{/sha}",
+        "updated_at": "2016-06-11T15:05:35Z",
+        "url": "https://github.com/msvrtan/generator",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

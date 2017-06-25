@@ -1,0 +1,512 @@
+{
+    "after": "6443f02a7e2a3a46f8ae070c6461a66318abecaa",
+    "base_ref": null,
+    "before": "bf8bb843d125b28d0eaaf1974fac914e1042fc41",
+    "commits": [
+        {
+            "added": [
+                "app/console"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "11304a11035b71a336a32d8843530394087776a8",
+            "message": "w",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-12-05T23:50:12+01:00",
+            "tree_id": "82697727004a8c4bf479ecfbf759e50a3e4aec45",
+            "url": "https://github.com/msvrtan/generator/commit/11304a11035b71a336a32d8843530394087776a8"
+        },
+        {
+            "added": [
+                "src/Command/BaseSkeletonGeneratorCommand.php",
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayDoctrineOrmReadCliCommand.php",
+                "src/Command/BroadwayElasticSearchReadCliCommand.php",
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Command/BroadwayModelCliCommand.php",
+                "src/Command/UuidIdentityCommand.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "cc5dbbe03929b53e7a4606592d9b5cacb701bc15",
+            "message": "w",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-12-05T23:51:40+01:00",
+            "tree_id": "569db77189c4d9478aaa85f4e18864a5c2dd9861",
+            "url": "https://github.com/msvrtan/generator/commit/cc5dbbe03929b53e7a4606592d9b5cacb701bc15"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "e6d6771a702cdb092ed6b0b982f3cf48d3c99961",
+            "message": "w",
+            "modified": [
+                "app/console",
+                "src/Command/BaseSkeletonGeneratorCommand.php",
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayDoctrineOrmReadCliCommand.php",
+                "src/Command/BroadwayElasticSearchReadCliCommand.php",
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Command/BroadwayModelCliCommand.php",
+                "src/Command/UuidIdentityCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-05T23:53:15+01:00",
+            "tree_id": "f0615c750483f73a777e139e3c2399a20c9253b8",
+            "url": "https://github.com/msvrtan/generator/commit/e6d6771a702cdb092ed6b0b982f3cf48d3c99961"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "e10e97551c40ce5af9d6ba6591be17492569dc85",
+            "message": "w",
+            "modified": [
+                "src/Command/BaseSkeletonGeneratorCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-05T23:55:11+01:00",
+            "tree_id": "f273c9aaea250140cac1c5a327e076e44565b039",
+            "url": "https://github.com/msvrtan/generator/commit/e10e97551c40ce5af9d6ba6591be17492569dc85"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "f6f41a10bede61d7430d4be2fa59d465e6d14e27",
+            "message": "w",
+            "modified": [
+                "src/Command/UuidIdentityCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-05T23:56:43+01:00",
+            "tree_id": "04375df5a3fc45b937c738b26295125c18f8764c",
+            "url": "https://github.com/msvrtan/generator/commit/f6f41a10bede61d7430d4be2fa59d465e6d14e27"
+        },
+        {
+            "added": [
+                "src/Paths.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "05c611eb01c72a71627afdc0cf0e2a848207869c",
+            "message": "w",
+            "modified": [
+                "src/Command/BaseSkeletonGeneratorCommand.php",
+                "src/Command/UuidIdentityCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:00:31+01:00",
+            "tree_id": "b9eb907d2e21bd8cc9715327f75e87b403f1d1cd",
+            "url": "https://github.com/msvrtan/generator/commit/05c611eb01c72a71627afdc0cf0e2a848207869c"
+        },
+        {
+            "added": [
+                "config.yml"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "43717ab51362305827380e12593c56aff52edf48",
+            "message": "w",
+            "modified": [
+                "src/Command/BaseSkeletonGeneratorCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:05:07+01:00",
+            "tree_id": "0af6d05ff25d902f0ca05ebec924ccd4dcaa49c4",
+            "url": "https://github.com/msvrtan/generator/commit/43717ab51362305827380e12593c56aff52edf48"
+        },
+        {
+            "added": [
+                "config/skeleton.yml"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "17eb9903248e4d9ff3c775b260c82acb059bb01e",
+            "message": "w",
+            "modified": [
+                "src/Command/BaseSkeletonGeneratorCommand.php"
+            ],
+            "removed": [
+                "config.yml"
+            ],
+            "timestamp": "2016-12-06T00:21:32+01:00",
+            "tree_id": "11c16635b0131d724070c24d6cb7925970b0555c",
+            "url": "https://github.com/msvrtan/generator/commit/17eb9903248e4d9ff3c775b260c82acb059bb01e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "78b0f5710e0a002b50496148a5b466f64e632e0f",
+            "message": "w",
+            "modified": [
+                "src/Command/BaseSkeletonGeneratorCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:22:49+01:00",
+            "tree_id": "a2e9bbce9933b9bcdf8f8ebfc633581a5b36240c",
+            "url": "https://github.com/msvrtan/generator/commit/78b0f5710e0a002b50496148a5b466f64e632e0f"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "681d04d67194dd1caef0bc19dc45e506e91c74e6",
+            "message": "w",
+            "modified": [
+                "src/Command/BaseSkeletonGeneratorCommand.php",
+                "src/Command/UuidIdentityCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:25:49+01:00",
+            "tree_id": "ad44c090ba770ae04da1d7d3ae616e7e9b3c9144",
+            "url": "https://github.com/msvrtan/generator/commit/681d04d67194dd1caef0bc19dc45e506e91c74e6"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "c9ec16b6f21e9c6d928ee19591d697fb232a0ccd",
+            "message": "w",
+            "modified": [
+                "src/Command/BaseSkeletonGeneratorCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:25:56+01:00",
+            "tree_id": "6b7dc612b086c86524eb34c98f3f961d5130d5b7",
+            "url": "https://github.com/msvrtan/generator/commit/c9ec16b6f21e9c6d928ee19591d697fb232a0ccd"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "6236b89ef59db391277b20b3f0b7a201a61e7d69",
+            "message": "w",
+            "modified": [
+                "src/Command/BaseSkeletonGeneratorCommand.php",
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayDoctrineOrmReadCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:29:18+01:00",
+            "tree_id": "18a1d80e89afb649ea46d3a7d97c2378b96830cd",
+            "url": "https://github.com/msvrtan/generator/commit/6236b89ef59db391277b20b3f0b7a201a61e7d69"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "1815f0a08f7e273dda88ca432ef888412d0cc8c5",
+            "message": "w",
+            "modified": [
+                "src/Command/BroadwayElasticSearchReadCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:30:15+01:00",
+            "tree_id": "8f5851138de7d254ab5d7d728cf404cb35215e6e",
+            "url": "https://github.com/msvrtan/generator/commit/1815f0a08f7e273dda88ca432ef888412d0cc8c5"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "4d2da001eb63fc9df616f33c630ce5b8c73c90f2",
+            "message": "w",
+            "modified": [
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Command/BroadwayModelCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:31:40+01:00",
+            "tree_id": "19ece600eabae005b28d929c8070a6128e6d0bc5",
+            "url": "https://github.com/msvrtan/generator/commit/4d2da001eb63fc9df616f33c630ce5b8c73c90f2"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "6443f02a7e2a3a46f8ae070c6461a66318abecaa",
+            "message": "w",
+            "modified": [
+                "src/Command/BroadwayCommandCliCommand.php",
+                "src/Command/BroadwayDoctrineOrmReadCliCommand.php",
+                "src/Command/BroadwayElasticSearchReadCliCommand.php",
+                "src/Command/BroadwayEventCliCommand.php",
+                "src/Command/BroadwayModelCliCommand.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-12-06T00:31:45+01:00",
+            "tree_id": "638b909d200d86ac2669adec53d6776a460ed421",
+            "url": "https://github.com/msvrtan/generator/commit/6443f02a7e2a3a46f8ae070c6461a66318abecaa"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/generator/compare/bf8bb843d125...6443f02a7e2a",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "6443f02a7e2a3a46f8ae070c6461a66318abecaa",
+        "message": "w",
+        "modified": [
+            "src/Command/BroadwayCommandCliCommand.php",
+            "src/Command/BroadwayDoctrineOrmReadCliCommand.php",
+            "src/Command/BroadwayElasticSearchReadCliCommand.php",
+            "src/Command/BroadwayEventCliCommand.php",
+            "src/Command/BroadwayModelCliCommand.php"
+        ],
+        "removed": [],
+        "timestamp": "2016-12-06T00:31:45+01:00",
+        "tree_id": "638b909d200d86ac2669adec53d6776a460ed421",
+        "url": "https://github.com/msvrtan/generator/commit/6443f02a7e2a3a46f8ae070c6461a66318abecaa"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/add-console",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/generator/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/generator/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/generator/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/generator/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/generator.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/generator/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/generator/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/generator/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/generator/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/generator/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/generator/contributors",
+        "created_at": 1464896063,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/generator/deployments",
+        "description": null,
+        "downloads_url": "https://api.github.com/repos/msvrtan/generator/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/generator/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/generator/forks",
+        "full_name": "msvrtan/generator",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/generator/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/generator/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/generator/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/generator.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/generator/hooks",
+        "html_url": "https://github.com/msvrtan/generator",
+        "id": 60291903,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/generator/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/generator/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/generator/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/generator/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/generator/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/generator/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/generator/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/generator/milestones{/number}",
+        "mirror_url": null,
+        "name": "generator",
+        "notifications_url": "https://api.github.com/repos/msvrtan/generator/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/generator/pulls{/number}",
+        "pushed_at": 1480980710,
+        "releases_url": "https://api.github.com/repos/msvrtan/generator/releases{/id}",
+        "size": 249,
+        "ssh_url": "git@github.com:msvrtan/generator.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/generator/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/generator/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/generator/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/generator/subscription",
+        "svn_url": "https://github.com/msvrtan/generator",
+        "tags_url": "https://api.github.com/repos/msvrtan/generator/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/generator/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/generator/git/trees{/sha}",
+        "updated_at": "2016-06-11T15:05:35Z",
+        "url": "https://github.com/msvrtan/generator",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

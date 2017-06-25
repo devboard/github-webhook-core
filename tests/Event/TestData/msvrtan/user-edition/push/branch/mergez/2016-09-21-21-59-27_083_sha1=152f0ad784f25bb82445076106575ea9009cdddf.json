@@ -1,0 +1,1639 @@
+{
+    "after": "21e31583d7a369f6d2f249c1d209d9b6ed19d8a3",
+    "base_ref": null,
+    "before": "0000000000000000000000000000000000000000",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "9949691eb6455c097483fc35772c7164ac14a97e",
+            "message": "[starter-edition] Readme fix",
+            "modified": [
+                "README.md"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:26:56+02:00",
+            "tree_id": "9eeabc7018e7cd3a3cc590d0a96d2f73c0418424",
+            "url": "https://github.com/msvrtan/user-edition/commit/9949691eb6455c097483fc35772c7164ac14a97e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "92626accad39ab8ddce0cacf3e2ff23d11104672",
+            "message": "[starter-edition] Regular update of composer.lock, nulldevelopmenthr/starter-edition#3\n\n - monolog/monolog (1.18.0) -> monolog/monolog (1.19.0)\n - symfony/polyfill-util (v1.1.0) -> symfony/polyfill-util (v1.1.1)\n - paragonie/random_compat (v1.2.1) -> paragonie/random_compat (v1.4.1)\n - symfony/polyfill-php70 (v1.1.0) -> symfony/polyfill-php70 (v1.1.1)\n - symfony/polyfill-php56 (v1.1.0) -> symfony/polyfill-php56 (v1.1.1)\n - symfony/polyfill-mbstring (v1.1.0) -> symfony/polyfill-mbstring (v1.1.1)\n - symfony/symfony (v3.0.3) -> symfony/symfony (v3.0.5)\n - symfony/polyfill-intl-icu (v1.1.0) -> symfony/polyfill-intl-icu (v1.1.1)\n - symfony/monolog-bundle (v2.9.0) -> symfony/monolog-bundle (2.11.1)\n - sensio/distribution-bundle (v5.0.4) -> sensio/distribution-bundle (v5.0.6)\n - sensio/framework-extra-bundle (v3.0.14) -> sensio/framework-extra-bundle (v3.0.16)\n - symfony/phpunit-bridge (v3.0.3) -> symfony/phpunit-bridge (v3.0.5)\n - sebastian/environment (1.3.5) -> sebastian/environment (1.3.6)\n - phpunit/phpunit (4.8.23) -> phpunit/phpunit (4.8.24)\n - phpspec/phpspec (2.4.0) -> phpspec/phpspec (2.5.0)\n - ciaranmcnulty/phpspec-typehintedmethods (1.1.2) -> ciaranmcnulty/phpspec-typehintedmethods (1.1.3)\n - henrikbjorn/phpspec-code-coverage (2.0.2) -> henrikbjorn/phpspec-code-coverage (2.1.0)\n - pdepend/pdepend (2.2.3) -> pdepend/pdepend (2.2.4)\n - phpmd/phpmd (2.3.2) -> phpmd/phpmd (2.4.3)\n - squizlabs/php_codesniffer (2.5.1) -> squizlabs/php_codesniffer (2.6.0)\n - fzaninotto/faker (v1.5.0) -> fzaninotto/faker (v1.6.0)\n - codeclimate/php-test-reporter (v0.3.0) -> codeclimate/php-test-reporter (v0.3.2)\n - swiftmailer/swiftmailer (v5.4.1) -> swiftmailer/swiftmailer (v5.4.2)\n - composer/semver (1.3.0) -> composer/semver (1.4.0)\n - seld/cli-prompt (1.0.1) -> seld/cli-prompt (1.0.2)\n - league/climate (3.2.0) -> league/climate (3.2.1)\n - zendframework/zend-code (2.6.2) -> zendframework/zend-code (2.6.3)\n - doctrine/migrations (v1.4.0) -> doctrine/migrations (1.4.1)\n - guzzlehttp/promises (1.0.3) -> guzzlehttp/promises (1.1.0)\n - guzzlehttp/psr7 (1.2.3) -> guzzlehttp/psr7 (1.3.0)\n - guzzlehttp/guzzle (6.1.1) -> guzzlehttp/guzzle (6.2.0)\n - behat/behat dev-master (264dea6 => 5665783)\n - behat/mink dev-master (fa2216d => a88582e)\n - behat/mink-browserkit-driver dev-master (10aacb4 => 81ff645)\n - behat/mink-extension dev-master (7d2180f => b22984b)\n - behat/mink-goutte-driver dev-master (66ff549 => 8b9ad6d)\n - behat/mink-selenium2-driver dev-master (f5237f0 => c903525)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:26:59+02:00",
+            "tree_id": "4f2971cddf42cef8f3fd27c06fb22f55f773ce60",
+            "url": "https://github.com/msvrtan/user-edition/commit/92626accad39ab8ddce0cacf3e2ff23d11104672"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "eed91239db7c625ba8ecbc744d60195131539182",
+            "message": "[starter-edition] Switching Vagrantbox to base ubuntu/trusty64. (nulldevelopmenthr/starter-edition#2)",
+            "modified": [
+                "Vagrantfile"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:28:55+02:00",
+            "tree_id": "d3cf467a272e2887adb287e8316a8277dfe39e6c",
+            "url": "https://github.com/msvrtan/user-edition/commit/eed91239db7c625ba8ecbc744d60195131539182"
+        },
+        {
+            "added": [
+                "etc/provisioning/roles/php7/handlers/main.yml",
+                "etc/provisioning/roles/php7/tasks/main.yml"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "91f337d74971dc2632558b6e3e57f962288f6e6e",
+            "message": "[starter-edition] Added PHP7 ansible role (nulldevelopmenthr/starter-edition#2)",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-05-07T12:29:28+02:00",
+            "tree_id": "c1e7ea8bf1c938379b38b47a2325c2ca93e41d6d",
+            "url": "https://github.com/msvrtan/user-edition/commit/91f337d74971dc2632558b6e3e57f962288f6e6e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "1797dc456833c06c65f325ab3eaeb38f9356f129",
+            "message": "[starter-edition] Updated nginx templates to use PHP7 FPM (nulldevelopmenthr/starter-edition#2)",
+            "modified": [
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-application.conf",
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-dev-application.conf",
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-test-application.conf"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:29:38+02:00",
+            "tree_id": "e8a2476c407eb177d7b260cf881066c41081ae8a",
+            "url": "https://github.com/msvrtan/user-edition/commit/1797dc456833c06c65f325ab3eaeb38f9356f129"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "2a8eccd8eb952674ad8c13b59a0d6383876050ee",
+            "message": "[starter-edition] Provisioning PHP7 on local Vagrant (nulldevelopmenthr/starter-edition#2)",
+            "modified": [
+                "etc/provisioning/setup.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:29:46+02:00",
+            "tree_id": "74dd90057fc5c07d6fe892dee77edec5f137d599",
+            "url": "https://github.com/msvrtan/user-edition/commit/2a8eccd8eb952674ad8c13b59a0d6383876050ee"
+        },
+        {
+            "added": [
+                "etc/circleci/app/config/parameters.yml",
+                "etc/circleci/disable-xdebug.sh",
+                "etc/circleci/enable-xdebug.sh",
+                "etc/circleci/setup-app-config.sh",
+                "etc/circleci/setup-app-data.sh",
+                "etc/circleci/setup-app-permissions.sh",
+                "etc/circleci/setup-circleci-custom-php-703.sh",
+                "etc/circleci/setup-fpm.sh",
+                "etc/circleci/setup-nginx.sh",
+                "etc/circleci/symfony2-test-application.conf",
+                "etc/circleci/web/app_test.php"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "fa3f17eedd02a378f717e2c245b1193639d9cf28",
+            "message": "[starter-edition] Upgraded CircleCI to use Ubuntu Trusty and run PHP 7 (nulldevelopmenthr/starter-edition#2)",
+            "modified": [
+                "circle.yml"
+            ],
+            "removed": [
+                "etc/ci/app/config/parameters.yml",
+                "etc/ci/behat.yml",
+                "etc/ci/symfony2-test-application.conf",
+                "etc/ci/web/.htaccess",
+                "etc/ci/web/app_test.php",
+                "etc/ci/www.test.ci"
+            ],
+            "timestamp": "2016-05-07T12:29:55+02:00",
+            "tree_id": "d90198777677b0e38ef821a20bdcd1ac17628c08",
+            "url": "https://github.com/msvrtan/user-edition/commit/fa3f17eedd02a378f717e2c245b1193639d9cf28"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "249f4d9530a9ef109ff96c31cc7872518bf9bf50",
+            "message": "[starter-edition] Running TravisCI only on PHP7 (nulldevelopmenthr/starter-edition#2)",
+            "modified": [
+                ".travis.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:30:20+02:00",
+            "tree_id": "04da7b54cf39655446e8fa10bfb08d9e33e617d3",
+            "url": "https://github.com/msvrtan/user-edition/commit/249f4d9530a9ef109ff96c31cc7872518bf9bf50"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "b4c2db0336a50721f7cac5725663ea85ddd3108a",
+            "message": "[starter-edition] Added notice in README.md to run CircleCI using Ubuntu Trusty",
+            "modified": [
+                "README.md"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:32:09+02:00",
+            "tree_id": "128351b0bb65aac16ff517a5d19ef409616a05b4",
+            "url": "https://github.com/msvrtan/user-edition/commit/b4c2db0336a50721f7cac5725663ea85ddd3108a"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "03f6981eb1a96c2be2543fdbb2b4ec2398282a04",
+            "message": "[starter-edition] Updated SymfonyRequirements",
+            "modified": [
+                "var/SymfonyRequirements.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:41:51+02:00",
+            "tree_id": "f51396b4824f8f96a5ee7cfbffa319726909fd36",
+            "url": "https://github.com/msvrtan/user-edition/commit/03f6981eb1a96c2be2543fdbb2b4ec2398282a04"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "92c613f69bf01e9f234abcc45acb412bf0ad91a3",
+            "message": "[starter-edition] Composer set to 7.0.0",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:42:10+02:00",
+            "tree_id": "0946a072328f276633272984cdc791260b6959f9",
+            "url": "https://github.com/msvrtan/user-edition/commit/92c613f69bf01e9f234abcc45acb412bf0ad91a3"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d1090c11d4e738bd89af919d6988dc5487ad0035",
+            "message": "[starter-edition] Updated composer.lock for update using PHP7\n - ocramius/package-versions (1.0.4)\n - zendframework/zend-code (2.6.3) -> zendframework/zend-code (3.0.2)\n - ocramius/proxy-manager (1.0.2) -> ocramius/proxy-manager (2.0.1)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:43:25+02:00",
+            "tree_id": "8321e6cd7888db2bb138b379900c098fbae4b8bb",
+            "url": "https://github.com/msvrtan/user-edition/commit/d1090c11d4e738bd89af919d6988dc5487ad0035"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ea0155248e1e9bebc495843f288d61688f520756",
+            "message": "[starter-edition] Switching to PHPUnit 5",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:46:57+02:00",
+            "tree_id": "e46cd331c92b217f45e9e81099c2816a56c43e05",
+            "url": "https://github.com/msvrtan/user-edition/commit/ea0155248e1e9bebc495843f288d61688f520756"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "142589ab499148bc1a2fcc9c3f7517e41ddc2b07",
+            "message": "[starter-edition] Updated composer.lock for new PHPUnit\n - phpunit/phpunit (4.8.24) -> phpunit/phpunit (5.3.2)\n - myclabs/deep-copy (1.5.1)\n - sebastian/version (1.0.6) -> sebastian/version (2.0.0)\n - sebastian/resource-operations (1.0.0)\n - sebastian/object-enumerator (1.0.0)\n - phpunit/phpunit-mock-objects (2.3.8) -> phpunit/phpunit-mock-objects (3.1.3)\n - sebastian/code-unit-reverse-lookup (1.0.0)\n - phpunit/php-code-coverage (2.2.4) -> phpunit/php-code-coverage (3.3.1)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T12:47:29+02:00",
+            "tree_id": "ad28b4a996fcaaa212c8f4a8b9f097075847d708",
+            "url": "https://github.com/msvrtan/user-edition/commit/142589ab499148bc1a2fcc9c3f7517e41ddc2b07"
+        },
+        {
+            "added": [
+                "etc/circleci/app/config/parameters.yml",
+                "etc/circleci/disable-xdebug.sh",
+                "etc/circleci/enable-xdebug.sh",
+                "etc/circleci/setup-app-config.sh",
+                "etc/circleci/setup-app-data.sh",
+                "etc/circleci/setup-app-permissions.sh",
+                "etc/circleci/setup-circleci-custom-php-703.sh",
+                "etc/circleci/setup-fpm.sh",
+                "etc/circleci/setup-nginx.sh",
+                "etc/circleci/symfony2-test-application.conf",
+                "etc/circleci/web/app_test.php",
+                "etc/provisioning/roles/php7/handlers/main.yml",
+                "etc/provisioning/roles/php7/tasks/main.yml"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "2a5d2435501461ec9bbc7cf2f45cf044d54ca0f9",
+            "message": "Merge pull request #5 from msvrtan/php7\n\nSwitching to PHP7",
+            "modified": [
+                ".travis.yml",
+                "README.md",
+                "Vagrantfile",
+                "circle.yml",
+                "composer.json",
+                "composer.lock",
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-application.conf",
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-dev-application.conf",
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-test-application.conf",
+                "etc/provisioning/setup.yml",
+                "var/SymfonyRequirements.php"
+            ],
+            "removed": [
+                "etc/ci/app/config/parameters.yml",
+                "etc/ci/behat.yml",
+                "etc/ci/symfony2-test-application.conf",
+                "etc/ci/web/.htaccess",
+                "etc/ci/web/app_test.php",
+                "etc/ci/www.test.ci"
+            ],
+            "timestamp": "2016-05-07T12:53:13+02:00",
+            "tree_id": "ad28b4a996fcaaa212c8f4a8b9f097075847d708",
+            "url": "https://github.com/msvrtan/user-edition/commit/2a5d2435501461ec9bbc7cf2f45cf044d54ca0f9"
+        },
+        {
+            "added": [
+                ".php_cs"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d0eae94790e2beeda6225e306707a362458aa157",
+            "message": "[standard-edition] Added php-cs-fixer config file",
+            "modified": [
+                ".gitignore",
+                ".travis.yml",
+                "build.xml",
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T14:00:51+02:00",
+            "tree_id": "e45c81750c6a6d54be11320faa326b2a5732eb01",
+            "url": "https://github.com/msvrtan/user-edition/commit/d0eae94790e2beeda6225e306707a362458aa157"
+        },
+        {
+            "added": [
+                ".php_cs"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d710910a0c77032ad0788e382ddcbfef37d8ea69",
+            "message": "Merge pull request #6 from msvrtan/adding-php-cs-fixer-config\n\n[standard-edition] Added php-cs-fixer config file",
+            "modified": [
+                ".gitignore",
+                ".travis.yml",
+                "build.xml",
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T14:05:53+02:00",
+            "tree_id": "e45c81750c6a6d54be11320faa326b2a5732eb01",
+            "url": "https://github.com/msvrtan/user-edition/commit/d710910a0c77032ad0788e382ddcbfef37d8ea69"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "5a8a408a0429969817df3b9a978915cf7b340d9d",
+            "message": "[starter-edition] Using Behat 3.1 (has Symfony 3 support)",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T14:59:24+02:00",
+            "tree_id": "5c5e8d7d1a57f55774bbcea9fef02ef222d9eeb5",
+            "url": "https://github.com/msvrtan/user-edition/commit/5a8a408a0429969817df3b9a978915cf7b340d9d"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ef61b4dc0fb3b12c4ee97944dade0040000cc197",
+            "message": "[starter-edition] Updated composer.lock for Behat 3.1",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T14:59:40+02:00",
+            "tree_id": "8e85d9bc9dbce34c11600198ab635f6c73e336c3",
+            "url": "https://github.com/msvrtan/user-edition/commit/ef61b4dc0fb3b12c4ee97944dade0040000cc197"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "be014588d1b44a630291bd7753647820b3cde27f",
+            "message": "Merge pull request #8 from msvrtan/behat-3.1\n\nBehat 3.1",
+            "modified": [
+                "composer.json",
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T15:05:45+02:00",
+            "tree_id": "8e85d9bc9dbce34c11600198ab635f6c73e336c3",
+            "url": "https://github.com/msvrtan/user-edition/commit/be014588d1b44a630291bd7753647820b3cde27f"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "b6edf8fb36ed780b1e3f5e7d907f8fc89a7f88fd",
+            "message": "[starter-edition] Fixing up local selenium installation",
+            "modified": [
+                "etc/provisioning/roles/selenium/tasks/main.yml",
+                "etc/provisioning/roles/selenium/templates/selenium.j2"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T15:06:03+02:00",
+            "tree_id": "ca87cdff96f71d4294c7e5bf01123aaa892264d6",
+            "url": "https://github.com/msvrtan/user-edition/commit/b6edf8fb36ed780b1e3f5e7d907f8fc89a7f88fd"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "1b7443023cf5653cee40e172069a21aa4bc98112",
+            "message": "Merge pull request #9 from msvrtan/fixing-up-selenium-provisioning\n\n[starter-edition] Fixing up selenium provisioning",
+            "modified": [
+                "etc/provisioning/roles/selenium/tasks/main.yml",
+                "etc/provisioning/roles/selenium/templates/selenium.j2"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-07T15:06:21+02:00",
+            "tree_id": "ca87cdff96f71d4294c7e5bf01123aaa892264d6",
+            "url": "https://github.com/msvrtan/user-edition/commit/1b7443023cf5653cee40e172069a21aa4bc98112"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "2abe9fd0f0e04669fe03c9f6e84cb298237744ed",
+            "message": "[starter-edition] Updated selenium to 2.53 on CircleCI",
+            "modified": [
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T18:47:37+02:00",
+            "tree_id": "916f2d5b862dfe1f8f9ee6e4a9b69cc413911f91",
+            "url": "https://github.com/msvrtan/user-edition/commit/2abe9fd0f0e04669fe03c9f6e84cb298237744ed"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "65d81ef9537d8361fd6c4623b462f1bef8563bce",
+            "message": "Merge pull request #10 from msvrtan/update-selenium-on-circle-ci\n\nUpdate selenium to 2.53 on CircleCI",
+            "modified": [
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T18:52:37+02:00",
+            "tree_id": "916f2d5b862dfe1f8f9ee6e4a9b69cc413911f91",
+            "url": "https://github.com/msvrtan/user-edition/commit/65d81ef9537d8361fd6c4623b462f1bef8563bce"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "dda458cfc426654244bfbcf57f6bdc8bd2af8bc3",
+            "message": "[starter-edition] CircleCI updated trusty image, no need to compile custom one + removed ant",
+            "modified": [
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T18:53:16+02:00",
+            "tree_id": "ac3508b8a61e2095ab92b05d914e4b956b932a52",
+            "url": "https://github.com/msvrtan/user-edition/commit/dda458cfc426654244bfbcf57f6bdc8bd2af8bc3"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "df33f5c0b2fce756cabe522963b30408cc83aa29",
+            "message": "Merge pull request #12 from msvrtan/remove-ant-installation-from-circle\n\nUpdate CircleCI",
+            "modified": [
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T18:56:50+02:00",
+            "tree_id": "ac3508b8a61e2095ab92b05d914e4b956b932a52",
+            "url": "https://github.com/msvrtan/user-edition/commit/df33f5c0b2fce756cabe522963b30408cc83aa29"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "5ad0bbff4f7907ed2ddbb936183f5bf7974c7fcd",
+            "message": "[starter-edition] Removed vinkla/climb since it's abandoned",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T18:57:19+02:00",
+            "tree_id": "9c0b515c546b6ea8d3859671a57f825a8b7b3265",
+            "url": "https://github.com/msvrtan/user-edition/commit/5ad0bbff4f7907ed2ddbb936183f5bf7974c7fcd"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "4df7b378d5b8e25d7bb9ba5e77d244799de66f9e",
+            "message": "[starter-edition] Updated composer.lock, removing of vinkla/climb + regular library update\n\n - symfony/symfony (v3.0.5) -> (v3.0.6)\n - phpunit/phpunit (5.3.2) -> (5.3.4)\n - symfony/phpunit-bridge (v3.0.5) -> (v3.0.6)\n - sebastian/environment (1.3.6) -> (1.3.7)\n - symfony/polyfill-util (v1.1.1) -> (v1.2.0)\n - paragonie/random_compat (v1.4.1) -> (v2.0.2)\n - symfony/polyfill-php70 (v1.1.1) -> (v1.2.0)\n - symfony/polyfill-php56 (v1.1.1) -> (v1.2.0)\n - symfony/polyfill-mbstring (v1.1.1) -> (v1.2.0)\n - symfony/polyfill-intl-icu (v1.1.1) -> (v1.2.0)\n - phpunit/php-timer (1.0.7) -> (1.0.8)\n - guzzlehttp/promises (1.1.0) -> (1.2.0)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T18:57:27+02:00",
+            "tree_id": "28cd04c523b7c69b492dabc03afbdaff85165e3b",
+            "url": "https://github.com/msvrtan/user-edition/commit/4df7b378d5b8e25d7bb9ba5e77d244799de66f9e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "5c54179eb346a0588f8cf6a35145b0fdb9ab8c95",
+            "message": "Merge pull request #11 from msvrtan/update-dependencies\n\nUpdate dependencies",
+            "modified": [
+                "composer.json",
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T19:02:52+02:00",
+            "tree_id": "28cd04c523b7c69b492dabc03afbdaff85165e3b",
+            "url": "https://github.com/msvrtan/user-edition/commit/5c54179eb346a0588f8cf6a35145b0fdb9ab8c95"
+        },
+        {
+            "added": [
+                "etc/travis-ci/disable-xdebug.sh",
+                "etc/travis-ci/enable-xdebug.sh"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "a11b1c71faea3f16636e2562a8fdb8effa0912ba",
+            "message": "[starter-edition] Added enable/disable xdebug for TravisCI",
+            "modified": [],
+            "removed": [],
+            "timestamp": "2016-05-20T19:18:06+02:00",
+            "tree_id": "b39fb0d2b01fe2b93968d08582462e393d2f513e",
+            "url": "https://github.com/msvrtan/user-edition/commit/a11b1c71faea3f16636e2562a8fdb8effa0912ba"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "06dc755bf9b7357c204ae82da7c1d605f6adcc27",
+            "message": "[starter-edition] Running multi job TravisCI",
+            "modified": [
+                ".travis.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T19:18:24+02:00",
+            "tree_id": "d874d2a47f629147533e54d7b6baed91368b7f3f",
+            "url": "https://github.com/msvrtan/user-edition/commit/06dc755bf9b7357c204ae82da7c1d605f6adcc27"
+        },
+        {
+            "added": [
+                "etc/travis-ci/disable-xdebug.sh",
+                "etc/travis-ci/enable-xdebug.sh"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "cb6679a7a4f75300322b661785c2ecd035b966a4",
+            "message": "Merge pull request #13 from msvrtan/properly-paralelize-travis-ci\n\nSet up multi job Travis CI",
+            "modified": [
+                ".travis.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-05-20T19:18:55+02:00",
+            "tree_id": "d874d2a47f629147533e54d7b6baed91368b7f3f",
+            "url": "https://github.com/msvrtan/user-edition/commit/cb6679a7a4f75300322b661785c2ecd035b966a4"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "58272bbd9cf4703ca9a1002ade5f85d41d620284",
+            "message": "[starter-edition] Updated composer.lock, dependency update",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:08:33+02:00",
+            "tree_id": "512092d8f3d132f4ca1c2e939628c31b5433a1d2",
+            "url": "https://github.com/msvrtan/user-edition/commit/58272bbd9cf4703ca9a1002ade5f85d41d620284"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d3b18b88dbde6e4709c14c4a83801892646c6168",
+            "message": "[starter-edition] Switched to using friendsofphp/php-cs-fixer",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:08:40+02:00",
+            "tree_id": "edf2ec577f3f7addbaf431a016fb4a894af28f6e",
+            "url": "https://github.com/msvrtan/user-edition/commit/d3b18b88dbde6e4709c14c4a83801892646c6168"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "7021f793f3d2a07a32415b106c4997c4626c919e",
+            "message": "[starter-edition] Updated composer.lock for switching to friendsofphp/php-cs-fixer",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:08:42+02:00",
+            "tree_id": "37bdec347a94fa85784766493c0f20ac3a175558",
+            "url": "https://github.com/msvrtan/user-edition/commit/7021f793f3d2a07a32415b106c4997c4626c919e"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "817e41562984088a5e860809b043cf48aa6ddc6d",
+            "message": "[starter-edition] Code standards update of code",
+            "modified": [
+                "app/DoctrineMigrations/Version20150103180605.php",
+                "src/AppBundle/AppBundle.php",
+                "src/AppBundle/Controller/DefaultController.php",
+                "src/AppBundle/DataFixtures/ORM/EmptyFixtures.php",
+                "src/Resources/Behat/CleanDbTrait.php",
+                "src/Resources/Behat/DefaultContext.php",
+                "src/Resources/Behat/DomainContext.php",
+                "src/Resources/Behat/LoginDomainTrait.php",
+                "src/Resources/Behat/LoginWebTrait.php",
+                "src/Resources/Behat/ScreenshotTrait.php",
+                "src/Resources/Behat/Symfony2Trait.php",
+                "src/Resources/Behat/WebContext.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:10:01+02:00",
+            "tree_id": "d1450d95c30c06383c9d311acfb355c6df9e123a",
+            "url": "https://github.com/msvrtan/user-edition/commit/817e41562984088a5e860809b043cf48aa6ddc6d"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "9ef1031b16583b64df0f74563352c2c32d42064b",
+            "message": "[starter edition] Running apt-get update on CircleCI",
+            "modified": [
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:13:41+02:00",
+            "tree_id": "2c9dd089a5ff52da255e1bdf464404ab27b6b53f",
+            "url": "https://github.com/msvrtan/user-edition/commit/9ef1031b16583b64df0f74563352c2c32d42064b"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "085b12c91fa272e39d005013585224543536eb4b",
+            "message": "Merge pull request #16 from msvrtan/update-deps-2016-06-03\n\nUpdate deps 2016 06 03",
+            "modified": [
+                "app/DoctrineMigrations/Version20150103180605.php",
+                "circle.yml",
+                "composer.json",
+                "composer.lock",
+                "src/AppBundle/AppBundle.php",
+                "src/AppBundle/Controller/DefaultController.php",
+                "src/AppBundle/DataFixtures/ORM/EmptyFixtures.php",
+                "src/Resources/Behat/CleanDbTrait.php",
+                "src/Resources/Behat/DefaultContext.php",
+                "src/Resources/Behat/DomainContext.php",
+                "src/Resources/Behat/LoginDomainTrait.php",
+                "src/Resources/Behat/LoginWebTrait.php",
+                "src/Resources/Behat/ScreenshotTrait.php",
+                "src/Resources/Behat/Symfony2Trait.php",
+                "src/Resources/Behat/WebContext.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:16:57+02:00",
+            "tree_id": "2c9dd089a5ff52da255e1bdf464404ab27b6b53f",
+            "url": "https://github.com/msvrtan/user-edition/commit/085b12c91fa272e39d005013585224543536eb4b"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "c2ea095d2ce9a4f0b2547d9bd13a7b0b44582a36",
+            "message": "[starter-edition] Using selenium 2.53.0",
+            "modified": [
+                "etc/provisioning/settings.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:22:31+02:00",
+            "tree_id": "dcd9ecdbcfb10835ea1f0d18c17d5e2037844644",
+            "url": "https://github.com/msvrtan/user-edition/commit/c2ea095d2ce9a4f0b2547d9bd13a7b0b44582a36"
+        },
+        {
+            "added": [
+                "etc/provisioning/roles/redis/tasks/main.yml"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "a0a08dd849d84c2bf6bfab881e18a993955de762",
+            "message": "[starter-edition] Added redis support in local vagrant provision",
+            "modified": [
+                "etc/provisioning/roles/php7/tasks/main.yml",
+                "etc/provisioning/setup.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:22:51+02:00",
+            "tree_id": "6a52b6b941f680b4393e477013c2f7d5f16cbdea",
+            "url": "https://github.com/msvrtan/user-edition/commit/a0a08dd849d84c2bf6bfab881e18a993955de762"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "ea9396c3f03472da534fb2055d7f16190e524974",
+            "message": "[starter-edition] Disabled travis email notifications",
+            "modified": [
+                ".travis.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:25:32+02:00",
+            "tree_id": "5d1e44e16fefff7aeae9d90220ef5af4719305ef",
+            "url": "https://github.com/msvrtan/user-edition/commit/ea9396c3f03472da534fb2055d7f16190e524974"
+        },
+        {
+            "added": [
+                "etc/provisioning/roles/redis/tasks/main.yml"
+            ],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "39a078aafd84b70f240c760326556aa2301bd202",
+            "message": "Merge pull request #17 from msvrtan/upgrading-provisions\n\nUpgrading provisions",
+            "modified": [
+                ".travis.yml",
+                "etc/provisioning/roles/php7/tasks/main.yml",
+                "etc/provisioning/settings.yml",
+                "etc/provisioning/setup.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-03T22:31:39+02:00",
+            "tree_id": "5d1e44e16fefff7aeae9d90220ef5af4719305ef",
+            "url": "https://github.com/msvrtan/user-edition/commit/39a078aafd84b70f240c760326556aa2301bd202"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "278dee3f7a735c81385639e807f97451f44dd2a4",
+            "message": "[starter-edition] Updated composer.lock\n\n  - 'symfony/symfony (v3.0.6) -> (v3.0.7)\n  - 'doctrine/doctrine-bundle (1.6.2) -> (1.6.3)\n  - webmozart/assert (1.0.2)\n  - phpdocumentor/reflection-common (1.0)\n  - phpdocumentor/type-resolver (0.2)\n  - 'phpdocumentor/reflection-docblock (2.0.4) -> (3.1.0)\n  - 'phpspec/prophecy (v1.6.0) -> (v1.6.1)\n  - 'phpunit/phpunit (5.3.4) -> (5.3.5)\n  - 'squizlabs/php_codesniffer (2.6.0) -> (2.6.1)\n  - fabpot/php-cs-fixer (v1.11.3) -> friendsofphp/php-cs-fixer (v1.11.4)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-14T02:02:51+02:00",
+            "tree_id": "6ad2b47fe569c6c43d2d7f98ca1a2c8d2d0d870f",
+            "url": "https://github.com/msvrtan/user-edition/commit/278dee3f7a735c81385639e807f97451f44dd2a4"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": true,
+            "id": "32387b0148239989a8b936ec6bc7333dd3e81f5c",
+            "message": "Merge pull request #18 from msvrtan/update-deps-2016-06-14\n\n[starter edition] Library updates",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-06-14T19:06:21+02:00",
+            "tree_id": "6ad2b47fe569c6c43d2d7f98ca1a2c8d2d0d870f",
+            "url": "https://github.com/msvrtan/user-edition/commit/32387b0148239989a8b936ec6bc7333dd3e81f5c"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d3aee185e015c90b5f1804624501c30f01505997",
+            "message": "[starter-edition] Update composer.lock, package updates\n\nPackages updated:\n\n- ocramius/package-versions (1.0.4 -> 1.1.1)\n- twig/twig (v1.24.1 -> v1.24.2)\n- symfony/symfony (v3.0.7 -> v3.0.9)\n- psr/log (1.0.0 -> 1.0.1)\n- doctrine/dbal (v2.5.4 -> v2.5.5)\n- doctrine/orm (v2.5.4 -> v2.5.5)\n- zendframework/zend-code (3.0.2 -> 3.0.4)\n- squizlabs/php_codesniffer (2.6.1 -> 2.7.0)\n- ocramius/proxy-manager (2.0.2 -> 2.0.3)\n- doctrine/doctrine-bundle (1.6.3 -> 1.6.4)\n- doctrine/doctrine-migrations-bundle (1.1.1 -> v1.2.0)\n- sensio/distribution-bundle (v5.0.6 -> v5.0.12)\n- sensio/generator-bundle (v3.0.6 -> v3.0.8)\n- symfony/phpunit-bridge (v3.1.0 -> v3.1.4)\n- behat/gherkin (v4.4.1 -> v4.4.4)\n- friendsofphp/php-cs-fixer (v1.11.4 -> v1.12.1)\n- monolog/monolog (1.19.0 -> 1.21.0)\n- swiftmailer/swiftmailer (v5.4.2 -> v5.4.3)\n- sebastian/exporter (1.2.1 -> 1.2.2)\n- doctrine/data-fixtures (v1.1.1 -> v1.2.1)\n- myclabs/deep-copy (1.5.1 -> 1.5.4)\n- sebastian/environment (1.3.7 -> 1.3.8)\n- webmozart/assert (1.0.2 -> 1.1.0)\n- behat/behat (v3.1.0 -> v3.2.0)\n- rmiller/phpspec-extension (0.2.0 -> 0.2.1)\n- psr/http-message (1.0 -> 1.0.1)\n- guzzlehttp/psr7 (1.3.0 -> 1.3.1)\n- guzzlehttp/guzzle (6.2.0 -> 6.2.1)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:16:07+02:00",
+            "tree_id": "34d132ad13ee16eca9f7ee670e2649efa4b0bfd0",
+            "url": "https://github.com/msvrtan/user-edition/commit/d3aee185e015c90b5f1804624501c30f01505997"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "920e132b190f5613a1973c9044c8a66087ae3a93",
+            "message": "[starter-edition] Switch to using msvrtan/thesting\n\nThis way, general package will take care of testing lib dependencies.",
+            "modified": [
+                "composer.json"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:17:01+02:00",
+            "tree_id": "2da72ac1f14f52da607dfd3b17f3835aa257db5b",
+            "url": "https://github.com/msvrtan/user-edition/commit/920e132b190f5613a1973c9044c8a66087ae3a93"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "726e2b88fa64dc51dac399f35cf4d1dc9faaa8e4",
+            "message": "[starter edition] Update composer.lock, using msvrtan/thesting\n\nInstalling packages:\n- msvrtan/thesting (v0.2.0)\n- Installing theseer/fdomdocument (1.6.1)\n- Installing sebastian/finder-facade (1.2.1)\n- Installing sebastian/phpcpd (2.0.4)\n- Installing liuggio/fastest (v1.4.0)\n\nUpdating packages:\n- phpunit/php-code-coverage (3.3.3 -> 4.0.1)\n- phpunit/phpunit-mock-objects (3.1.3 -> 3.2.7)\n- phpspec/php-diff (v1.0.2 -> v1.1.0)\n- phpunit/phpunit (5.3.5 -> 5.5.5)\n- phpspec/phpspec (2.5.0 -> 3.1.0)\n- ciaranmcnulty/phpspec-typehintedmethods (1.1.3 -> 2.0.0)\n- henrikbjorn/phpspec-code-coverage (2.1.0 -> 3.0.1)\n\nRemoved unused packages:\n- rmiller/error-extension (0.1.0)\n- rmiller/caser (0.1.0)\n- rmiller/behat-spec (0.3.0)\n- coduo/phpspec-data-provider-extension (1.0.3)\n- rmiller/phpspec-run-extension (0.2.0)\n- rmiller/exemplify-extension (0.2.0)\n- rmiller/phpspec-extension (0.2.1)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:18:18+02:00",
+            "tree_id": "eae711bcd317aff3a822ac58b1315315dac05e3f",
+            "url": "https://github.com/msvrtan/user-edition/commit/726e2b88fa64dc51dac399f35cf4d1dc9faaa8e4"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "7e638efbe72ebabcb7e0bcf9c52ff199d3c36c8b",
+            "message": "[starter edition] Remove excess ;",
+            "modified": [
+                "src/Resources/Behat/WebContext.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:18:41+02:00",
+            "tree_id": "c9bb96626d87b5e339783acc8dd3c4421e8e237a",
+            "url": "https://github.com/msvrtan/user-edition/commit/7e638efbe72ebabcb7e0bcf9c52ff199d3c36c8b"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "a4581c067c099b06ce39b963e7a36ab7bee955fd",
+            "message": "[starter edition] Getting PHPSpec configs up to 3.0 standard",
+            "modified": [
+                "etc/ci/phpspec.yml",
+                "phpspec.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:38:38+02:00",
+            "tree_id": "d583233e63f2d6a5b86b46f490c85a5d9d3c085f",
+            "url": "https://github.com/msvrtan/user-edition/commit/a4581c067c099b06ce39b963e7a36ab7bee955fd"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "1810c68d11ecad74f7bd6ad33dabcbe767189f9f",
+            "message": "[starter-edition] Small changes on symfony requirement files\n\nDisregard, coming from upstream ..",
+            "modified": [
+                "bin/symfony_requirements",
+                "var/SymfonyRequirements.php",
+                "web/config.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:38:38+02:00",
+            "tree_id": "fa89f768966957bea8a8601ffba8125a61e2b9c8",
+            "url": "https://github.com/msvrtan/user-edition/commit/1810c68d11ecad74f7bd6ad33dabcbe767189f9f"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": true,
+            "id": "a2d7ae23816c2cb9f1bf06f611ee64bd77327ff5",
+            "message": "Merge pull request #19 from msvrtan/update-packages-2016-09-20\n\nUpdate packages 2016 09 20",
+            "modified": [
+                "bin/symfony_requirements",
+                "composer.json",
+                "composer.lock",
+                "etc/ci/phpspec.yml",
+                "phpspec.yml",
+                "src/Resources/Behat/WebContext.php",
+                "var/SymfonyRequirements.php",
+                "web/config.php"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:42:47+02:00",
+            "tree_id": "fa89f768966957bea8a8601ffba8125a61e2b9c8",
+            "url": "https://github.com/msvrtan/user-edition/commit/a2d7ae23816c2cb9f1bf06f611ee64bd77327ff5"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "d7b18715c3320cd39871b0dbf9891ade06364509",
+            "message": "[starter-edition] Upgrade to Symfony 3.1",
+            "modified": [
+                "app/config/config_prod.yml",
+                "composer.json",
+                "phpunit.xml",
+                "web/app.php",
+                "web/apple-touch-icon.png"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:53:21+02:00",
+            "tree_id": "89f1fc9f8351098f926eab27bae7c36db4dcda6a",
+            "url": "https://github.com/msvrtan/user-edition/commit/d7b18715c3320cd39871b0dbf9891ade06364509"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "88e73fe595ee3277f9748e1ae145294ae03b4dc4",
+            "message": "[starter-edition] Update composer.lock, symfony 3.1\n\nPackages updated:\n- symfony/symfony (v3.0.9 -> v3.1.4)\n\nAdded:\n- psr/cache (1.0.1)\n- symfony/polyfill-apcu (v1.2.0)",
+            "modified": [
+                "composer.lock"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:54:11+02:00",
+            "tree_id": "9c6ba686a764ef86fb969b878c6a1277420c1e65",
+            "url": "https://github.com/msvrtan/user-edition/commit/88e73fe595ee3277f9748e1ae145294ae03b4dc4"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": true,
+            "id": "031ab93c775e020a30d1b683f4a3396c7cc5753f",
+            "message": "Merge pull request #20 from msvrtan/symfony-3.1\n\nSf 3.1",
+            "modified": [
+                "app/config/config_prod.yml",
+                "composer.json",
+                "composer.lock",
+                "phpunit.xml",
+                "web/app.php",
+                "web/apple-touch-icon.png"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T22:57:46+02:00",
+            "tree_id": "9c6ba686a764ef86fb969b878c6a1277420c1e65",
+            "url": "https://github.com/msvrtan/user-edition/commit/031ab93c775e020a30d1b683f4a3396c7cc5753f"
+        },
+        {
+            "added": [
+                ".php_cs",
+                "etc/circleci/app/config/parameters.yml",
+                "etc/circleci/disable-xdebug.sh",
+                "etc/circleci/enable-xdebug.sh",
+                "etc/circleci/setup-app-config.sh",
+                "etc/circleci/setup-app-data.sh",
+                "etc/circleci/setup-app-permissions.sh",
+                "etc/circleci/setup-circleci-custom-php-703.sh",
+                "etc/circleci/setup-fpm.sh",
+                "etc/circleci/setup-nginx.sh",
+                "etc/circleci/symfony2-test-application.conf",
+                "etc/circleci/web/app_test.php",
+                "etc/provisioning/roles/php7/handlers/main.yml",
+                "etc/provisioning/roles/php7/tasks/main.yml",
+                "etc/provisioning/roles/redis/tasks/main.yml",
+                "etc/travis-ci/disable-xdebug.sh",
+                "etc/travis-ci/enable-xdebug.sh"
+            ],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "21e31583d7a369f6d2f249c1d209d9b6ed19d8a3",
+            "message": "[user-edition] Merge starter-edition in",
+            "modified": [
+                ".gitignore",
+                ".travis.yml",
+                "README.md",
+                "Vagrantfile",
+                "app/DoctrineMigrations/Version20150103180605.php",
+                "app/config/config_prod.yml",
+                "bin/symfony_requirements",
+                "build.xml",
+                "circle.yml",
+                "composer.json",
+                "etc/ci/phpspec.yml",
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-application.conf",
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-dev-application.conf",
+                "etc/provisioning/roles/nginx/templates/sites-available/symfony2-test-application.conf",
+                "etc/provisioning/roles/selenium/tasks/main.yml",
+                "etc/provisioning/roles/selenium/templates/selenium.j2",
+                "etc/provisioning/settings.yml",
+                "etc/provisioning/setup.yml",
+                "phpspec.yml",
+                "phpunit.xml",
+                "src/AppBundle/AppBundle.php",
+                "src/AppBundle/Controller/DefaultController.php",
+                "src/AppBundle/DataFixtures/ORM/EmptyFixtures.php",
+                "src/Resources/Behat/CleanDbTrait.php",
+                "src/Resources/Behat/DefaultContext.php",
+                "src/Resources/Behat/DomainContext.php",
+                "src/Resources/Behat/LoginDomainTrait.php",
+                "src/Resources/Behat/LoginWebTrait.php",
+                "src/Resources/Behat/ScreenshotTrait.php",
+                "src/Resources/Behat/Symfony2Trait.php",
+                "src/Resources/Behat/WebContext.php",
+                "var/SymfonyRequirements.php",
+                "web/app.php",
+                "web/apple-touch-icon.png",
+                "web/config.php"
+            ],
+            "removed": [
+                "etc/ci/app/config/parameters.yml",
+                "etc/ci/behat.yml",
+                "etc/ci/symfony2-test-application.conf",
+                "etc/ci/web/.htaccess",
+                "etc/ci/web/app_test.php",
+                "etc/ci/www.test.ci"
+            ],
+            "timestamp": "2016-09-21T23:08:51+02:00",
+            "tree_id": "1d9466a97c8cd526a1b54dc2fa88c3330ae82e1f",
+            "url": "https://github.com/msvrtan/user-edition/commit/21e31583d7a369f6d2f249c1d209d9b6ed19d8a3"
+        }
+    ],
+    "compare": "https://github.com/msvrtan/user-edition/compare/9949691eb645^...21e31583d7a3",
+    "created": true,
+    "deleted": false,
+    "forced": true,
+    "head_commit": {
+        "added": [
+            ".php_cs",
+            "etc/circleci/app/config/parameters.yml",
+            "etc/circleci/disable-xdebug.sh",
+            "etc/circleci/enable-xdebug.sh",
+            "etc/circleci/setup-app-config.sh",
+            "etc/circleci/setup-app-data.sh",
+            "etc/circleci/setup-app-permissions.sh",
+            "etc/circleci/setup-circleci-custom-php-703.sh",
+            "etc/circleci/setup-fpm.sh",
+            "etc/circleci/setup-nginx.sh",
+            "etc/circleci/symfony2-test-application.conf",
+            "etc/circleci/web/app_test.php",
+            "etc/provisioning/roles/php7/handlers/main.yml",
+            "etc/provisioning/roles/php7/tasks/main.yml",
+            "etc/provisioning/roles/redis/tasks/main.yml",
+            "etc/travis-ci/disable-xdebug.sh",
+            "etc/travis-ci/enable-xdebug.sh"
+        ],
+        "author": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "miro@mirosvrtan.me",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "distinct": true,
+        "id": "21e31583d7a369f6d2f249c1d209d9b6ed19d8a3",
+        "message": "[user-edition] Merge starter-edition in",
+        "modified": [
+            ".gitignore",
+            ".travis.yml",
+            "README.md",
+            "Vagrantfile",
+            "app/DoctrineMigrations/Version20150103180605.php",
+            "app/config/config_prod.yml",
+            "bin/symfony_requirements",
+            "build.xml",
+            "circle.yml",
+            "composer.json",
+            "etc/ci/phpspec.yml",
+            "etc/provisioning/roles/nginx/templates/sites-available/symfony2-application.conf",
+            "etc/provisioning/roles/nginx/templates/sites-available/symfony2-dev-application.conf",
+            "etc/provisioning/roles/nginx/templates/sites-available/symfony2-test-application.conf",
+            "etc/provisioning/roles/selenium/tasks/main.yml",
+            "etc/provisioning/roles/selenium/templates/selenium.j2",
+            "etc/provisioning/settings.yml",
+            "etc/provisioning/setup.yml",
+            "phpspec.yml",
+            "phpunit.xml",
+            "src/AppBundle/AppBundle.php",
+            "src/AppBundle/Controller/DefaultController.php",
+            "src/AppBundle/DataFixtures/ORM/EmptyFixtures.php",
+            "src/Resources/Behat/CleanDbTrait.php",
+            "src/Resources/Behat/DefaultContext.php",
+            "src/Resources/Behat/DomainContext.php",
+            "src/Resources/Behat/LoginDomainTrait.php",
+            "src/Resources/Behat/LoginWebTrait.php",
+            "src/Resources/Behat/ScreenshotTrait.php",
+            "src/Resources/Behat/Symfony2Trait.php",
+            "src/Resources/Behat/WebContext.php",
+            "var/SymfonyRequirements.php",
+            "web/app.php",
+            "web/apple-touch-icon.png",
+            "web/config.php"
+        ],
+        "removed": [
+            "etc/ci/app/config/parameters.yml",
+            "etc/ci/behat.yml",
+            "etc/ci/symfony2-test-application.conf",
+            "etc/ci/web/.htaccess",
+            "etc/ci/web/app_test.php",
+            "etc/ci/www.test.ci"
+        ],
+        "timestamp": "2016-09-21T23:08:51+02:00",
+        "tree_id": "1d9466a97c8cd526a1b54dc2fa88c3330ae82e1f",
+        "url": "https://github.com/msvrtan/user-edition/commit/21e31583d7a369f6d2f249c1d209d9b6ed19d8a3"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/mergez",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/msvrtan/user-edition/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/msvrtan/user-edition/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/msvrtan/user-edition/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/msvrtan/user-edition/branches{/branch}",
+        "clone_url": "https://github.com/msvrtan/user-edition.git",
+        "collaborators_url": "https://api.github.com/repos/msvrtan/user-edition/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/msvrtan/user-edition/comments{/number}",
+        "commits_url": "https://api.github.com/repos/msvrtan/user-edition/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/msvrtan/user-edition/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/msvrtan/user-edition/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/msvrtan/user-edition/contributors",
+        "created_at": 1457175635,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/msvrtan/user-edition/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/msvrtan/user-edition/downloads",
+        "events_url": "https://api.github.com/repos/msvrtan/user-edition/events",
+        "fork": true,
+        "forks": 0,
+        "forks_count": 0,
+        "forks_url": "https://api.github.com/repos/msvrtan/user-edition/forks",
+        "full_name": "msvrtan/user-edition",
+        "git_commits_url": "https://api.github.com/repos/msvrtan/user-edition/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/msvrtan/user-edition/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/msvrtan/user-edition/git/tags{/sha}",
+        "git_url": "git://github.com/msvrtan/user-edition.git",
+        "has_downloads": true,
+        "has_issues": false,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/msvrtan/user-edition/hooks",
+        "html_url": "https://github.com/msvrtan/user-edition",
+        "id": 53197122,
+        "issue_comment_url": "https://api.github.com/repos/msvrtan/user-edition/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/msvrtan/user-edition/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/msvrtan/user-edition/issues{/number}",
+        "keys_url": "https://api.github.com/repos/msvrtan/user-edition/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/msvrtan/user-edition/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/msvrtan/user-edition/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/msvrtan/user-edition/merges",
+        "milestones_url": "https://api.github.com/repos/msvrtan/user-edition/milestones{/number}",
+        "mirror_url": null,
+        "name": "user-edition",
+        "notifications_url": "https://api.github.com/repos/msvrtan/user-edition/notifications{?since,all,participating}",
+        "open_issues": 0,
+        "open_issues_count": 0,
+        "owner": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "msvrtan"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/msvrtan/user-edition/pulls{/number}",
+        "pushed_at": 1474492166,
+        "releases_url": "https://api.github.com/repos/msvrtan/user-edition/releases{/id}",
+        "size": 462,
+        "ssh_url": "git@github.com:msvrtan/user-edition.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/msvrtan/user-edition/stargazers",
+        "statuses_url": "https://api.github.com/repos/msvrtan/user-edition/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/msvrtan/user-edition/subscribers",
+        "subscription_url": "https://api.github.com/repos/msvrtan/user-edition/subscription",
+        "svn_url": "https://github.com/msvrtan/user-edition",
+        "tags_url": "https://api.github.com/repos/msvrtan/user-edition/tags",
+        "teams_url": "https://api.github.com/repos/msvrtan/user-edition/teams",
+        "trees_url": "https://api.github.com/repos/msvrtan/user-edition/git/trees{/sha}",
+        "updated_at": "2016-03-05T11:52:47Z",
+        "url": "https://github.com/msvrtan/user-edition",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}

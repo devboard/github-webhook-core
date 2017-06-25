@@ -1,0 +1,196 @@
+{
+    "after": "12c0bcbb97f276673f9a80b03cb891bcdf6c6a60",
+    "base_ref": null,
+    "before": "031ab93c775e020a30d1b683f4a3396c7cc5753f",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "miro@mirosvrtan.me",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "distinct": true,
+            "id": "b59340a7d12ed6b3c3c5f535411265dc15b43658",
+            "message": "[starter-edition] Run all ant tasks on CI's using -emacs",
+            "modified": [
+                ".travis.yml",
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T23:39:13+02:00",
+            "tree_id": "cd7046b04693174a0bd947a052202866a4b24d64",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/b59340a7d12ed6b3c3c5f535411265dc15b43658"
+        },
+        {
+            "added": [],
+            "author": {
+                "email": "msvrtan@users.noreply.github.com",
+                "name": "Miro Svrtan",
+                "username": "msvrtan"
+            },
+            "committer": {
+                "email": "noreply@github.com",
+                "name": "GitHub",
+                "username": "web-flow"
+            },
+            "distinct": true,
+            "id": "12c0bcbb97f276673f9a80b03cb891bcdf6c6a60",
+            "message": "Merge pull request #21 from msvrtan/emacs-on-ci-ant-tasks\n\n[starter-edition] Run all ant tasks on CI's using -emacs",
+            "modified": [
+                ".travis.yml",
+                "circle.yml"
+            ],
+            "removed": [],
+            "timestamp": "2016-09-21T23:54:41+02:00",
+            "tree_id": "cd7046b04693174a0bd947a052202866a4b24d64",
+            "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/12c0bcbb97f276673f9a80b03cb891bcdf6c6a60"
+        }
+    ],
+    "compare": "https://github.com/nulldevelopmenthr/starter-edition/compare/031ab93c775e...12c0bcbb97f2",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "msvrtan@users.noreply.github.com",
+            "name": "Miro Svrtan",
+            "username": "msvrtan"
+        },
+        "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+        },
+        "distinct": true,
+        "id": "12c0bcbb97f276673f9a80b03cb891bcdf6c6a60",
+        "message": "Merge pull request #21 from msvrtan/emacs-on-ci-ant-tasks\n\n[starter-edition] Run all ant tasks on CI's using -emacs",
+        "modified": [
+            ".travis.yml",
+            "circle.yml"
+        ],
+        "removed": [],
+        "timestamp": "2016-09-21T23:54:41+02:00",
+        "tree_id": "cd7046b04693174a0bd947a052202866a4b24d64",
+        "url": "https://github.com/nulldevelopmenthr/starter-edition/commit/12c0bcbb97f276673f9a80b03cb891bcdf6c6a60"
+    },
+    "organization": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/7399051?v=3",
+        "description": null,
+        "events_url": "https://api.github.com/orgs/nulldevelopmenthr/events",
+        "hooks_url": "https://api.github.com/orgs/nulldevelopmenthr/hooks",
+        "id": 7399051,
+        "issues_url": "https://api.github.com/orgs/nulldevelopmenthr/issues",
+        "login": "nulldevelopmenthr",
+        "members_url": "https://api.github.com/orgs/nulldevelopmenthr/members{/member}",
+        "public_members_url": "https://api.github.com/orgs/nulldevelopmenthr/public_members{/member}",
+        "repos_url": "https://api.github.com/orgs/nulldevelopmenthr/repos",
+        "url": "https://api.github.com/orgs/nulldevelopmenthr"
+    },
+    "pusher": {
+        "email": "msvrtan@users.noreply.github.com",
+        "name": "msvrtan"
+    },
+    "ref": "refs/heads/master",
+    "repository": {
+        "archive_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/{archive_format}{/ref}",
+        "assignees_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/assignees{/user}",
+        "blobs_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/blobs{/sha}",
+        "branches_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/branches{/branch}",
+        "clone_url": "https://github.com/nulldevelopmenthr/starter-edition.git",
+        "collaborators_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/collaborators{/collaborator}",
+        "comments_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/comments{/number}",
+        "commits_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/commits{/sha}",
+        "compare_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/compare/{base}...{head}",
+        "contents_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/contents/{+path}",
+        "contributors_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/contributors",
+        "created_at": 1457126474,
+        "default_branch": "master",
+        "deployments_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/deployments",
+        "description": "",
+        "downloads_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/downloads",
+        "events_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/events",
+        "fork": false,
+        "forks": 1,
+        "forks_count": 1,
+        "forks_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/forks",
+        "full_name": "nulldevelopmenthr/starter-edition",
+        "git_commits_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/commits{/sha}",
+        "git_refs_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/refs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/tags{/sha}",
+        "git_url": "git://github.com/nulldevelopmenthr/starter-edition.git",
+        "has_downloads": true,
+        "has_issues": true,
+        "has_pages": false,
+        "has_wiki": true,
+        "homepage": null,
+        "hooks_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/hooks",
+        "html_url": "https://github.com/nulldevelopmenthr/starter-edition",
+        "id": 53166268,
+        "issue_comment_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/issues/comments{/number}",
+        "issue_events_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/issues/events{/number}",
+        "issues_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/issues{/number}",
+        "keys_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/keys{/key_id}",
+        "labels_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/labels{/name}",
+        "language": "PHP",
+        "languages_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/languages",
+        "master_branch": "master",
+        "merges_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/merges",
+        "milestones_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/milestones{/number}",
+        "mirror_url": null,
+        "name": "starter-edition",
+        "notifications_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/notifications{?since,all,participating}",
+        "open_issues": 2,
+        "open_issues_count": 2,
+        "organization": "nulldevelopmenthr",
+        "owner": {
+            "email": null,
+            "name": "nulldevelopmenthr"
+        },
+        "private": false,
+        "pulls_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/pulls{/number}",
+        "pushed_at": 1474494882,
+        "releases_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/releases{/id}",
+        "size": 509,
+        "ssh_url": "git@github.com:nulldevelopmenthr/starter-edition.git",
+        "stargazers": 0,
+        "stargazers_count": 0,
+        "stargazers_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/stargazers",
+        "statuses_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/statuses/{sha}",
+        "subscribers_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/subscribers",
+        "subscription_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/subscription",
+        "svn_url": "https://github.com/nulldevelopmenthr/starter-edition",
+        "tags_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/tags",
+        "teams_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/teams",
+        "trees_url": "https://api.github.com/repos/nulldevelopmenthr/starter-edition/git/trees{/sha}",
+        "updated_at": "2016-03-05T11:07:17Z",
+        "url": "https://github.com/nulldevelopmenthr/starter-edition",
+        "watchers": 0,
+        "watchers_count": 0
+    },
+    "sender": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1780572?v=3",
+        "events_url": "https://api.github.com/users/msvrtan/events{/privacy}",
+        "followers_url": "https://api.github.com/users/msvrtan/followers",
+        "following_url": "https://api.github.com/users/msvrtan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/msvrtan/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/msvrtan",
+        "id": 1780572,
+        "login": "msvrtan",
+        "organizations_url": "https://api.github.com/users/msvrtan/orgs",
+        "received_events_url": "https://api.github.com/users/msvrtan/received_events",
+        "repos_url": "https://api.github.com/users/msvrtan/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/msvrtan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/msvrtan/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/msvrtan"
+    }
+}
