@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-lib.git",
-                "reference": "571fc49737f4001f9217f8594f4e14e287d312b5"
+                "reference": "2c7f5830c2f6f5eb00c26c01c92fbd42d49db178"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-lib/zipball/571fc49737f4001f9217f8594f4e14e287d312b5",
-                "reference": "571fc49737f4001f9217f8594f4e14e287d312b5",
+                "url": "https://api.github.com/repos/devboard/github-lib/zipball/2c7f5830c2f6f5eb00c26c01c92fbd42d49db178",
+                "reference": "2c7f5830c2f6f5eb00c26c01c92fbd42d49db178",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-06-24 23:52:36"
+            "time": "2017-06-25 22:00:16"
         }
     ],
     "packages-dev": [
@@ -275,7 +275,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-06-24T21:51:55+00:00"
+            "time": "2017-06-24 21:51:55"
         },
         {
             "name": "doctrine/annotations",
