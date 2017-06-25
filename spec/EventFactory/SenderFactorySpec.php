@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Event;
+namespace spec\Devboard\GitHub\Webhook\Core\EventFactory;
 
 use Devboard\GitHub\Webhook\Core\Event\Sender;
-use Devboard\GitHub\Webhook\Core\Event\SenderFactory;
+use Devboard\GitHub\Webhook\Core\EventFactory\SenderFactory;
 use PhpSpec\ObjectBehavior;
 
 class SenderFactorySpec extends ObjectBehavior

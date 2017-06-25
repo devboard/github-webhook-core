@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Event;
+namespace tests\Devboard\GitHub\Webhook\Core\EventFactory;
 
 use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitAuthorFactory;
 use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitCommitterFactory;
 use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitFactory;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\PusherFactory;
-use Devboard\GitHub\Webhook\Core\Event\PushEventFactory;
-use Devboard\GitHub\Webhook\Core\Event\SenderFactory;
+use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
+use Devboard\GitHub\Webhook\Core\EventFactory\PushEventFactory;
+use Devboard\GitHub\Webhook\Core\EventFactory\SenderFactory;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoEndpointsFactory;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoStatsFactory;
@@ -19,7 +19,7 @@ use Devboard\Thesting\Source\JsonSource;
 use Generator;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Event\PushEventFactory
+ * @covers \Devboard\GitHub\Webhook\Core\EventFactory\PushEventFactory
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
