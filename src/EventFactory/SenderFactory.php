@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Event;
+namespace Devboard\GitHub\Webhook\Core\EventFactory;
 
 use Devboard\GitHub\User\GitHubUserApiUrl;
 use Devboard\GitHub\User\GitHubUserAvatarUrl;
@@ -11,6 +11,7 @@ use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
 use Devboard\GitHub\User\GitHubUserTypeFactory;
+use Devboard\GitHub\Webhook\Core\Event\Sender;
 
 /**
  * @see SenderFactorySpec

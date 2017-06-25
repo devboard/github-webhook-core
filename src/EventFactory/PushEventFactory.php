@@ -2,14 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Event;
+namespace Devboard\GitHub\Webhook\Core\EventFactory;
 
 use Devboard\GitHub\Commit\GitHubCommitSha;
 use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitFactory;
 use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\PusherFactory;
+use Devboard\GitHub\Webhook\Core\Event\PushEvent;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\Ref;
+use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
 use Devboard\GitHub\Webhook\Core\GitHubCommitCollection;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
 
