@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "97afcd50d4dd6c55289d4c86cb50b533",
+    "content-hash": "61571c36a7d5533c0ef98b41fd92a341",
     "packages": [
         {
             "name": "devboard/github-lib",
-            "version": "dev-master",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-lib.git",
@@ -55,7 +55,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-06-25 22:00:16"
+            "time": "2017-06-25T22:00:16+00:00"
         }
     ],
     "packages-dev": [
@@ -227,16 +227,16 @@
         },
         {
             "name": "devboard/thesting-data-source",
-            "version": "dev-master",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/thesting-data-source.git",
-                "reference": "b0ea0643fc6e92a6942e2fae213c3e735efe8f9f"
+                "reference": "c5ea24941b4ef1e9603b90e2265e647c10ee0667"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/thesting-data-source/zipball/b0ea0643fc6e92a6942e2fae213c3e735efe8f9f",
-                "reference": "b0ea0643fc6e92a6942e2fae213c3e735efe8f9f",
+                "url": "https://api.github.com/repos/devboard/thesting-data-source/zipball/c5ea24941b4ef1e9603b90e2265e647c10ee0667",
+                "reference": "c5ea24941b4ef1e9603b90e2265e647c10ee0667",
                 "shasum": ""
             },
             "require": {
@@ -275,7 +275,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-06-24 21:51:55"
+            "time": "2017-06-25T23:09:51+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -4717,8 +4717,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "devboard/github-lib": 20,
-        "devboard/thesting-data-source": 20,
         "humbug/humbug": 20
     },
     "prefer-stable": false,
