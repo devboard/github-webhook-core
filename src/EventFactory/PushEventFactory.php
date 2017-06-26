@@ -42,6 +42,11 @@ class PushEventFactory implements EventFactory
         $this->senderFactory = $senderFactory;
     }
 
+    public function getSupportedEventType(): string
+    {
+        return 'push';
+    }
+
     public function create(array $data): PushEvent
     {
         $ref     = null;
