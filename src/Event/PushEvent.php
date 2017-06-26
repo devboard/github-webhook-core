@@ -9,6 +9,7 @@ use Devboard\GitHub\GitHubCommit;
 use Devboard\GitHub\GitHubRepo;
 use Devboard\GitHub\Repo\GitHubRepoFullName;
 use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
+use Devboard\GitHub\Webhook\Core\Event;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\Ref;
@@ -20,7 +21,7 @@ use Devboard\GitHub\Webhook\Core\GitHubCommitCollection;
  *
  * @SuppressWarnings(PHPMD.ExcessiveParameterList)
  */
-class PushEvent
+class PushEvent implements Event
 {
     /** @var Ref */
     private $ref;

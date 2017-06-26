@@ -8,6 +8,7 @@ use Devboard\GitHub\Commit\GitHubCommitSha;
 use Devboard\GitHub\GitHubCommit;
 use Devboard\GitHub\GitHubRepo;
 use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
+use Devboard\GitHub\Webhook\Core\Event;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
@@ -39,6 +40,7 @@ class PushEventSpec extends ObjectBehavior
     public function it_is_initializable()
     {
         $this->shouldHaveType(PushEvent::class);
+        $this->shouldImplement(Event::class);
     }
 
     public function it_exposes_constructor_arguments(
