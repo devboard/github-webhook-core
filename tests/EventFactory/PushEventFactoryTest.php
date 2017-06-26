@@ -18,6 +18,7 @@ use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory;
 use Devboard\Thesting\Source\JsonSource;
 use Generator;
 use tests\Devboard\GitHub\Webhook\Core\GitHubExampleTestData;
+use tests\Devboard\GitHub\Webhook\Core\GitHubProductionTestData;
 
 /**
  * @covers \Devboard\GitHub\Webhook\Core\EventFactory\PushEventFactory
@@ -49,6 +50,10 @@ class PushEventFactoryTest extends \PHPUnit_Framework_TestCase
 
     public function provideArguments(): Generator
     {
+        foreach (GitHubProductionTestData::create()->getGitHubPushEventData() as $item) {
+            yield [$item];
+        }
+
         foreach (GitHubExampleTestData::create()->getGitHubPushEventData() as $item) {
             yield [$item];
         }
