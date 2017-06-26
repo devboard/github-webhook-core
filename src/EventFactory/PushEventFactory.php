@@ -10,6 +10,7 @@ use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\Ref;
+use Devboard\GitHub\Webhook\Core\EventFactory;
 use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
 use Devboard\GitHub\Webhook\Core\GitHubCommitCollection;
 use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
@@ -18,7 +19,7 @@ use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
  * @see PushEventFactorySpec
  * @see PushEventFactoryTest
  */
-class PushEventFactory
+class PushEventFactory implements EventFactory
 {
     /** @var GitHubCommitFactory */
     private $commitFactory;

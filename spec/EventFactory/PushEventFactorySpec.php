@@ -10,6 +10,7 @@ use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitFactory;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent;
 use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
 use Devboard\GitHub\Webhook\Core\Event\Sender;
+use Devboard\GitHub\Webhook\Core\EventFactory;
 use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
 use Devboard\GitHub\Webhook\Core\EventFactory\PushEventFactory;
 use Devboard\GitHub\Webhook\Core\EventFactory\SenderFactory;
@@ -30,6 +31,7 @@ class PushEventFactorySpec extends ObjectBehavior
     public function it_is_initializable()
     {
         $this->shouldHaveType(PushEventFactory::class);
+        $this->shouldImplement(EventFactory::class);
     }
 
     public function it_will_return_push_event_instance_from_given_array(
