@@ -34,6 +34,11 @@ class PushEventFactorySpec extends ObjectBehavior
         $this->shouldImplement(EventFactory::class);
     }
 
+    public function it_supports_push_event_type()
+    {
+        $this->getSupportedEventType()->shouldReturn('push');
+    }
+
     public function it_will_return_push_event_instance_from_given_array(
         GitHubCommitFactory $commitFactory,
         GitHubRepoFactory $repoFactory,
