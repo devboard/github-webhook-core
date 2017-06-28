@@ -17,4 +17,14 @@ class GitHubExampleTestData
 
         return [json_decode($content, true)];
     }
+
+    /**
+     * Example from GitHub documentation is outdated and missing data. Dont use it until it gets updated :(.
+     */
+    public function getGitHubInstalationEventData(): array
+    {
+        $content = file_get_contents(__DIR__.'/testdata/installation.json');
+
+        return [json_decode($content, true)];
+    }
 }
