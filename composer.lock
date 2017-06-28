@@ -4,38 +4,40 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0609289e41ae63bdc5a6592ec800670",
+    "content-hash": "acf2833c618d51f3227230802dfa3d9e",
     "packages": [
         {
             "name": "devboard/github-lib",
-            "version": "0.5.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-lib.git",
-                "reference": "2c7f5830c2f6f5eb00c26c01c92fbd42d49db178"
+                "reference": "7458890728ef3460815b0902f3c52987bb34aacf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-lib/zipball/2c7f5830c2f6f5eb00c26c01c92fbd42d49db178",
-                "reference": "2c7f5830c2f6f5eb00c26c01c92fbd42d49db178",
+                "url": "https://api.github.com/repos/devboard/github-lib/zipball/7458890728ef3460815b0902f3c52987bb34aacf",
+                "reference": "7458890728ef3460815b0902f3c52987bb34aacf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1.0"
             },
             "require-dev": {
-                "ciaranmcnulty/phpspec-typehintedmethods": "~2.0",
-                "codeclimate/php-test-reporter": "^0.4.2",
-                "friendsofphp/php-cs-fixer": "^2.0",
+                "ciaranmcnulty/phpspec-typehintedmethods": "^2.0",
+                "codeclimate/php-test-reporter": "^0.4.4",
+                "friendsofphp/php-cs-fixer": "^2.3",
                 "henrikbjorn/phpspec-code-coverage": "^3.0",
                 "humbug/humbug": "~1.0@dev",
-                "mockery/mockery": "~0.9",
-                "phing/phing": "^2.15",
-                "phpmd/phpmd": "~2.1",
-                "phpspec/phpspec": "~3.0",
+                "mockery/mockery": "^0.9.9",
+                "nikic/php-parser": "^3.0",
+                "phing/phing": "^2.16",
+                "phpmd/phpmd": "^2.6",
+                "phpspec/phpspec": "^3.4",
+                "phpspec/prophecy": "^1.7",
                 "phpstan/phpstan": "^0.7.0",
-                "phpunit/phpunit": "^5",
-                "satooshi/php-coveralls": "^1",
+                "phpunit/phpunit": "^5.7.21",
+                "satooshi/php-coveralls": "^1.0",
                 "sebastian/phpcpd": "^3.0",
                 "squizlabs/php_codesniffer": "^3.0"
             },
@@ -55,7 +57,7 @@
             "license": [
                 "proprietary"
             ],
-            "time": "2017-06-25T22:00:16+00:00"
+            "time": "2017-06-28T19:42:36+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -584,23 +586,23 @@
         },
         {
             "name": "gecko-packages/gecko-php-unit",
-            "version": "v2.0",
+            "version": "v2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GeckoPackages/GeckoPHPUnit.git",
-                "reference": "40a697ec261f3526e8196363b481b24383740c13"
+                "reference": "5b9e9622c7efd3b22655270b80c03f9e52878a6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GeckoPackages/GeckoPHPUnit/zipball/40a697ec261f3526e8196363b481b24383740c13",
-                "reference": "40a697ec261f3526e8196363b481b24383740c13",
+                "url": "https://api.github.com/repos/GeckoPackages/GeckoPHPUnit/zipball/5b9e9622c7efd3b22655270b80c03f9e52878a6e",
+                "reference": "5b9e9622c7efd3b22655270b80c03f9e52878a6e",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.6 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.4.3"
             },
             "type": "library",
             "autoload": {
@@ -619,7 +621,7 @@
                 "filesystem",
                 "phpunit"
             ],
-            "time": "2016-11-22T11:01:27+00:00"
+            "time": "2017-06-20T11:22:48+00:00"
         },
         {
             "name": "guzzle/guzzle",
