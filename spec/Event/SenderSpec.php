@@ -19,7 +19,7 @@ class SenderSpec extends ObjectBehavior
     public function let(
         GitHubUserId $userId,
         GitHubUserLogin $login,
-        GitHubAccountType $GitHubAccountType,
+        GitHubAccountType $gitHubAccountType,
         GitHubUserAvatarUrl $avatarUrl,
         GitHubUserGravatarId $gravatarId,
         GitHubUserHtmlUrl $htmlUrl,
@@ -28,7 +28,7 @@ class SenderSpec extends ObjectBehavior
         $this->beConstructedWith(
             $userId,
             $login,
-            $GitHubAccountType,
+            $gitHubAccountType,
             $avatarUrl,
             $gravatarId,
             $htmlUrl,
@@ -45,7 +45,7 @@ class SenderSpec extends ObjectBehavior
     public function it_should_expose_all_values_via_getters(
         GitHubUserId $userId,
         GitHubUserLogin $login,
-        GitHubAccountType $GitHubAccountType,
+        GitHubAccountType $gitHubAccountType,
         GitHubUserAvatarUrl $avatarUrl,
         GitHubUserGravatarId $gravatarId,
         GitHubUserHtmlUrl $htmlUrl,
@@ -53,7 +53,7 @@ class SenderSpec extends ObjectBehavior
     ) {
         $this->getUserId()->shouldReturn($userId);
         $this->getLogin()->shouldReturn($login);
-        $this->getGitHubAccountType()->shouldReturn($GitHubAccountType);
+        $this->getGitHubAccountType()->shouldReturn($gitHubAccountType);
         $this->getAvatarUrl()->shouldReturn($avatarUrl);
         $this->getGravatarId()->shouldReturn($gravatarId);
         $this->getHtmlUrl()->shouldReturn($htmlUrl);
