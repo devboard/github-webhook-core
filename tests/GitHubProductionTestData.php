@@ -34,6 +34,17 @@ class GitHubProductionTestData
         }
     }
 
+    public function getGitHubInstalationEventData(): \Generator
+    {
+        if (true === is_dir($this->basePath)) {
+            foreach ($this->loadAllFilesMatchingEventType('installation') as $file) {
+                $content = file_get_contents($file->getRealPath());
+
+                yield json_decode($content, true);
+            }
+        }
+    }
+
     private function loadAllFilesMatchingEventType(string $eventType): Finder
     {
         $finder = new Finder();
