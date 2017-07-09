@@ -7,26 +7,26 @@ namespace spec\DevboardLib\GitHubWebhook\Core\Commit;
 use DevboardLib\GitHub\Commit\CommitAuthor;
 use DevboardLib\GitHub\Commit\CommitCommitter;
 use DevboardLib\GitHub\GitHubCommit;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitAuthorFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitCommitterFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitFactory;
 use PhpSpec\ObjectBehavior;
 
-class GitHubCommitFactorySpec extends ObjectBehavior
+class CommitFactorySpec extends ObjectBehavior
 {
-    public function let(GitHubCommitCommitterFactory $commitCommitterFactory, GitHubCommitAuthorFactory $authorFactory)
+    public function let(CommitCommitterFactory $commitCommitterFactory, CommitAuthorFactory $authorFactory)
     {
         $this->beConstructedWith($commitCommitterFactory, $authorFactory);
     }
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType(GitHubCommitFactory::class);
+        $this->shouldHaveType(CommitFactory::class);
     }
 
     public function it_will_create_commit_from_given_branch_data(
-        GitHubCommitCommitterFactory $commitCommitterFactory,
-        GitHubCommitAuthorFactory $authorFactory,
+        CommitCommitterFactory $commitCommitterFactory,
+        CommitAuthorFactory $authorFactory,
         CommitAuthor $author,
         CommitCommitter $committer
     ) {

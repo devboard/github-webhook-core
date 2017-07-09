@@ -10,10 +10,10 @@ use DevboardLib\GitHub\Commit\CommitAuthor;
 use DevboardLib\GitHub\Commit\CommitDate;
 
 /**
- * @see GitHubCommitAuthorFactorySpec
- * @see GitHubCommitAuthorFactoryTest
+ * @see CommitAuthorFactorySpec
+ * @see CommitAuthorFactoryTest
  */
-class GitHubCommitAuthorFactory
+class CommitAuthorFactory
 {
     public function create(array $data): CommitAuthor
     {

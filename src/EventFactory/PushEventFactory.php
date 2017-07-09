@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace DevboardLib\GitHubWebhook\Core\EventFactory;
 
 use DevboardLib\GitHub\Commit\CommitSha;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitFactory;
+use DevboardLib\GitHubWebhook\Core\CommitCollection;
 use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
 use DevboardLib\GitHubWebhook\Core\EventFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
-use DevboardLib\GitHubWebhook\Core\CommitCollection;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
 
 /**
@@ -21,7 +21,7 @@ use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
  */
 class PushEventFactory implements EventFactory
 {
-    /** @var GitHubCommitFactory */
+    /** @var CommitFactory */
     private $commitFactory;
     /** @var GitHubRepoFactory */
     private $repoFactory;
@@ -31,7 +31,7 @@ class PushEventFactory implements EventFactory
     private $senderFactory;
 
     public function __construct(
-        GitHubCommitFactory $commitFactory,
+        CommitFactory $commitFactory,
         GitHubRepoFactory $repoFactory,
         PusherFactory $pusherFactory,
         SenderFactory $senderFactory

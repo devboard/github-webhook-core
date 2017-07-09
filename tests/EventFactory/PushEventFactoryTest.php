@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace tests\DevboardLib\GitHubWebhook\Core\EventFactory;
 
 use Devboard\Thesting\Source\JsonSource;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitAuthorFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitCommitterFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitFactory;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEventFactory;
@@ -32,9 +32,9 @@ class PushEventFactoryTest extends \PHPUnit_Framework_TestCase
     public function testCreating(array $data)
     {
         $sut = new PushEventFactory(
-            new GitHubCommitFactory(
-                new GitHubCommitCommitterFactory(),
-                new GitHubCommitAuthorFactory()
+            new CommitFactory(
+                new CommitCommitterFactory(),
+                new CommitAuthorFactory()
             ),
             new GitHubRepoFactory(
                 new GitHubRepoEndpointsFactory(),

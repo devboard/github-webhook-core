@@ -6,18 +6,18 @@ namespace tests\DevboardLib\GitHubWebhook\Core\Commit;
 
 use Devboard\Thesting\Source\JsonSource;
 use DevboardLib\GitHub\GitHubCommit;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitAuthorFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitCommitterFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitFactory;
 use Generator;
 
 /**
- * @covers \DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Commit\CommitFactory
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
-class GitHubCommitFactoryTest extends \PHPUnit_Framework_TestCase
+class CommitFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @dataProvider provideHeadCommits
@@ -25,9 +25,9 @@ class GitHubCommitFactoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreating(array $data)
     {
-        $sut = new GitHubCommitFactory(
-            new GitHubCommitCommitterFactory(),
-            new GitHubCommitAuthorFactory()
+        $sut = new CommitFactory(
+            new CommitCommitterFactory(),
+            new CommitAuthorFactory()
         );
 
         $this->assertInstanceOf(GitHubCommit::class, $sut->create($data));

@@ -6,7 +6,7 @@ namespace spec\DevboardLib\GitHubWebhook\Core\EventFactory;
 
 use DevboardLib\GitHub\GitHubCommit;
 use DevboardLib\GitHub\GitHubRepo;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitFactory;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 use DevboardLib\GitHubWebhook\Core\Event\Sender;
@@ -20,7 +20,7 @@ use PhpSpec\ObjectBehavior;
 class PushEventFactorySpec extends ObjectBehavior
 {
     public function let(
-        GitHubCommitFactory $commitFactory,
+        CommitFactory $commitFactory,
         GitHubRepoFactory $repoFactory,
         PusherFactory $pusherFactory,
         SenderFactory $senderFactory
@@ -40,7 +40,7 @@ class PushEventFactorySpec extends ObjectBehavior
     }
 
     public function it_will_return_push_event_instance_from_given_array(
-        GitHubCommitFactory $commitFactory,
+        CommitFactory $commitFactory,
         GitHubRepoFactory $repoFactory,
         PusherFactory $pusherFactory,
         SenderFactory $senderFactory,

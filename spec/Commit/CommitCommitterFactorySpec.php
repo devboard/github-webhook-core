@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace spec\DevboardLib\GitHubWebhook\Core\Commit;
 
 use DevboardLib\GitHub\Commit\CommitCommitter;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitCommitterFactory;
 use PhpSpec\ObjectBehavior;
 
-class GitHubCommitCommitterFactorySpec extends ObjectBehavior
+class CommitCommitterFactorySpec extends ObjectBehavior
 {
     public function let()
     {
@@ -17,7 +17,7 @@ class GitHubCommitCommitterFactorySpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType(GitHubCommitCommitterFactory::class);
+        $this->shouldHaveType(CommitCommitterFactory::class);
     }
 
     public function it_will_create_committer_from_given_branch_data()
