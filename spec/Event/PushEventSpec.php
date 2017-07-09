@@ -14,7 +14,7 @@ use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
 use DevboardLib\GitHubWebhook\Core\Event\Sender;
-use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\CommitCollection;
 use PhpSpec\ObjectBehavior;
 
 class PushEventSpec extends ObjectBehavior
@@ -26,7 +26,7 @@ class PushEventSpec extends ObjectBehavior
         PushEventState $state,
         Ref $baseRef,
         CompareChangesUrl $changesUrl,
-        GitHubCommitCollection $commits,
+        CommitCollection $commits,
         GitHubCommit $headCommit,
         GitHubRepo $repo,
         Pusher $pusher,
@@ -50,7 +50,7 @@ class PushEventSpec extends ObjectBehavior
         PushEventState $state,
         Ref $baseRef,
         CompareChangesUrl $changesUrl,
-        GitHubCommitCollection $commits,
+        CommitCollection $commits,
         GitHubCommit $headCommit,
         GitHubRepo $repo,
         Pusher $pusher,
@@ -93,7 +93,7 @@ class PushEventSpec extends ObjectBehavior
         PushEventState $state,
         Ref $baseRef,
         CompareChangesUrl $changesUrl,
-        GitHubCommitCollection $commits,
+        CommitCollection $commits,
         GitHubRepo $repo,
         Pusher $pusher,
         Sender $sender
@@ -112,7 +112,7 @@ class PushEventSpec extends ObjectBehavior
         PushEventState $state,
         Ref $baseRef,
         CompareChangesUrl $changesUrl,
-        GitHubCommitCollection $commits,
+        CommitCollection $commits,
         GitHubCommit $headCommit,
         GitHubRepo $repo,
         Pusher $pusher,
