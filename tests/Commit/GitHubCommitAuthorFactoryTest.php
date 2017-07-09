@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Commit;
+namespace tests\DevboardLib\GitHubWebhook\Core\Commit;
 
 use Devboard\GitHub\Commit\GitHubCommitAuthor;
-use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitAuthorFactory;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
 use Generator;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Commit\GitHubCommitAuthorFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

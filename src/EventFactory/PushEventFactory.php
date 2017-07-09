@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\EventFactory;
+namespace DevboardLib\GitHubWebhook\Core\EventFactory;
 
 use Devboard\GitHub\Commit\GitHubCommitSha;
-use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitFactory;
-use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Ref;
-use Devboard\GitHub\Webhook\Core\EventFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
-use Devboard\GitHub\Webhook\Core\GitHubCommitCollection;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
+use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
+use DevboardLib\GitHubWebhook\Core\EventFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
+use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
 
 /**
  * @see PushEventFactorySpec

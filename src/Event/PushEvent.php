@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Event;
+namespace DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\Commit\GitHubCommitSha;
 use Devboard\GitHub\GitHubCommit;
 use Devboard\GitHub\GitHubRepo;
 use Devboard\GitHub\Repo\GitHubRepoFullName;
-use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
-use Devboard\GitHub\Webhook\Core\Event;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Ref;
-use Devboard\GitHub\Webhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
+use DevboardLib\GitHubWebhook\Core\Event;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
+use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
 
 /**
  * @see PushEventSpec

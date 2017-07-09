@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core;
+namespace DevboardLib\GitHubWebhook\Core;
 
 /**
  * @see CompareChangesUrlSpec

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Event\PushEvent;
+namespace spec\DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Ref;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
 use PhpSpec\ObjectBehavior;
 
 class RefSpec extends ObjectBehavior

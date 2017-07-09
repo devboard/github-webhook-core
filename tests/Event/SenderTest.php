@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Event;
+namespace tests\DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\Account\GitHubAccountType;
 use Devboard\GitHub\Account\Type\Organization;
@@ -13,10 +13,10 @@ use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\Webhook\Core\Event\Sender;
+use DevboardLib\GitHubWebhook\Core\Event\Sender;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Event\Sender
+ * @covers \DevboardLib\GitHubWebhook\Core\Event\Sender
  * @group  unit
  */
 class SenderTest extends \PHPUnit_Framework_TestCase

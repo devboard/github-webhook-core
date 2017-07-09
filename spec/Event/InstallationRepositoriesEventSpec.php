@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Event;
+namespace spec\DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\GitHubInstallation;
-use Devboard\GitHub\Webhook\Core\Event\InstallationRepositoriesEvent;
-use Devboard\GitHub\Webhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
-use Devboard\GitHub\Webhook\Core\Event\Sender;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
+use DevboardLib\GitHubWebhook\Core\Event\Sender;
 use PhpSpec\ObjectBehavior;
 
 class InstallationRepositoriesEventSpec extends ObjectBehavior

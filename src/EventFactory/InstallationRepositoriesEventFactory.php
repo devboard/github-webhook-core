@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\EventFactory;
+namespace DevboardLib\GitHubWebhook\Core\EventFactory;
 
 use Devboard\GitHub\Repo\GitHubRepoFullName;
 use Devboard\GitHub\Repo\GitHubRepoId;
-use Devboard\GitHub\Webhook\Core\Event\InstallationRepositoriesEvent;
-use Devboard\GitHub\Webhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
-use Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent\InstallationFactory;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
+use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationFactory;
 
 /**
  * @see InstallationRepositoriesEventFactorySpec

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Event;
+namespace spec\DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\Account\GitHubAccountType;
 use Devboard\GitHub\User\GitHubUserApiUrl;
@@ -11,7 +11,7 @@ use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\Webhook\Core\Event\Sender;
+use DevboardLib\GitHubWebhook\Core\Event\Sender;
 use PhpSpec\ObjectBehavior;
 
 class SenderSpec extends ObjectBehavior

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Event\PushEvent;
+namespace DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 
 use Webmozart\Assert\Assert;
 

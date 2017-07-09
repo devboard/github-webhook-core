@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core;
+namespace spec\DevboardLib\GitHubWebhook\Core;
 
-use Devboard\GitHub\Webhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
 use PhpSpec\ObjectBehavior;
 
 class GitHubCommitCollectionSpec extends ObjectBehavior

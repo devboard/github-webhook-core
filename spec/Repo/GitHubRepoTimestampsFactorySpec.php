@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Repo;
+namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\GitHub\Repo\GitHubRepoTimestamps;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
 use PhpSpec\ObjectBehavior;
 
 class GitHubRepoTimestampsFactorySpec extends ObjectBehavior

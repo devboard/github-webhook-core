@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Repo;
+namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\GitHub\GitHubRepo;
 use Devboard\GitHub\Repo\GitHubRepoEndpoints;
 use Devboard\GitHub\Repo\GitHubRepoStats;
 use Devboard\GitHub\Repo\GitHubRepoTimestamps;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoEndpointsFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoStatsFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
 use PhpSpec\ObjectBehavior;
 
 class GitHubRepoFactorySpec extends ObjectBehavior

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Event\PushEvent;
+namespace tests\DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState
+ * @covers \DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState
  * @group  unit
  */
 class PushEventStateTest extends \PHPUnit_Framework_TestCase

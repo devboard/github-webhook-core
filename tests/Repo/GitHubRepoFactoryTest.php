@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Repo;
+namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\GitHub\GitHubRepo;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoEndpointsFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoStatsFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
 use Generator;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

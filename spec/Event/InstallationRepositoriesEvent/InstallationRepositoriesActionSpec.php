@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Event\InstallationRepositoriesEvent;
+namespace spec\DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent;
 
-use Devboard\GitHub\Webhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
 use InvalidArgumentException;
 use PhpSpec\ObjectBehavior;
 

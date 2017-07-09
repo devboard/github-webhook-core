@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent;
+namespace DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent;
 
 use Devboard\GitHub\GitHubInstallation;
 use Devboard\GitHub\Installation\ApplicationId;
@@ -23,7 +23,7 @@ use Devboard\GitHub\Installation\UpdatedAt;
 class InstallationFactory
 {
     /**
-     * @var \Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent\InstallationAccountFactory
+     * @var \DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationAccountFactory
      */
     private $installationAccountFactory;
 

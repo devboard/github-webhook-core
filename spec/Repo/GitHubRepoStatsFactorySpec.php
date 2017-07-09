@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Repo;
+namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\GitHub\Repo\GitHubRepoStats;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoStatsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
 use PhpSpec\ObjectBehavior;
 
 class GitHubRepoStatsFactorySpec extends ObjectBehavior

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core;
+namespace tests\DevboardLib\GitHubWebhook\Core;
 
-use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
+use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\CompareChangesUrl
+ * @covers \DevboardLib\GitHubWebhook\Core\CompareChangesUrl
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

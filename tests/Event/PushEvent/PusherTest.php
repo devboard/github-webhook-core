@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Event\PushEvent;
+namespace tests\DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 
 use Devboard\GitHub\User\GitHubUserEmailAddress;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher
+ * @covers \DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher
  * @group  unit
  */
 class PusherTest extends \PHPUnit_Framework_TestCase

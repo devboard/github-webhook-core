@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\EventFactory;
+namespace DevboardLib\GitHubWebhook\Core\EventFactory;
 
-use Devboard\GitHub\Webhook\Core\Event\InstallationEvent;
-use Devboard\GitHub\Webhook\Core\Event\InstallationEvent\InstallationAction;
-use Devboard\GitHub\Webhook\Core\EventFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent\InstallationFactory;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationEvent;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationEvent\InstallationAction;
+use DevboardLib\GitHubWebhook\Core\EventFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationFactory;
 
 /**
  * @see InstallationEventFactorySpec

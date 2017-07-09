@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core;
+namespace tests\DevboardLib\GitHubWebhook\Core;
 
 class GitHubExampleTestData
 {

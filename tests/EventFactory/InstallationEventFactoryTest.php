@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\EventFactory;
+namespace tests\DevboardLib\GitHubWebhook\Core\EventFactory;
 
-use Devboard\GitHub\Webhook\Core\Event\InstallationEvent;
-use Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent\InstallationAccountFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent\InstallationFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\InstallationEventFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\SenderFactory;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationEvent;
+use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationAccountFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEventFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\SenderFactory;
 use Generator;
-use tests\Devboard\GitHub\Webhook\Core\GitHubExampleTestData;
-use tests\Devboard\GitHub\Webhook\Core\GitHubProductionTestData;
+use tests\DevboardLib\GitHubWebhook\Core\GitHubExampleTestData;
+use tests\DevboardLib\GitHubWebhook\Core\GitHubProductionTestData;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\EventFactory\InstallationEventFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEventFactory
  * @group  unit
  */
 class InstallationEventFactoryTest extends \PHPUnit_Framework_TestCase

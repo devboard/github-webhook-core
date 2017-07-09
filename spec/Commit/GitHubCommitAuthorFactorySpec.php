@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Commit;
+namespace spec\DevboardLib\GitHubWebhook\Core\Commit;
 
 use Devboard\GitHub\Commit\GitHubCommitAuthor;
-use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitAuthorFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
 use PhpSpec\ObjectBehavior;
 
 class GitHubCommitAuthorFactorySpec extends ObjectBehavior

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Event;
+namespace tests\DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\Account\Type\User;
 use Devboard\GitHub\Commit\Author\GitHubCommitAuthorEmail;
@@ -38,16 +38,16 @@ use Devboard\GitHub\User\GitHubUserGravatarId;
 use Devboard\GitHub\User\GitHubUserHtmlUrl;
 use Devboard\GitHub\User\GitHubUserId;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Ref;
-use Devboard\GitHub\Webhook\Core\Event\Sender;
-use Devboard\GitHub\Webhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
+use DevboardLib\GitHubWebhook\Core\Event\Sender;
+use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Event\PushEvent
+ * @covers \DevboardLib\GitHubWebhook\Core\Event\PushEvent
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

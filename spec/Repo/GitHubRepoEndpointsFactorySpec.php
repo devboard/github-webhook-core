@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Repo;
+namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\GitHub\Repo\GitHubRepoEndpoints;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoEndpointsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
 use PhpSpec\ObjectBehavior;
 
 class GitHubRepoEndpointsFactorySpec extends ObjectBehavior

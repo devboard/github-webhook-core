@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Event;
+namespace DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\GitHubInstallation;
-use Devboard\GitHub\Webhook\Core\Event\InstallationEvent\InstallationAction;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationEvent\InstallationAction;
 
 /**
  * @see InstallationEventSpec
@@ -17,7 +17,7 @@ class InstallationEvent
     private $action;
     /** @var GitHubInstallation */
     private $installation;
-    /** @var \Devboard\GitHub\Webhook\Core\Event\Sender */
+    /** @var \DevboardLib\GitHubWebhook\Core\Event\Sender */
     private $sender;
 
     public function __construct(InstallationAction $action, GitHubInstallation $installation, Sender $sender)
