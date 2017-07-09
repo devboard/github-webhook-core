@@ -19,6 +19,8 @@ use DevboardLib\GitHub\Installation\InstallationUpdatedAt;
 /**
  * @see InstallationFactorySpec
  * @see InstallationFactoryTest
+ *
+ * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class InstallationFactory
 {
@@ -42,6 +44,18 @@ class InstallationFactory
             $repositorySelection = null;
         }
 
+        try {
+            $createdAt = InstallationCreatedAt::createFromFormat('U', (string) $data['created_at']);
+        } catch (\Throwable $exception) {
+            $createdAt = new InstallationCreatedAt($data['updated_at']);
+        }
+
+        try {
+            $updatedAt = InstallationUpdatedAt::createFromFormat('U', (string) $data['updated_at']);
+        } catch (\Throwable $exception) {
+            $updatedAt = new InstallationUpdatedAt($data['updated_at']);
+        }
+
         return new GitHubInstallation(
             new InstallationId($data['id']),
             $account,
@@ -52,8 +66,8 @@ class InstallationFactory
             new InstallationAccessTokenUrl($data['access_tokens_url']),
             new InstallationRepositoriesUrl($data['repositories_url']),
             new InstallationHtmlUrl($data['html_url']),
-            InstallationCreatedAt::createFromFormat('U', (string) $data['created_at']),
-            InstallationUpdatedAt::createFromFormat('U', (string) $data['updated_at'])
+            $createdAt,
+            $updatedAt
         );
     }
 }
