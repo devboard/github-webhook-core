@@ -6,18 +6,18 @@ namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\Thesting\Source\JsonSource;
 use DevboardLib\GitHub\Repo\RepoEndpoints;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoEndpointsFactory;
 
 /**
- * @covers \DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Repo\RepoEndpointsFactory
  * @group  unit
  */
-class GitHubRepoEndpointsFactoryTest extends \PHPUnit_Framework_TestCase
+class RepoEndpointsFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /** @dataProvider provideData */
     public function testFactoryReturnsGitHubRepoEndpointsInstance(array $data)
     {
-        $sut = new GitHubRepoEndpointsFactory();
+        $sut = new RepoEndpointsFactory();
 
         $this->assertInstanceOf(RepoEndpoints::class, $sut->create($data));
     }

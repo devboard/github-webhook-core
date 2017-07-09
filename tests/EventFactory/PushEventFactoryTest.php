@@ -12,10 +12,10 @@ use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEventFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\SenderFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoEndpointsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoStatsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoTimestampsFactory;
 use Generator;
 use tests\DevboardLib\GitHubWebhook\Core\GitHubExampleTestData;
 use tests\DevboardLib\GitHubWebhook\Core\GitHubProductionTestData;
@@ -36,10 +36,10 @@ class PushEventFactoryTest extends \PHPUnit_Framework_TestCase
                 new CommitCommitterFactory(),
                 new CommitAuthorFactory()
             ),
-            new GitHubRepoFactory(
-                new GitHubRepoEndpointsFactory(),
-                new GitHubRepoTimestampsFactory(),
-                new GitHubRepoStatsFactory()
+            new RepoFactory(
+                new RepoEndpointsFactory(),
+                new RepoTimestampsFactory(),
+                new RepoStatsFactory()
             ),
             new PusherFactory(),
             new SenderFactory()

@@ -14,14 +14,14 @@ use DevboardLib\GitHubWebhook\Core\EventFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEventFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\SenderFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoFactory;
 use PhpSpec\ObjectBehavior;
 
 class PushEventFactorySpec extends ObjectBehavior
 {
     public function let(
         CommitFactory $commitFactory,
-        GitHubRepoFactory $repoFactory,
+        RepoFactory $repoFactory,
         PusherFactory $pusherFactory,
         SenderFactory $senderFactory
     ) {
@@ -41,7 +41,7 @@ class PushEventFactorySpec extends ObjectBehavior
 
     public function it_will_return_push_event_instance_from_given_array(
         CommitFactory $commitFactory,
-        GitHubRepoFactory $repoFactory,
+        RepoFactory $repoFactory,
         PusherFactory $pusherFactory,
         SenderFactory $senderFactory,
         GitHubCommit $commit,

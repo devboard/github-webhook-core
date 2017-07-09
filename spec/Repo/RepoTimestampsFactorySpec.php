@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
 use DevboardLib\GitHub\Repo\RepoTimestamps;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoTimestampsFactory;
 use PhpSpec\ObjectBehavior;
 
-class GitHubRepoTimestampsFactorySpec extends ObjectBehavior
+class RepoTimestampsFactorySpec extends ObjectBehavior
 {
     public function let()
     {
@@ -17,7 +17,7 @@ class GitHubRepoTimestampsFactorySpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType(GitHubRepoTimestampsFactory::class);
+        $this->shouldHaveType(RepoTimestampsFactory::class);
     }
 
     public function it_will_return_github_repo_timestamps_instance()

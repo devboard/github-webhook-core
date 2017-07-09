@@ -6,18 +6,18 @@ namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\Thesting\Source\JsonSource;
 use DevboardLib\GitHub\Repo\RepoStats;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoStatsFactory;
 
 /**
- * @covers \DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Repo\RepoStatsFactory
  * @group  unit
  */
-class GitHubRepoStatsFactoryTest extends \PHPUnit_Framework_TestCase
+class RepoStatsFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /** @dataProvider provideData */
     public function testFactoryReturnsGitHubRepoStatsInstance(array $data)
     {
-        $sut = new GitHubRepoStatsFactory();
+        $sut = new RepoStatsFactory();
 
         $this->assertInstanceOf(RepoStats::class, $sut->create($data));
     }

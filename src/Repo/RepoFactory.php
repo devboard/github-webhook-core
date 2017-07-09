@@ -11,24 +11,24 @@ use DevboardLib\GitHub\Repo\RepoId;
 use DevboardLib\GitHub\Repo\RepoName;
 
 /**
- * @see GitHubRepoFactorySpec
- * @see GitHubRepoFactoryTest
+ * @see RepoFactorySpec
+ * @see RepoFactoryTest
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
-class GitHubRepoFactory
+class RepoFactory
 {
-    /** @var GitHubRepoEndpointsFactory */
+    /** @var RepoEndpointsFactory */
     private $endpointsFactory;
-    /** @var GitHubRepoTimestampsFactory */
+    /** @var RepoTimestampsFactory */
     private $timestampsFactory;
-    /** @var GitHubRepoStatsFactory */
+    /** @var RepoStatsFactory */
     private $statsFactory;
 
     public function __construct(
-        GitHubRepoEndpointsFactory $endpointsFactory,
-        GitHubRepoTimestampsFactory $timestampsFactory,
-        GitHubRepoStatsFactory $statsFactory
+        RepoEndpointsFactory $endpointsFactory,
+        RepoTimestampsFactory $timestampsFactory,
+        RepoStatsFactory $statsFactory
     ) {
         $this->endpointsFactory  = $endpointsFactory;
         $this->timestampsFactory = $timestampsFactory;

@@ -8,10 +8,10 @@ use DevboardLib\GitHub\Repo\RepoSize;
 use DevboardLib\GitHub\Repo\RepoStats;
 
 /**
- * @see GitHubRepoStatsFactorySpec
- * @see GitHubRepoStatsFactoryTest
+ * @see RepoStatsFactorySpec
+ * @see RepoStatsFactoryTest
  */
-class GitHubRepoStatsFactory
+class RepoStatsFactory
 {
     public function create(array $data): RepoStats
     {

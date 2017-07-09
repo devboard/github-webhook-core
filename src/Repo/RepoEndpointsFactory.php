@@ -9,10 +9,10 @@ use DevboardLib\GitHub\Repo\RepoEndpoints;
 use DevboardLib\GitHub\Repo\RepoHtmlUrl;
 
 /**
- * @see GitHubRepoEndpointsFactorySpec
- * @see GitHubRepoEndpointsFactoryTest
+ * @see RepoEndpointsFactorySpec
+ * @see RepoEndpointsFactoryTest
  */
-class GitHubRepoEndpointsFactory
+class RepoEndpointsFactory
 {
     public function create(array $data): RepoEndpoints
     {

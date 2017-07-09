@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
 use DevboardLib\GitHub\Repo\RepoStats;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoStatsFactory;
 use PhpSpec\ObjectBehavior;
 
-class GitHubRepoStatsFactorySpec extends ObjectBehavior
+class RepoStatsFactorySpec extends ObjectBehavior
 {
     public function let()
     {
@@ -17,7 +17,7 @@ class GitHubRepoStatsFactorySpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType(GitHubRepoStatsFactory::class);
+        $this->shouldHaveType(RepoStatsFactory::class);
     }
 
     public function it_will_return_github_repo_stats_instance()

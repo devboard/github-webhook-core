@@ -6,27 +6,27 @@ namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\Thesting\Source\JsonSource;
 use DevboardLib\GitHub\GitHubRepo;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoEndpointsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoStatsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoTimestampsFactory;
 use Generator;
 
 /**
- * @covers \DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Repo\RepoFactory
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
-class GitHubRepoFactoryTest extends \PHPUnit_Framework_TestCase
+class RepoFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /** @dataProvider provideData */
     public function testCreate(array $data)
     {
-        $sut = new GitHubRepoFactory(
-            new GitHubRepoEndpointsFactory(),
-            new GitHubRepoTimestampsFactory(),
-            new GitHubRepoStatsFactory()
+        $sut = new RepoFactory(
+            new RepoEndpointsFactory(),
+            new RepoTimestampsFactory(),
+            new RepoStatsFactory()
         );
 
         $this->assertInstanceOf(GitHubRepo::class, $sut->create($data));

@@ -10,10 +10,10 @@ use DevboardLib\GitHub\Repo\RepoTimestamps;
 use DevboardLib\GitHub\Repo\RepoUpdatedAt;
 
 /**
- * @see GitHubRepoTimestampsFactorySpec
- * @see GitHubRepoTimestampsFactoryTest
+ * @see RepoTimestampsFactorySpec
+ * @see RepoTimestampsFactoryTest
  */
-class GitHubRepoTimestampsFactory
+class RepoTimestampsFactory
 {
     public function create(array $data): RepoTimestamps
     {
