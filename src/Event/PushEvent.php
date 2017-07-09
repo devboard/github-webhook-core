@@ -8,12 +8,12 @@ use DevboardLib\GitHub\Commit\CommitSha;
 use DevboardLib\GitHub\GitHubCommit;
 use DevboardLib\GitHub\GitHubRepo;
 use DevboardLib\GitHub\Repo\RepoFullName;
+use DevboardLib\GitHubWebhook\Core\CommitCollection;
 use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 use DevboardLib\GitHubWebhook\Core\Event;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
-use DevboardLib\GitHubWebhook\Core\CommitCollection;
 
 /**
  * @see PushEventSpec

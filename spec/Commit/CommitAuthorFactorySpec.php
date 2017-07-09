@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace spec\DevboardLib\GitHubWebhook\Core\Commit;
 
 use DevboardLib\GitHub\Commit\CommitAuthor;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitAuthorFactory;
 use PhpSpec\ObjectBehavior;
 
-class GitHubCommitAuthorFactorySpec extends ObjectBehavior
+class CommitAuthorFactorySpec extends ObjectBehavior
 {
     public function it_is_initializable()
     {
-        $this->shouldHaveType(GitHubCommitAuthorFactory::class);
+        $this->shouldHaveType(CommitAuthorFactory::class);
     }
 
     public function it_will_create_author_from_given_branch_data()

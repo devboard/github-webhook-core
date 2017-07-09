@@ -10,10 +10,10 @@ use DevboardLib\GitHub\Commit\Committer\CommitCommitterEmail;
 use DevboardLib\GitHub\Commit\Committer\CommitCommitterName;
 
 /**
- * @see GitHubCommitCommitterFactorySpec
- * @see GitHubCommitCommitterFactoryTest
+ * @see CommitCommitterFactorySpec
+ * @see CommitCommitterFactoryTest
  */
-class GitHubCommitCommitterFactory
+class CommitCommitterFactory
 {
     public function create(array $data): CommitCommitter
     {

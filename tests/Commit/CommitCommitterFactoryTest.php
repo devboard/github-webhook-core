@@ -6,16 +6,16 @@ namespace tests\DevboardLib\GitHubWebhook\Core\Commit;
 
 use Devboard\Thesting\Source\JsonSource;
 use DevboardLib\GitHub\Commit\CommitCommitter;
-use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\CommitCommitterFactory;
 use Generator;
 
 /**
- * @covers \DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Commit\CommitCommitterFactory
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
-class GitHubCommitCommitterFactoryTest extends \PHPUnit_Framework_TestCase
+class CommitCommitterFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @dataProvider provideHeadCommits
@@ -23,7 +23,7 @@ class GitHubCommitCommitterFactoryTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreating(array $data)
     {
-        $sut = new GitHubCommitCommitterFactory();
+        $sut = new CommitCommitterFactory();
 
         $this->assertInstanceOf(CommitCommitter::class, $sut->create($data));
     }

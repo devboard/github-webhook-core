@@ -38,13 +38,13 @@ use DevboardLib\GitHub\User\UserGravatarId;
 use DevboardLib\GitHub\User\UserHtmlUrl;
 use DevboardLib\GitHub\User\UserId;
 use DevboardLib\GitHub\User\UserLogin;
+use DevboardLib\GitHubWebhook\Core\CommitCollection;
 use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
 use DevboardLib\GitHubWebhook\Core\Event\Sender;
-use DevboardLib\GitHubWebhook\Core\CommitCollection;
 
 /**
  * @covers \DevboardLib\GitHubWebhook\Core\Event\PushEvent

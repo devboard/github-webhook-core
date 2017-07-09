@@ -10,17 +10,17 @@ use DevboardLib\GitHub\Commit\CommitSha;
 use DevboardLib\GitHub\GitHubCommit;
 
 /**
- * @see GitHubCommitFactorySpec
- * @see GitHubCommitFactoryTest
+ * @see CommitFactorySpec
+ * @see CommitFactoryTest
  */
-class GitHubCommitFactory
+class CommitFactory
 {
-    /** @var GitHubCommitCommitterFactory */
+    /** @var CommitCommitterFactory */
     private $committerFactory;
-    /** @var GitHubCommitAuthorFactory */
+    /** @var CommitAuthorFactory */
     private $authorFactory;
 
-    public function __construct(GitHubCommitCommitterFactory $commitCommitterFactory, GitHubCommitAuthorFactory $authorFactory)
+    public function __construct(CommitCommitterFactory $commitCommitterFactory, CommitAuthorFactory $authorFactory)
     {
         $this->committerFactory = $commitCommitterFactory;
         $this->authorFactory    = $authorFactory;
