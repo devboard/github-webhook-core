@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\GitHubRepo;
-use Devboard\GitHub\Repo\GitHubRepoEndpoints;
-use Devboard\GitHub\Repo\GitHubRepoStats;
-use Devboard\GitHub\Repo\GitHubRepoTimestamps;
+use DevboardLib\GitHub\GitHubRepo;
+use DevboardLib\GitHub\Repo\RepoEndpoints;
+use DevboardLib\GitHub\Repo\RepoStats;
+use DevboardLib\GitHub\Repo\RepoTimestamps;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
@@ -33,9 +33,9 @@ class GitHubRepoFactorySpec extends ObjectBehavior
         GitHubRepoEndpointsFactory $endpointsFactory,
         GitHubRepoTimestampsFactory $timestampsFactory,
         GitHubRepoStatsFactory $statsFactory,
-        GitHubRepoEndpoints $endpoints,
-        GitHubRepoTimestamps $timestamps,
-        GitHubRepoStats $stats
+        RepoEndpoints $endpoints,
+        RepoTimestamps $timestamps,
+        RepoStats $stats
     ) {
         $data = [
             'id'    => 123,

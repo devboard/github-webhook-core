@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent;
 
-use Devboard\GitHub\Installation\GitHubInstallationAccount;
+use DevboardLib\GitHub\Installation\InstallationAccount;
 use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationAccountFactory;
 use PhpSpec\ObjectBehavior;
 
@@ -29,6 +29,6 @@ class InstallationAccountFactorySpec extends ObjectBehavior
         ];
 
         $this->create($data)
-            ->shouldReturnAnInstanceOf(GitHubInstallationAccount::class);
+            ->shouldReturnAnInstanceOf(InstallationAccount::class);
     }
 }

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoEndpoints;
+use DevboardLib\GitHub\Repo\RepoEndpoints;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
 use PhpSpec\ObjectBehavior;
 
@@ -27,6 +27,6 @@ class GitHubRepoEndpointsFactorySpec extends ObjectBehavior
             'html_url' => '..',
         ];
 
-        $this->create($data)->shouldReturnAnInstanceOf(GitHubRepoEndpoints::class);
+        $this->create($data)->shouldReturnAnInstanceOf(RepoEndpoints::class);
     }
 }

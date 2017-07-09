@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace tests\DevboardLib\GitHubWebhook\Core\Commit;
 
-use Devboard\GitHub\GitHubCommit;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHub\GitHubCommit;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;

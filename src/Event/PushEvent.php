@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Event;
 
-use Devboard\GitHub\Commit\GitHubCommitSha;
-use Devboard\GitHub\GitHubCommit;
-use Devboard\GitHub\GitHubRepo;
-use Devboard\GitHub\Repo\GitHubRepoFullName;
+use DevboardLib\GitHub\Commit\CommitSha;
+use DevboardLib\GitHub\GitHubCommit;
+use DevboardLib\GitHub\GitHubRepo;
+use DevboardLib\GitHub\Repo\RepoFullName;
 use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 use DevboardLib\GitHubWebhook\Core\Event;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
@@ -25,9 +25,9 @@ class PushEvent implements Event
 {
     /** @var Ref */
     private $ref;
-    /** @var GitHubCommitSha */
+    /** @var CommitSha */
     private $before;
-    /** @var GitHubCommitSha */
+    /** @var CommitSha */
     private $after;
     /** @var PushEventState */
     private $state;
@@ -48,8 +48,8 @@ class PushEvent implements Event
 
     public function __construct(
         Ref $ref,
-        ?GitHubCommitSha $before,
-        ?GitHubCommitSha $after,
+        ?CommitSha $before,
+        ?CommitSha $after,
         PushEventState $state,
         ?Ref $baseRef,
         CompareChangesUrl $changesUrl,
@@ -77,12 +77,12 @@ class PushEvent implements Event
         return $this->ref;
     }
 
-    public function getBefore(): ?GitHubCommitSha
+    public function getBefore(): ?CommitSha
     {
         return $this->before;
     }
 
-    public function getAfter(): ?GitHubCommitSha
+    public function getAfter(): ?CommitSha
     {
         return $this->after;
     }
@@ -117,7 +117,7 @@ class PushEvent implements Event
         return $this->repo;
     }
 
-    public function getRepoFullName(): GitHubRepoFullName
+    public function getRepoFullName(): RepoFullName
     {
         return $this->repo->getFullName();
     }

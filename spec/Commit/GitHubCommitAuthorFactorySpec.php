@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Commit;
 
-use Devboard\GitHub\Commit\GitHubCommitAuthor;
+use DevboardLib\GitHub\Commit\CommitAuthor;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
 use PhpSpec\ObjectBehavior;
 
@@ -25,6 +25,6 @@ class GitHubCommitAuthorFactorySpec extends ObjectBehavior
             'timestamp'=> '2016-06-14T01:01:08+02:00',
         ];
 
-        $this->create($data)->shouldReturnAnInstanceOf(GitHubCommitAuthor::class);
+        $this->create($data)->shouldReturnAnInstanceOf(CommitAuthor::class);
     }
 }

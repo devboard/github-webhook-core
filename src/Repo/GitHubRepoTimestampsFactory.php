@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoCreatedAt;
-use Devboard\GitHub\Repo\GitHubRepoPushedAt;
-use Devboard\GitHub\Repo\GitHubRepoTimestamps;
-use Devboard\GitHub\Repo\GitHubRepoUpdatedAt;
+use DevboardLib\GitHub\Repo\RepoCreatedAt;
+use DevboardLib\GitHub\Repo\RepoPushedAt;
+use DevboardLib\GitHub\Repo\RepoTimestamps;
+use DevboardLib\GitHub\Repo\RepoUpdatedAt;
 
 /**
  * @see GitHubRepoTimestampsFactorySpec
@@ -15,12 +15,12 @@ use Devboard\GitHub\Repo\GitHubRepoUpdatedAt;
  */
 class GitHubRepoTimestampsFactory
 {
-    public function create(array $data): GitHubRepoTimestamps
+    public function create(array $data): RepoTimestamps
     {
-        return new GitHubRepoTimestamps(
-            new GitHubRepoCreatedAt(gmdate("Y-m-d\TH:i:s\Z", $data['created_at'])),
-            new GitHubRepoUpdatedAt($data['updated_at']),
-            new GitHubRepoPushedAt(gmdate("Y-m-d\TH:i:s\Z", $data['pushed_at']))
+        return new RepoTimestamps(
+            new RepoCreatedAt(gmdate("Y-m-d\TH:i:s\Z", $data['created_at'])),
+            new RepoUpdatedAt($data['updated_at']),
+            new RepoPushedAt(gmdate("Y-m-d\TH:i:s\Z", $data['pushed_at']))
         );
     }
 }

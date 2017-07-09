@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace tests\DevboardLib\GitHubWebhook\Core\Commit;
 
-use Devboard\GitHub\Commit\GitHubCommitCommitter;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHub\Commit\CommitCommitter;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
 use Generator;
 
@@ -25,7 +25,7 @@ class GitHubCommitCommitterFactoryTest extends \PHPUnit_Framework_TestCase
     {
         $sut = new GitHubCommitCommitterFactory();
 
-        $this->assertInstanceOf(GitHubCommitCommitter::class, $sut->create($data));
+        $this->assertInstanceOf(CommitCommitter::class, $sut->create($data));
     }
 
     public function provideHeadCommits(): Generator

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Commit;
 
-use Devboard\GitHub\Commit\Committer\GitHubCommitCommitterEmail;
-use Devboard\GitHub\Commit\Committer\GitHubCommitCommitterName;
-use Devboard\GitHub\Commit\GitHubCommitCommitter;
-use Devboard\GitHub\Commit\GitHubCommitDate;
+use DevboardLib\GitHub\Commit\CommitCommitter;
+use DevboardLib\GitHub\Commit\CommitDate;
+use DevboardLib\GitHub\Commit\Committer\CommitCommitterEmail;
+use DevboardLib\GitHub\Commit\Committer\CommitCommitterName;
 
 /**
  * @see GitHubCommitCommitterFactorySpec
@@ -15,12 +15,12 @@ use Devboard\GitHub\Commit\GitHubCommitDate;
  */
 class GitHubCommitCommitterFactory
 {
-    public function create(array $data): GitHubCommitCommitter
+    public function create(array $data): CommitCommitter
     {
-        return new GitHubCommitCommitter(
-            new GitHubCommitCommitterName($data['committer']['name']),
-            new GitHubCommitCommitterEmail($data['committer']['email']),
-            new GitHubCommitDate($data['timestamp']),
+        return new CommitCommitter(
+            new CommitCommitterName($data['committer']['name']),
+            new CommitCommitterEmail($data['committer']['email']),
+            new CommitDate($data['timestamp']),
             null
         );
     }

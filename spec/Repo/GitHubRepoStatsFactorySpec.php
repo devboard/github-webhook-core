@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoStats;
+use DevboardLib\GitHub\Repo\RepoStats;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
 use PhpSpec\ObjectBehavior;
 
@@ -30,6 +30,6 @@ class GitHubRepoStatsFactorySpec extends ObjectBehavior
           'size'             => 5,
         ];
 
-        $this->create($data)->shouldReturnAnInstanceOf(GitHubRepoStats::class);
+        $this->create($data)->shouldReturnAnInstanceOf(RepoStats::class);
     }
 }

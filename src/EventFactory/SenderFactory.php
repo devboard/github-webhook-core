@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\EventFactory;
 
-use Devboard\GitHub\Account\GitHubAccountTypeFactory;
-use Devboard\GitHub\User\GitHubUserApiUrl;
-use Devboard\GitHub\User\GitHubUserAvatarUrl;
-use Devboard\GitHub\User\GitHubUserGravatarId;
-use Devboard\GitHub\User\GitHubUserHtmlUrl;
-use Devboard\GitHub\User\GitHubUserId;
-use Devboard\GitHub\User\GitHubUserLogin;
+use DevboardLib\GitHub\Account\AccountTypeFactory;
+use DevboardLib\GitHub\User\UserApiUrl;
+use DevboardLib\GitHub\User\UserAvatarUrl;
+use DevboardLib\GitHub\User\UserGravatarId;
+use DevboardLib\GitHub\User\UserHtmlUrl;
+use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHub\User\UserLogin;
 use DevboardLib\GitHubWebhook\Core\Event\Sender;
 
 /**
@@ -22,13 +22,13 @@ class SenderFactory
     public function create(array $data): Sender
     {
         return new Sender(
-            new GitHubUserId($data['id']),
-            new GitHubUserLogin($data['login']),
-            GitHubAccountTypeFactory::create($data['type']),
-            new GitHubUserAvatarUrl($data['avatar_url']),
-            new GitHubUserGravatarId($data['gravatar_id']),
-            new GitHubUserHtmlUrl($data['html_url']),
-            new GitHubUserApiUrl($data['url']),
+            new UserId($data['id']),
+            new UserLogin($data['login']),
+            AccountTypeFactory::create($data['type']),
+            new UserAvatarUrl($data['avatar_url']),
+            new UserGravatarId($data['gravatar_id']),
+            new UserHtmlUrl($data['html_url']),
+            new UserApiUrl($data['url']),
             $data['site_admin']
         );
     }

@@ -4,40 +4,40 @@ declare(strict_types=1);
 
 namespace tests\DevboardLib\GitHubWebhook\Core\Event;
 
-use Devboard\GitHub\Account\Type\User;
-use Devboard\GitHub\Commit\Author\GitHubCommitAuthorEmail;
-use Devboard\GitHub\Commit\Author\GitHubCommitAuthorName;
-use Devboard\GitHub\Commit\Committer\GitHubCommitCommitterEmail;
-use Devboard\GitHub\Commit\Committer\GitHubCommitCommitterName;
-use Devboard\GitHub\Commit\GitHubCommitAuthor;
-use Devboard\GitHub\Commit\GitHubCommitAuthorDetails;
-use Devboard\GitHub\Commit\GitHubCommitCommitter;
-use Devboard\GitHub\Commit\GitHubCommitCommitterDetails;
-use Devboard\GitHub\Commit\GitHubCommitDate;
-use Devboard\GitHub\Commit\GitHubCommitMessage;
-use Devboard\GitHub\Commit\GitHubCommitSha;
-use Devboard\GitHub\GitHubCommit;
-use Devboard\GitHub\GitHubRepo;
-use Devboard\GitHub\Repo\GitHubRepoApiUrl;
-use Devboard\GitHub\Repo\GitHubRepoCreatedAt;
-use Devboard\GitHub\Repo\GitHubRepoEndpoints;
-use Devboard\GitHub\Repo\GitHubRepoFullName;
-use Devboard\GitHub\Repo\GitHubRepoHtmlUrl;
-use Devboard\GitHub\Repo\GitHubRepoId;
-use Devboard\GitHub\Repo\GitHubRepoName;
-use Devboard\GitHub\Repo\GitHubRepoOwner;
-use Devboard\GitHub\Repo\GitHubRepoPushedAt;
-use Devboard\GitHub\Repo\GitHubRepoSize;
-use Devboard\GitHub\Repo\GitHubRepoStats;
-use Devboard\GitHub\Repo\GitHubRepoTimestamps;
-use Devboard\GitHub\Repo\GitHubRepoUpdatedAt;
-use Devboard\GitHub\User\GitHubUserApiUrl;
-use Devboard\GitHub\User\GitHubUserAvatarUrl;
-use Devboard\GitHub\User\GitHubUserEmailAddress;
-use Devboard\GitHub\User\GitHubUserGravatarId;
-use Devboard\GitHub\User\GitHubUserHtmlUrl;
-use Devboard\GitHub\User\GitHubUserId;
-use Devboard\GitHub\User\GitHubUserLogin;
+use DevboardLib\GitHub\Account\Type\User;
+use DevboardLib\GitHub\Commit\Author\CommitAuthorEmail;
+use DevboardLib\GitHub\Commit\Author\CommitAuthorName;
+use DevboardLib\GitHub\Commit\CommitAuthor;
+use DevboardLib\GitHub\Commit\CommitAuthorDetails;
+use DevboardLib\GitHub\Commit\CommitCommitter;
+use DevboardLib\GitHub\Commit\CommitCommitterDetails;
+use DevboardLib\GitHub\Commit\CommitDate;
+use DevboardLib\GitHub\Commit\CommitMessage;
+use DevboardLib\GitHub\Commit\CommitSha;
+use DevboardLib\GitHub\Commit\Committer\CommitCommitterEmail;
+use DevboardLib\GitHub\Commit\Committer\CommitCommitterName;
+use DevboardLib\GitHub\GitHubCommit;
+use DevboardLib\GitHub\GitHubRepo;
+use DevboardLib\GitHub\Repo\RepoApiUrl;
+use DevboardLib\GitHub\Repo\RepoCreatedAt;
+use DevboardLib\GitHub\Repo\RepoEndpoints;
+use DevboardLib\GitHub\Repo\RepoFullName;
+use DevboardLib\GitHub\Repo\RepoHtmlUrl;
+use DevboardLib\GitHub\Repo\RepoId;
+use DevboardLib\GitHub\Repo\RepoName;
+use DevboardLib\GitHub\Repo\RepoOwner;
+use DevboardLib\GitHub\Repo\RepoPushedAt;
+use DevboardLib\GitHub\Repo\RepoSize;
+use DevboardLib\GitHub\Repo\RepoStats;
+use DevboardLib\GitHub\Repo\RepoTimestamps;
+use DevboardLib\GitHub\Repo\RepoUpdatedAt;
+use DevboardLib\GitHub\User\UserApiUrl;
+use DevboardLib\GitHub\User\UserAvatarUrl;
+use DevboardLib\GitHub\User\UserEmailAddress;
+use DevboardLib\GitHub\User\UserGravatarId;
+use DevboardLib\GitHub\User\UserHtmlUrl;
+use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHub\User\UserLogin;
 use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
@@ -58,8 +58,8 @@ class PushEventTest extends \PHPUnit_Framework_TestCase
     /** @dataProvider provideData */
     public function testGetters(
         Ref $ref,
-        ?GitHubCommitSha $before,
-        ?GitHubCommitSha $after,
+        ?CommitSha $before,
+        ?CommitSha $after,
         PushEventState $state,
         ?Ref $baseRef,
         CompareChangesUrl $changesUrl,
@@ -91,8 +91,8 @@ class PushEventTest extends \PHPUnit_Framework_TestCase
         return [
             [
                 new Ref('refs/heads/dev'),
-                new GitHubCommitSha('abc123'),
-                new GitHubCommitSha('abc234'),
+                new CommitSha('abc123'),
+                new CommitSha('abc234'),
                 new PushEventState(true, false, false),
                 new Ref('refs/heads/master'),
                 new CompareChangesUrl(
@@ -100,77 +100,77 @@ class PushEventTest extends \PHPUnit_Framework_TestCase
                 ),
                 new GitHubCommitCollection(),
                 new GitHubCommit(
-                    new GitHubCommitSha('abc234'),
-                    new GitHubCommitMessage('Message'),
-                    new GitHubCommitDate('2017-02-03 11:22:33'),
-                    new GitHubCommitAuthor(
-                        new GitHubCommitAuthorName('name'),
-                        new GitHubCommitAuthorEmail('nobody@example.com'),
-                        new GitHubCommitDate('2017-02-03 11:22:33'),
-                        new GitHubCommitAuthorDetails(
-                            new GitHubUserId(13507412),
-                            new GitHubUserLogin('devboard-test'),
+                    new CommitSha('abc234'),
+                    new CommitMessage('Message'),
+                    new CommitDate('2017-02-03 11:22:33'),
+                    new CommitAuthor(
+                        new CommitAuthorName('name'),
+                        new CommitAuthorEmail('nobody@example.com'),
+                        new CommitDate('2017-02-03 11:22:33'),
+                        new CommitAuthorDetails(
+                            new UserId(13507412),
+                            new UserLogin('devboard-test'),
                             new User(),
-                            new GitHubUserAvatarUrl('https://avatars.githubusercontent.com/u/13507412?v=3'),
-                            new GitHubUserGravatarId(''),
-                            new GitHubUserHtmlUrl('https://github.com/devboard-test'),
-                            new GitHubUserApiUrl('https://api.github.com/users/devboard-test'),
+                            new UserAvatarUrl('https://avatars.githubusercontent.com/u/13507412?v=3'),
+                            new UserGravatarId(''),
+                            new UserHtmlUrl('https://github.com/devboard-test'),
+                            new UserApiUrl('https://api.github.com/users/devboard-test'),
                             false
                         )
                     ),
-                    new GitHubCommitCommitter(
-                        new GitHubCommitCommitterName('name'),
-                        new GitHubCommitCommitterEmail('nobody@example.com'),
-                        new GitHubCommitDate('2017-02-03 11:22:33'),
-                        new GitHubCommitCommitterDetails(
-                            new GitHubUserId(13507412),
-                            new GitHubUserLogin('devboard-test'),
+                    new CommitCommitter(
+                        new CommitCommitterName('name'),
+                        new CommitCommitterEmail('nobody@example.com'),
+                        new CommitDate('2017-02-03 11:22:33'),
+                        new CommitCommitterDetails(
+                            new UserId(13507412),
+                            new UserLogin('devboard-test'),
                             new User(),
-                            new GitHubUserAvatarUrl('https://avatars.githubusercontent.com/u/13507412?v=3'),
-                            new GitHubUserGravatarId(''),
-                            new GitHubUserHtmlUrl('https://github.com/devboard-test'),
-                            new GitHubUserApiUrl('https://api.github.com/users/devboard-test'),
+                            new UserAvatarUrl('https://avatars.githubusercontent.com/u/13507412?v=3'),
+                            new UserGravatarId(''),
+                            new UserHtmlUrl('https://github.com/devboard-test'),
+                            new UserApiUrl('https://api.github.com/users/devboard-test'),
                             false
                         )
                     )
                 ),
                 new GitHubRepo(
-                    new GitHubRepoId(1234),
-                    new GitHubRepoFullName(
-                        new GitHubUserLogin('devboard-test'), new GitHubRepoName('super-library')
+                    new RepoId(1234),
+                    new RepoFullName(
+                        new UserLogin('devboard-test'), new RepoName('super-library')
                     ),
-                    new GitHubRepoOwner(
-                        new GitHubUserId(789),
-                        new GitHubUserLogin('devboard-test'),
+                    new RepoOwner(
+                        new UserId(789),
+                        new UserLogin('devboard-test'),
                         new User(),
-                        new GitHubUserAvatarUrl('..'),
-                        new GitHubUserGravatarId('..'),
-                        new GitHubUserHtmlUrl('..'),
-                        new GitHubUserApiUrl('..'),
+                        new UserAvatarUrl('..'),
+                        new UserGravatarId('..'),
+                        new UserHtmlUrl('..'),
+                        new UserApiUrl('..'),
                         false
                     ),
                     false,
-                    new GitHubRepoEndpoints(
-                        new GitHubRepoApiUrl('..'),
-                        new GitHubRepoHtmlUrl('..')
+                    new RepoEndpoints(
+                        new RepoApiUrl('..'),
+                        new RepoHtmlUrl('..')
                     ),
-                    new GitHubRepoTimestamps(
-                        new GitHubRepoCreatedAt('2017-01-02 11:22:33'),
-                        new GitHubRepoUpdatedAt('2017-02-03 15:16:17'),
-                        new GitHubRepoPushedAt('2017-03-04 22:23:24')
+                    new RepoTimestamps(
+                        new RepoCreatedAt('2017-01-02 11:22:33'),
+                        new RepoUpdatedAt('2017-02-03 15:16:17'),
+                        new RepoPushedAt('2017-03-04 22:23:24')
                     ),
-                    new GitHubRepoStats(1, 2, 3, 4, new GitHubRepoSize(77))
+                    new RepoStats(1, 2, 3, 4, new RepoSize(77))
                 ),
 
-                new Pusher(new GitHubUserLogin('devboard-test'), new GitHubUserEmailAddress('nobody@example.com')),
+                new Pusher(new UserLogin('devboard-test'), new UserEmailAddress('nobody@example.com')),
                 new Sender(
-                    new GitHubUserId(13507412),
-                    new GitHubUserLogin('devboard-test'),
+                    new UserId(13507412),
+                    new UserLogin('devboard-test'),
                     new User(),
-                    new GitHubUserAvatarUrl('https://avatars.githubusercontent.com/u/13507412?v=3'),
-                    new GitHubUserGravatarId(''),
-                    new GitHubUserHtmlUrl('https://github.com/devboard-test'),
-                    new GitHubUserApiUrl('https://api.github.com/users/devboard-test'),
+                    new UserAvatarUrl('https://avatars.githubusercontent.com/u/13507412?v=3'),
+                    new UserGravatarId(''),
+                    new UserHtmlUrl('https://github.com/devboard-test'),
+                    new UserApiUrl('https://api.github.com/users/devboard-test'),
                     false
                 ),
             ],

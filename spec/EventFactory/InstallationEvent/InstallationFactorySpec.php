@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent;
 
-use Devboard\GitHub\GitHubInstallation;
-use Devboard\GitHub\Installation\GitHubInstallationAccount;
+use DevboardLib\GitHub\GitHubInstallation;
+use DevboardLib\GitHub\Installation\InstallationAccount;
 use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationAccountFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationFactory;
 use PhpSpec\ObjectBehavior;
@@ -24,7 +24,7 @@ class InstallationFactorySpec extends ObjectBehavior
 
     public function it_will_create_installation_value_object_from_given_array(
         InstallationAccountFactory $accountFactory,
-        GitHubInstallationAccount $installationAccount
+        InstallationAccount $installationAccount
     ) {
         $accountFactory->create(['account-data'])
             ->shouldBeCalled()

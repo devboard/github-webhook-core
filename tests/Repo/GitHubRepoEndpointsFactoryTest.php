@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoEndpoints;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHub\Repo\RepoEndpoints;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
 
 /**
@@ -19,7 +19,7 @@ class GitHubRepoEndpointsFactoryTest extends \PHPUnit_Framework_TestCase
     {
         $sut = new GitHubRepoEndpointsFactory();
 
-        $this->assertInstanceOf(GitHubRepoEndpoints::class, $sut->create($data));
+        $this->assertInstanceOf(RepoEndpoints::class, $sut->create($data));
     }
 
     public function provideData(): \Generator

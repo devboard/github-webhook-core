@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Commit;
 
-use Devboard\GitHub\Commit\Author\GitHubCommitAuthorEmail;
-use Devboard\GitHub\Commit\Author\GitHubCommitAuthorName;
-use Devboard\GitHub\Commit\GitHubCommitAuthor;
-use Devboard\GitHub\Commit\GitHubCommitDate;
+use DevboardLib\GitHub\Commit\Author\CommitAuthorEmail;
+use DevboardLib\GitHub\Commit\Author\CommitAuthorName;
+use DevboardLib\GitHub\Commit\CommitAuthor;
+use DevboardLib\GitHub\Commit\CommitDate;
 
 /**
  * @see GitHubCommitAuthorFactorySpec
@@ -15,12 +15,12 @@ use Devboard\GitHub\Commit\GitHubCommitDate;
  */
 class GitHubCommitAuthorFactory
 {
-    public function create(array $data): GitHubCommitAuthor
+    public function create(array $data): CommitAuthor
     {
-        return new GitHubCommitAuthor(
-            new GitHubCommitAuthorName($data['author']['name']),
-            new GitHubCommitAuthorEmail($data['author']['email']),
-            new GitHubCommitDate($data['timestamp']),
+        return new CommitAuthor(
+            new CommitAuthorName($data['author']['name']),
+            new CommitAuthorEmail($data['author']['email']),
+            new CommitDate($data['timestamp']),
             null
         );
     }

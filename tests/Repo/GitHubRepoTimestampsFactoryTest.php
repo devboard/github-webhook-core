@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoTimestamps;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHub\Repo\RepoTimestamps;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
 
 /**
@@ -19,7 +19,7 @@ class GitHubRepoTimestampsFactoryTest extends \PHPUnit_Framework_TestCase
     {
         $sut = new GitHubRepoTimestampsFactory();
 
-        $this->assertInstanceOf(GitHubRepoTimestamps::class, $sut->create($data));
+        $this->assertInstanceOf(RepoTimestamps::class, $sut->create($data));
     }
 
     public function provideData(): \Generator

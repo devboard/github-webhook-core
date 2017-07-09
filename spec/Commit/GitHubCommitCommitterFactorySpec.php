@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Commit;
 
-use Devboard\GitHub\Commit\GitHubCommitCommitter;
+use DevboardLib\GitHub\Commit\CommitCommitter;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
 use PhpSpec\ObjectBehavior;
 
@@ -30,6 +30,6 @@ class GitHubCommitCommitterFactorySpec extends ObjectBehavior
             'timestamp' => '2016-06-14T01:01:08+02:00',
         ];
 
-        $this->create($data)->shouldReturnAnInstanceOf(GitHubCommitCommitter::class);
+        $this->create($data)->shouldReturnAnInstanceOf(CommitCommitter::class);
     }
 }

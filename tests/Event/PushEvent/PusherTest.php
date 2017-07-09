@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace tests\DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 
-use Devboard\GitHub\User\GitHubUserEmailAddress;
-use Devboard\GitHub\User\GitHubUserLogin;
+use DevboardLib\GitHub\User\UserEmailAddress;
+use DevboardLib\GitHub\User\UserLogin;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 
 /**
@@ -15,7 +15,7 @@ use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 class PusherTest extends \PHPUnit_Framework_TestCase
 {
     /** @dataProvider provideValues */
-    public function testGetters(GitHubUserLogin $login, GitHubUserEmailAddress $emailAddress)
+    public function testGetters(UserLogin $login, UserEmailAddress $emailAddress)
     {
         $sut = new Pusher($login, $emailAddress);
 
@@ -35,7 +35,7 @@ class PusherTest extends \PHPUnit_Framework_TestCase
     public function provideValues(): array
     {
         return [
-            [new GitHubUserLogin('devboard-test'), new GitHubUserEmailAddress('nobody@example.com')],
+            [new UserLogin('devboard-test'), new UserEmailAddress('nobody@example.com')],
         ];
     }
 

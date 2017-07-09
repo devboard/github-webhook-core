@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoStats;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHub\Repo\RepoStats;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
 
 /**
@@ -19,7 +19,7 @@ class GitHubRepoStatsFactoryTest extends \PHPUnit_Framework_TestCase
     {
         $sut = new GitHubRepoStatsFactory();
 
-        $this->assertInstanceOf(GitHubRepoStats::class, $sut->create($data));
+        $this->assertInstanceOf(RepoStats::class, $sut->create($data));
     }
 
     public function provideData(): \Generator

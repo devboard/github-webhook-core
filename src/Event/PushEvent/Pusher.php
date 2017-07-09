@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 
-use Devboard\GitHub\User\GitHubUserEmailAddress;
-use Devboard\GitHub\User\GitHubUserLogin;
+use DevboardLib\GitHub\User\UserEmailAddress;
+use DevboardLib\GitHub\User\UserLogin;
 
 /**
  * @see PusherSpec
@@ -13,12 +13,12 @@ use Devboard\GitHub\User\GitHubUserLogin;
  */
 class Pusher
 {
-    /** @var GitHubUserLogin */
+    /** @var UserLogin */
     private $login;
-    /** @var GitHubUserEmailAddress */
+    /** @var UserEmailAddress */
     private $emailAddress;
 
-    public function __construct(GitHubUserLogin $login, GitHubUserEmailAddress $emailAddress)
+    public function __construct(UserLogin $login, UserEmailAddress $emailAddress)
     {
         $this->login        = $login;
         $this->emailAddress = $emailAddress;
@@ -26,15 +26,15 @@ class Pusher
 
     public static function create(string $login, string $emailAddress): Pusher
     {
-        return new self(new GitHubUserLogin($login), new GitHubUserEmailAddress($emailAddress));
+        return new self(new UserLogin($login), new UserEmailAddress($emailAddress));
     }
 
-    public function getLogin(): GitHubUserLogin
+    public function getLogin(): UserLogin
     {
         return $this->login;
     }
 
-    public function getEmailAddress(): GitHubUserEmailAddress
+    public function getEmailAddress(): UserEmailAddress
     {
         return $this->emailAddress;
     }
