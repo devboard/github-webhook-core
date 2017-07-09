@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
 use DevboardLib\GitHub\Repo\RepoEndpoints;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoEndpointsFactory;
 use PhpSpec\ObjectBehavior;
 
-class GitHubRepoEndpointsFactorySpec extends ObjectBehavior
+class RepoEndpointsFactorySpec extends ObjectBehavior
 {
     public function let()
     {
@@ -17,7 +17,7 @@ class GitHubRepoEndpointsFactorySpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType(GitHubRepoEndpointsFactory::class);
+        $this->shouldHaveType(RepoEndpointsFactory::class);
     }
 
     public function it_will_return_github_endpoints_instance()

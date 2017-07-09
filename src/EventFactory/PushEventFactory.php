@@ -13,7 +13,7 @@ use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
 use DevboardLib\GitHubWebhook\Core\EventFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
-use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\RepoFactory;
 
 /**
  * @see PushEventFactorySpec
@@ -23,7 +23,7 @@ class PushEventFactory implements EventFactory
 {
     /** @var CommitFactory */
     private $commitFactory;
-    /** @var GitHubRepoFactory */
+    /** @var RepoFactory */
     private $repoFactory;
     /** @var PusherFactory */
     private $pusherFactory;
@@ -32,7 +32,7 @@ class PushEventFactory implements EventFactory
 
     public function __construct(
         CommitFactory $commitFactory,
-        GitHubRepoFactory $repoFactory,
+        RepoFactory $repoFactory,
         PusherFactory $pusherFactory,
         SenderFactory $senderFactory
     ) {
