@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Account\GitHubAccountLogin;
-use Devboard\GitHub\GitHubRepo;
-use Devboard\GitHub\Repo\GitHubRepoFullName;
-use Devboard\GitHub\Repo\GitHubRepoId;
-use Devboard\GitHub\Repo\GitHubRepoName;
+use DevboardLib\GitHub\Account\AccountLogin;
+use DevboardLib\GitHub\GitHubRepo;
+use DevboardLib\GitHub\Repo\RepoFullName;
+use DevboardLib\GitHub\Repo\RepoId;
+use DevboardLib\GitHub\Repo\RepoName;
 
 /**
  * @see GitHubRepoFactorySpec
@@ -38,10 +38,10 @@ class GitHubRepoFactory
     public function create(array $data): GitHubRepo
     {
         $repo = new GitHubRepo(
-            new GitHubRepoId($data['id']),
-            new GitHubRepoFullName(
-                new GitHubAccountLogin($data['owner']['name']),
-                new GitHubRepoName($data['name'])
+            new RepoId($data['id']),
+            new RepoFullName(
+                new AccountLogin($data['owner']['name']),
+                new RepoName($data['name'])
             ),
             null,
             $data['private'],

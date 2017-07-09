@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\EventFactory;
 
-use Devboard\GitHub\Commit\GitHubCommitSha;
+use DevboardLib\GitHub\Commit\CommitSha;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
 use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
@@ -68,8 +68,8 @@ class PushEventFactory implements EventFactory
 
         return new PushEvent(
             $ref,
-            new GitHubCommitSha($data['before']),
-            new GitHubCommitSha($data['after']),
+            new CommitSha($data['before']),
+            new CommitSha($data['after']),
             new PushEventState($data['created'], $data['deleted'], $data['forced']),
             $baseRef,
             new CompareChangesUrl($data['compare']),

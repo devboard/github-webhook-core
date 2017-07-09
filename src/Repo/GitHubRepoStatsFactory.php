@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoSize;
-use Devboard\GitHub\Repo\GitHubRepoStats;
+use DevboardLib\GitHub\Repo\RepoSize;
+use DevboardLib\GitHub\Repo\RepoStats;
 
 /**
  * @see GitHubRepoStatsFactorySpec
@@ -13,14 +13,14 @@ use Devboard\GitHub\Repo\GitHubRepoStats;
  */
 class GitHubRepoStatsFactory
 {
-    public function create(array $data): GitHubRepoStats
+    public function create(array $data): RepoStats
     {
-        return new GitHubRepoStats(
+        return new RepoStats(
             $data['forks_count'],
             $data['watchers_count'],
             $data['stargazers_count'],
             $data['open_issues_count'],
-            new GitHubRepoSize($data['size'])
+            new RepoSize($data['size'])
         );
     }
 }

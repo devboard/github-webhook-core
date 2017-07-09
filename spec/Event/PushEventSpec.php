@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Event;
 
-use Devboard\GitHub\Commit\GitHubCommitSha;
-use Devboard\GitHub\GitHubCommit;
-use Devboard\GitHub\GitHubRepo;
+use DevboardLib\GitHub\Commit\CommitSha;
+use DevboardLib\GitHub\GitHubCommit;
+use DevboardLib\GitHub\GitHubRepo;
 use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 use DevboardLib\GitHubWebhook\Core\Event;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
@@ -21,8 +21,8 @@ class PushEventSpec extends ObjectBehavior
 {
     public function let(
         Ref $ref,
-        GitHubCommitSha $before,
-        GitHubCommitSha $after,
+        CommitSha $before,
+        CommitSha $after,
         PushEventState $state,
         Ref $baseRef,
         CompareChangesUrl $changesUrl,
@@ -45,8 +45,8 @@ class PushEventSpec extends ObjectBehavior
 
     public function it_exposes_constructor_arguments(
         Ref $ref,
-        GitHubCommitSha $before,
-        GitHubCommitSha $after,
+        CommitSha $before,
+        CommitSha $after,
         PushEventState $state,
         Ref $baseRef,
         CompareChangesUrl $changesUrl,
@@ -89,7 +89,7 @@ class PushEventSpec extends ObjectBehavior
 
     public function it_has_no_after_and_head_commit_for_delete(
         Ref $ref,
-        GitHubCommitSha $before,
+        CommitSha $before,
         PushEventState $state,
         Ref $baseRef,
         CompareChangesUrl $changesUrl,
@@ -108,7 +108,7 @@ class PushEventSpec extends ObjectBehavior
 
     public function it_has_no_before_when_creating(
         Ref $ref,
-        GitHubCommitSha $after,
+        CommitSha $after,
         PushEventState $state,
         Ref $baseRef,
         CompareChangesUrl $changesUrl,

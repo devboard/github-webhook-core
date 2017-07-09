@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Commit;
 
-use Devboard\GitHub\Commit\GitHubCommitDate;
-use Devboard\GitHub\Commit\GitHubCommitMessage;
-use Devboard\GitHub\Commit\GitHubCommitSha;
-use Devboard\GitHub\GitHubCommit;
+use DevboardLib\GitHub\Commit\CommitDate;
+use DevboardLib\GitHub\Commit\CommitMessage;
+use DevboardLib\GitHub\Commit\CommitSha;
+use DevboardLib\GitHub\GitHubCommit;
 
 /**
  * @see GitHubCommitFactorySpec
@@ -29,9 +29,9 @@ class GitHubCommitFactory
     public function create(array $data): GitHubCommit
     {
         return new GitHubCommit(
-            new GitHubCommitSha($data['id']),
-            new GitHubCommitMessage($data['message']),
-            new GitHubCommitDate($data['timestamp']),
+            new CommitSha($data['id']),
+            new CommitMessage($data['message']),
+            new CommitDate($data['timestamp']),
             $this->authorFactory->create($data),
             $this->committerFactory->create($data)
         );

@@ -4,26 +4,26 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Event;
 
-use Devboard\GitHub\Account\GitHubAccountType;
-use Devboard\GitHub\User\GitHubUserApiUrl;
-use Devboard\GitHub\User\GitHubUserAvatarUrl;
-use Devboard\GitHub\User\GitHubUserGravatarId;
-use Devboard\GitHub\User\GitHubUserHtmlUrl;
-use Devboard\GitHub\User\GitHubUserId;
-use Devboard\GitHub\User\GitHubUserLogin;
+use DevboardLib\GitHub\Account\AccountType;
+use DevboardLib\GitHub\User\UserApiUrl;
+use DevboardLib\GitHub\User\UserAvatarUrl;
+use DevboardLib\GitHub\User\UserGravatarId;
+use DevboardLib\GitHub\User\UserHtmlUrl;
+use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHub\User\UserLogin;
 use DevboardLib\GitHubWebhook\Core\Event\Sender;
 use PhpSpec\ObjectBehavior;
 
 class SenderSpec extends ObjectBehavior
 {
     public function let(
-        GitHubUserId $userId,
-        GitHubUserLogin $login,
-        GitHubAccountType $gitHubAccountType,
-        GitHubUserAvatarUrl $avatarUrl,
-        GitHubUserGravatarId $gravatarId,
-        GitHubUserHtmlUrl $htmlUrl,
-        GitHubUserApiUrl $apiUrl
+        UserId $userId,
+        UserLogin $login,
+        AccountType $gitHubAccountType,
+        UserAvatarUrl $avatarUrl,
+        UserGravatarId $gravatarId,
+        UserHtmlUrl $htmlUrl,
+        UserApiUrl $apiUrl
     ) {
         $this->beConstructedWith(
             $userId,
@@ -43,17 +43,17 @@ class SenderSpec extends ObjectBehavior
     }
 
     public function it_should_expose_all_values_via_getters(
-        GitHubUserId $userId,
-        GitHubUserLogin $login,
-        GitHubAccountType $gitHubAccountType,
-        GitHubUserAvatarUrl $avatarUrl,
-        GitHubUserGravatarId $gravatarId,
-        GitHubUserHtmlUrl $htmlUrl,
-        GitHubUserApiUrl $apiUrl
+        UserId $userId,
+        UserLogin $login,
+        AccountType $gitHubAccountType,
+        UserAvatarUrl $avatarUrl,
+        UserGravatarId $gravatarId,
+        UserHtmlUrl $htmlUrl,
+        UserApiUrl $apiUrl
     ) {
         $this->getUserId()->shouldReturn($userId);
         $this->getLogin()->shouldReturn($login);
-        $this->getGitHubAccountType()->shouldReturn($gitHubAccountType);
+        $this->getAccountType()->shouldReturn($gitHubAccountType);
         $this->getAvatarUrl()->shouldReturn($avatarUrl);
         $this->getGravatarId()->shouldReturn($gravatarId);
         $this->getHtmlUrl()->shouldReturn($htmlUrl);

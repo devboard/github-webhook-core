@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Event;
 
-use Devboard\GitHub\Account\GitHubAccountType;
-use Devboard\GitHub\Account\GitHubAccountTypeFactory;
-use Devboard\GitHub\User\GitHubUserApiUrl;
-use Devboard\GitHub\User\GitHubUserAvatarUrl;
-use Devboard\GitHub\User\GitHubUserGravatarId;
-use Devboard\GitHub\User\GitHubUserHtmlUrl;
-use Devboard\GitHub\User\GitHubUserId;
-use Devboard\GitHub\User\GitHubUserLogin;
+use DevboardLib\GitHub\Account\AccountType;
+use DevboardLib\GitHub\Account\AccountTypeFactory;
+use DevboardLib\GitHub\User\UserApiUrl;
+use DevboardLib\GitHub\User\UserAvatarUrl;
+use DevboardLib\GitHub\User\UserGravatarId;
+use DevboardLib\GitHub\User\UserHtmlUrl;
+use DevboardLib\GitHub\User\UserId;
+use DevboardLib\GitHub\User\UserLogin;
 
 /**
  * @see SenderSpec
@@ -19,31 +19,31 @@ use Devboard\GitHub\User\GitHubUserLogin;
  */
 class Sender
 {
-    /** @var GitHubUserId */
+    /** @var UserId */
     private $userId;
-    /** @var GitHubUserLogin */
+    /** @var UserLogin */
     private $login;
-    /** @var GitHubAccountType */
+    /** @var AccountType */
     private $gitHubAccountType;
-    /** @var GitHubUserAvatarUrl */
+    /** @var UserAvatarUrl */
     private $avatarUrl;
-    /** @var GitHubUserGravatarId */
+    /** @var UserGravatarId */
     private $gravatarId;
-    /** @var GitHubUserHtmlUrl */
+    /** @var UserHtmlUrl */
     private $htmlUrl;
-    /** @var GitHubUserApiUrl */
+    /** @var UserApiUrl */
     private $apiUrl;
     /** @var bool */
     private $siteAdmin;
 
     public function __construct(
-        GitHubUserId $userId,
-        GitHubUserLogin $login,
-        GitHubAccountType $gitHubAccountType,
-        GitHubUserAvatarUrl $avatarUrl,
-        GitHubUserGravatarId $gravatarId,
-        GitHubUserHtmlUrl $htmlUrl,
-        GitHubUserApiUrl $apiUrl,
+        UserId $userId,
+        UserLogin $login,
+        AccountType $gitHubAccountType,
+        UserAvatarUrl $avatarUrl,
+        UserGravatarId $gravatarId,
+        UserHtmlUrl $htmlUrl,
+        UserApiUrl $apiUrl,
         bool $siteAdmin
     ) {
         $this->userId            = $userId;
@@ -56,37 +56,37 @@ class Sender
         $this->siteAdmin         = $siteAdmin;
     }
 
-    public function getUserId(): GitHubUserId
+    public function getUserId(): UserId
     {
         return $this->userId;
     }
 
-    public function getLogin(): GitHubUserLogin
+    public function getLogin(): UserLogin
     {
         return $this->login;
     }
 
-    public function getGitHubAccountType(): GitHubAccountType
+    public function getAccountType(): AccountType
     {
         return $this->gitHubAccountType;
     }
 
-    public function getAvatarUrl(): GitHubUserAvatarUrl
+    public function getAvatarUrl(): UserAvatarUrl
     {
         return $this->avatarUrl;
     }
 
-    public function getGravatarId(): GitHubUserGravatarId
+    public function getGravatarId(): UserGravatarId
     {
         return $this->gravatarId;
     }
 
-    public function getHtmlUrl(): GitHubUserHtmlUrl
+    public function getHtmlUrl(): UserHtmlUrl
     {
         return $this->htmlUrl;
     }
 
-    public function getApiUrl(): GitHubUserApiUrl
+    public function getApiUrl(): UserApiUrl
     {
         return $this->apiUrl;
     }
@@ -113,13 +113,13 @@ class Sender
     public static function deserialize(array $data): Sender
     {
         return new self(
-            new GitHubUserId($data['userId']),
-            new GitHubUserLogin($data['login']),
-            GitHubAccountTypeFactory::create($data['gitHubAccountType']),
-            new GitHubUserAvatarUrl($data['avatarUrl']),
-            new GitHubUserGravatarId($data['gravatarId']),
-            new GitHubUserHtmlUrl($data['htmlUrl']),
-            new GitHubUserApiUrl($data['apiUrl']),
+            new UserId($data['userId']),
+            new UserLogin($data['login']),
+            AccountTypeFactory::create($data['gitHubAccountType']),
+            new UserAvatarUrl($data['avatarUrl']),
+            new UserGravatarId($data['gravatarId']),
+            new UserHtmlUrl($data['htmlUrl']),
+            new UserApiUrl($data['apiUrl']),
             $data['siteAdmin']
         );
     }

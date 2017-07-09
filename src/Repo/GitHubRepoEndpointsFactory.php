@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoApiUrl;
-use Devboard\GitHub\Repo\GitHubRepoEndpoints;
-use Devboard\GitHub\Repo\GitHubRepoHtmlUrl;
+use DevboardLib\GitHub\Repo\RepoApiUrl;
+use DevboardLib\GitHub\Repo\RepoEndpoints;
+use DevboardLib\GitHub\Repo\RepoHtmlUrl;
 
 /**
  * @see GitHubRepoEndpointsFactorySpec
@@ -14,11 +14,11 @@ use Devboard\GitHub\Repo\GitHubRepoHtmlUrl;
  */
 class GitHubRepoEndpointsFactory
 {
-    public function create(array $data): GitHubRepoEndpoints
+    public function create(array $data): RepoEndpoints
     {
-        return new GitHubRepoEndpoints(
-            new GitHubRepoApiUrl($data['url']),
-            new GitHubRepoHtmlUrl($data['html_url'])
+        return new RepoEndpoints(
+            new RepoApiUrl($data['url']),
+            new RepoHtmlUrl($data['html_url'])
         );
     }
 }

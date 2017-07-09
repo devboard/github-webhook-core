@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\EventFactory;
 
-use Devboard\GitHub\Repo\GitHubRepoFullName;
-use Devboard\GitHub\Repo\GitHubRepoId;
+use DevboardLib\GitHub\Repo\RepoFullName;
+use DevboardLib\GitHub\Repo\RepoId;
 use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent;
 use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
 use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationFactory;
@@ -41,14 +41,14 @@ class InstallationRepositoriesEventFactory
 
         foreach ($data['repositories_added'] as $item) {
             $added[] = [
-                'id'       => new GitHubRepoId($item['id']),
-                'fullName' => GitHubRepoFullName::createFromString($item['full_name']),
+                'id'       => new RepoId($item['id']),
+                'fullName' => RepoFullName::createFromString($item['full_name']),
             ];
         }
         foreach ($data['repositories_removed'] as $item) {
             $removed[] = [
-                'id'       => new GitHubRepoId($item['id']),
-                'fullName' => GitHubRepoFullName::createFromString($item['full_name']),
+                'id'       => new RepoId($item['id']),
+                'fullName' => RepoFullName::createFromString($item['full_name']),
             ];
         }
 

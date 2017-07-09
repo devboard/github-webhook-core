@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent;
 
-use Devboard\GitHub\GitHubInstallation;
-use Devboard\GitHub\Installation\ApplicationId;
-use Devboard\GitHub\Installation\CreatedAt;
-use Devboard\GitHub\Installation\Events;
-use Devboard\GitHub\Installation\GitHubInstallationAccessTokenUrl;
-use Devboard\GitHub\Installation\GitHubInstallationHtmlUrl;
-use Devboard\GitHub\Installation\GitHubInstallationId;
-use Devboard\GitHub\Installation\GitHubInstallationRepositoriesUrl;
-use Devboard\GitHub\Installation\Permissions;
-use Devboard\GitHub\Installation\RepositorySelectionFactory;
-use Devboard\GitHub\Installation\UpdatedAt;
+use DevboardLib\GitHub\Application\ApplicationId;
+use DevboardLib\GitHub\GitHubInstallation;
+use DevboardLib\GitHub\Installation\InstallationAccessTokenUrl;
+use DevboardLib\GitHub\Installation\InstallationCreatedAt;
+use DevboardLib\GitHub\Installation\InstallationEvents;
+use DevboardLib\GitHub\Installation\InstallationHtmlUrl;
+use DevboardLib\GitHub\Installation\InstallationId;
+use DevboardLib\GitHub\Installation\InstallationPermissions;
+use DevboardLib\GitHub\Installation\InstallationRepositoriesUrl;
+use DevboardLib\GitHub\Installation\InstallationRepositorySelectionFactory;
+use DevboardLib\GitHub\Installation\InstallationUpdatedAt;
 
 /**
  * @see InstallationFactorySpec
@@ -37,23 +37,23 @@ class InstallationFactory
         $account = $this->installationAccountFactory->create($data['account']);
 
         if (true === array_key_exists('repository_selection', $data)) {
-            $repositorySelection = RepositorySelectionFactory::create($data['repository_selection']);
+            $repositorySelection = InstallationRepositorySelectionFactory::create($data['repository_selection']);
         } else {
             $repositorySelection = null;
         }
 
         return new GitHubInstallation(
-            new GitHubInstallationId($data['id']),
+            new InstallationId($data['id']),
             $account,
             new ApplicationId($data['app_id']),
             $repositorySelection,
-            new Permissions($data['permissions']),
-            new Events($data['events']),
-            new GitHubInstallationAccessTokenUrl($data['access_tokens_url']),
-            new GitHubInstallationRepositoriesUrl($data['repositories_url']),
-            new GitHubInstallationHtmlUrl($data['html_url']),
-            CreatedAt::createFromFormat('U', (string) $data['created_at']),
-            UpdatedAt::createFromFormat('U', (string) $data['updated_at'])
+            new InstallationPermissions($data['permissions']),
+            new InstallationEvents($data['events']),
+            new InstallationAccessTokenUrl($data['access_tokens_url']),
+            new InstallationRepositoriesUrl($data['repositories_url']),
+            new InstallationHtmlUrl($data['html_url']),
+            InstallationCreatedAt::createFromFormat('U', (string) $data['created_at']),
+            InstallationUpdatedAt::createFromFormat('U', (string) $data['updated_at'])
         );
     }
 }

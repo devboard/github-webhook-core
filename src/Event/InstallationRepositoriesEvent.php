@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DevboardLib\GitHubWebhook\Core\Event;
 
-use Devboard\GitHub\GitHubInstallation;
+use DevboardLib\GitHub\GitHubInstallation;
 use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
 
 /**

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\Repo\GitHubRepoTimestamps;
+use DevboardLib\GitHub\Repo\RepoTimestamps;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
 use PhpSpec\ObjectBehavior;
 
@@ -28,6 +28,6 @@ class GitHubRepoTimestampsFactorySpec extends ObjectBehavior
             'pushed_at'  => 1470510162,
         ];
 
-        $this->create($data)->shouldReturnAnInstanceOf(GitHubRepoTimestamps::class);
+        $this->create($data)->shouldReturnAnInstanceOf(RepoTimestamps::class);
     }
 }

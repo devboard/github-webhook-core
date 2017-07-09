@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\Commit;
 
-use Devboard\GitHub\Commit\GitHubCommitAuthor;
-use Devboard\GitHub\Commit\GitHubCommitCommitter;
-use Devboard\GitHub\GitHubCommit;
+use DevboardLib\GitHub\Commit\CommitAuthor;
+use DevboardLib\GitHub\Commit\CommitCommitter;
+use DevboardLib\GitHub\GitHubCommit;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
@@ -27,8 +27,8 @@ class GitHubCommitFactorySpec extends ObjectBehavior
     public function it_will_create_commit_from_given_branch_data(
         GitHubCommitCommitterFactory $commitCommitterFactory,
         GitHubCommitAuthorFactory $authorFactory,
-        GitHubCommitAuthor $author,
-        GitHubCommitCommitter $committer
+        CommitAuthor $author,
+        CommitCommitter $committer
     ) {
         $data = [
             'id'        => 'abc123',

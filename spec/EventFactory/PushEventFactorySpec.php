@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core\EventFactory;
 
-use Devboard\GitHub\GitHubCommit;
-use Devboard\GitHub\GitHubRepo;
+use DevboardLib\GitHub\GitHubCommit;
+use DevboardLib\GitHub\GitHubRepo;
 use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;

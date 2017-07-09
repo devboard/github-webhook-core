@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
-use Devboard\GitHub\GitHubRepo;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHub\GitHubRepo;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
