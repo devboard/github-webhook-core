@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace spec\DevboardLib\GitHubWebhook\Core;
 
-use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\CommitCollection;
 use PhpSpec\ObjectBehavior;
 
-class GitHubCommitCollectionSpec extends ObjectBehavior
+class CommitCollectionSpec extends ObjectBehavior
 {
     public function let()
     {
@@ -16,6 +16,6 @@ class GitHubCommitCollectionSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType(GitHubCommitCollection::class);
+        $this->shouldHaveType(CommitCollection::class);
     }
 }

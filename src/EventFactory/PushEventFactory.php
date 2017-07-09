@@ -12,7 +12,7 @@ use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
 use DevboardLib\GitHubWebhook\Core\EventFactory;
 use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
-use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\CommitCollection;
 use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
 
 /**
@@ -73,7 +73,7 @@ class PushEventFactory implements EventFactory
             new PushEventState($data['created'], $data['deleted'], $data['forced']),
             $baseRef,
             new CompareChangesUrl($data['compare']),
-            new GitHubCommitCollection(),
+            new CommitCollection(),
             $commit,
             $this->repoFactory->create($data['repository']),
             $this->pusherFactory->create($data['pusher']),

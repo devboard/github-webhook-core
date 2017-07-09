@@ -13,7 +13,7 @@ use DevboardLib\GitHubWebhook\Core\Event;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
-use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\CommitCollection;
 
 /**
  * @see PushEventSpec
@@ -35,7 +35,7 @@ class PushEvent implements Event
     private $baseRef;
     /** @var CompareChangesUrl */
     private $changesUrl;
-    /** @var GitHubCommitCollection */
+    /** @var CommitCollection */
     private $commits;
     /** @var GitHubCommit */
     private $headCommit;
@@ -53,7 +53,7 @@ class PushEvent implements Event
         PushEventState $state,
         ?Ref $baseRef,
         CompareChangesUrl $changesUrl,
-        GitHubCommitCollection $commits,
+        CommitCollection $commits,
         ?GitHubCommit $headCommit,
         GitHubRepo $repo,
         Pusher $pusher,
@@ -102,7 +102,7 @@ class PushEvent implements Event
         return $this->changesUrl;
     }
 
-    public function getCommits(): GitHubCommitCollection
+    public function getCommits(): CommitCollection
     {
         return $this->commits;
     }

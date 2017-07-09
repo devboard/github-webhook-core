@@ -44,7 +44,7 @@ use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
 use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
 use DevboardLib\GitHubWebhook\Core\Event\Sender;
-use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\CommitCollection;
 
 /**
  * @covers \DevboardLib\GitHubWebhook\Core\Event\PushEvent
@@ -63,7 +63,7 @@ class PushEventTest extends \PHPUnit_Framework_TestCase
         PushEventState $state,
         ?Ref $baseRef,
         CompareChangesUrl $changesUrl,
-        GitHubCommitCollection $commits,
+        CommitCollection $commits,
         ?GitHubCommit $headCommit,
         GitHubRepo $repo,
         Pusher $pusher,
@@ -98,7 +98,7 @@ class PushEventTest extends \PHPUnit_Framework_TestCase
                 new CompareChangesUrl(
                     'https://github.com/devboard-test/super-library/compare/9049f1265b7d...0d1a26e67d8f'
                 ),
-                new GitHubCommitCollection(),
+                new CommitCollection(),
                 new GitHubCommit(
                     new CommitSha('abc234'),
                     new CommitMessage('Message'),
