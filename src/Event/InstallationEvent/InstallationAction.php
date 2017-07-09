@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Event\InstallationEvent;
+namespace DevboardLib\GitHubWebhook\Core\Event\InstallationEvent;
 
 use Webmozart\Assert\Assert;
 

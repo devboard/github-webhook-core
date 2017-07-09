@@ -3,5 +3,5 @@ extensions:
   Cjm\PhpSpec\Extension\TypeHintedMethodsExtension: ~
 suites:
     acme_suite:
-        namespace: Devboard\GitHub\Webhook\Core
-        psr4_prefix: Devboard\GitHub\Webhook\Core
+        namespace: DevboardLib\GitHubWebhook\Core
+        psr4_prefix: DevboardLib\GitHubWebhook\Core

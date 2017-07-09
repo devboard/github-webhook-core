@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\EventFactory\PushEvent;
+namespace spec\DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent;
 
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
-use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
+use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
 use PhpSpec\ObjectBehavior;
 
 class PusherFactorySpec extends ObjectBehavior

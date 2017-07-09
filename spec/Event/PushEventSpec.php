@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Event;
+namespace spec\DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\Commit\GitHubCommitSha;
 use Devboard\GitHub\GitHubCommit;
 use Devboard\GitHub\GitHubRepo;
-use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
-use Devboard\GitHub\Webhook\Core\Event;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\PushEventState;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Ref;
-use Devboard\GitHub\Webhook\Core\Event\Sender;
-use Devboard\GitHub\Webhook\Core\GitHubCommitCollection;
+use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
+use DevboardLib\GitHubWebhook\Core\Event;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\PushEventState;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Ref;
+use DevboardLib\GitHubWebhook\Core\Event\Sender;
+use DevboardLib\GitHubWebhook\Core\GitHubCommitCollection;
 use PhpSpec\ObjectBehavior;
 
 class PushEventSpec extends ObjectBehavior

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Commit;
+namespace DevboardLib\GitHubWebhook\Core\Commit;
 
 use Devboard\GitHub\Commit\Committer\GitHubCommitCommitterEmail;
 use Devboard\GitHub\Commit\Committer\GitHubCommitCommitterName;

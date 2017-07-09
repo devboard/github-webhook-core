@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Event;
+namespace DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\GitHubInstallation;
-use Devboard\GitHub\Webhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationRepositoriesEvent\InstallationRepositoriesAction;
 
 /**
  * @see InstallationRepositoriesEventSpec
@@ -21,7 +21,7 @@ class InstallationRepositoriesEvent
     private $reposAdded;
     /** @var array */
     private $reposRemoved;
-    /** @var \Devboard\GitHub\Webhook\Core\Event\Sender */
+    /** @var \DevboardLib\GitHubWebhook\Core\Event\Sender */
     private $sender;
 
     public function __construct(

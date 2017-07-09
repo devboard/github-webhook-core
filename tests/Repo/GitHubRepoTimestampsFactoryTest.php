@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Repo;
+namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\GitHub\Repo\GitHubRepoTimestamps;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory
  * @group  unit
  */
 class GitHubRepoTimestampsFactoryTest extends \PHPUnit_Framework_TestCase

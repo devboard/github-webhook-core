@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\EventFactory;
+namespace spec\DevboardLib\GitHubWebhook\Core\EventFactory;
 
 use Devboard\GitHub\GitHubCommit;
 use Devboard\GitHub\GitHubRepo;
-use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitFactory;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
-use Devboard\GitHub\Webhook\Core\Event\Sender;
-use Devboard\GitHub\Webhook\Core\EventFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\PushEventFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\SenderFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
+use DevboardLib\GitHubWebhook\Core\Event\Sender;
+use DevboardLib\GitHubWebhook\Core\EventFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\PushEventFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\SenderFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
 use PhpSpec\ObjectBehavior;
 
 class PushEventFactorySpec extends ObjectBehavior

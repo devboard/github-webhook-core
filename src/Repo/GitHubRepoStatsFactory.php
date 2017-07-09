@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Repo;
+namespace DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\GitHub\Repo\GitHubRepoSize;
 use Devboard\GitHub\Repo\GitHubRepoStats;

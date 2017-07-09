@@ -2,26 +2,26 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\EventFactory;
+namespace tests\DevboardLib\GitHubWebhook\Core\EventFactory;
 
-use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitAuthorFactory;
-use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitCommitterFactory;
-use Devboard\GitHub\Webhook\Core\Commit\GitHubCommitFactory;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent;
-use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\PushEventFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\SenderFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoEndpointsFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoStatsFactory;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoTimestampsFactory;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitAuthorFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitCommitterFactory;
+use DevboardLib\GitHubWebhook\Core\Commit\GitHubCommitFactory;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent;
+use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\PushEventFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\SenderFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoStatsFactory;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoTimestampsFactory;
 use Generator;
-use tests\Devboard\GitHub\Webhook\Core\GitHubExampleTestData;
-use tests\Devboard\GitHub\Webhook\Core\GitHubProductionTestData;
+use tests\DevboardLib\GitHubWebhook\Core\GitHubExampleTestData;
+use tests\DevboardLib\GitHubWebhook\Core\GitHubProductionTestData;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\EventFactory\PushEventFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\EventFactory\PushEventFactory
  * @group  unit
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

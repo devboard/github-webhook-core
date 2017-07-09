@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core;
+namespace spec\DevboardLib\GitHubWebhook\Core;
 
-use Devboard\GitHub\Webhook\Core\CompareChangesUrl;
+use DevboardLib\GitHubWebhook\Core\CompareChangesUrl;
 use PhpSpec\ObjectBehavior;
 
 class CompareChangesUrlSpec extends ObjectBehavior

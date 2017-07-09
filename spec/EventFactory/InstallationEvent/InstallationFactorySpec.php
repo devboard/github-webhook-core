@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent;
+namespace spec\DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent;
 
 use Devboard\GitHub\GitHubInstallation;
 use Devboard\GitHub\Installation\GitHubInstallationAccount;
-use Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent\InstallationAccountFactory;
-use Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent\InstallationFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationAccountFactory;
+use DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent\InstallationFactory;
 use PhpSpec\ObjectBehavior;
 
 class InstallationFactorySpec extends ObjectBehavior

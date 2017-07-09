@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Event\PushEvent;
+namespace spec\DevboardLib\GitHubWebhook\Core\Event\PushEvent;
 
 use Devboard\GitHub\User\GitHubUserEmailAddress;
 use Devboard\GitHub\User\GitHubUserLogin;
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
 use PhpSpec\ObjectBehavior;
 
 class PusherSpec extends ObjectBehavior

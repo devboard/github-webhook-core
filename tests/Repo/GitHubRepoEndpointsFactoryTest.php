@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\Repo;
+namespace tests\DevboardLib\GitHubWebhook\Core\Repo;
 
 use Devboard\GitHub\Repo\GitHubRepoEndpoints;
-use Devboard\GitHub\Webhook\Core\Repo\GitHubRepoEndpointsFactory;
 use Devboard\Thesting\Source\JsonSource;
+use DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\Repo\GitHubRepoEndpointsFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\Repo\GitHubRepoEndpointsFactory
  * @group  unit
  */
 class GitHubRepoEndpointsFactoryTest extends \PHPUnit_Framework_TestCase

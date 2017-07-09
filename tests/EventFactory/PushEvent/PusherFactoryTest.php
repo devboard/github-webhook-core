@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace tests\Devboard\GitHub\Webhook\Core\EventFactory\PushEvent;
+namespace tests\DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent;
 
-use Devboard\GitHub\Webhook\Core\Event\PushEvent\Pusher;
-use Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory;
+use DevboardLib\GitHubWebhook\Core\Event\PushEvent\Pusher;
+use DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory;
 
 /**
- * @covers \Devboard\GitHub\Webhook\Core\EventFactory\PushEvent\PusherFactory
+ * @covers \DevboardLib\GitHubWebhook\Core\EventFactory\PushEvent\PusherFactory
  * @group  unit
  */
 class PusherFactoryTest extends \PHPUnit_Framework_TestCase

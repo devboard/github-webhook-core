@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\Event;
+namespace DevboardLib\GitHubWebhook\Core\Event;
 
 use Devboard\GitHub\Account\GitHubAccountType;
 use Devboard\GitHub\Account\GitHubAccountTypeFactory;

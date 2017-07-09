@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace spec\Devboard\GitHub\Webhook\Core\Event\InstallationEvent;
+namespace spec\DevboardLib\GitHubWebhook\Core\Event\InstallationEvent;
 
-use Devboard\GitHub\Webhook\Core\Event\InstallationEvent\InstallationAction;
+use DevboardLib\GitHubWebhook\Core\Event\InstallationEvent\InstallationAction;
 use InvalidArgumentException;
 use PhpSpec\ObjectBehavior;
 

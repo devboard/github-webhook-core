@@ -4,13 +4,13 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Devboard\\GitHub\\Webhook\\Core\\": "src/",
-            "tests\\Devboard\\GitHub\\Webhook\\Core\\": "tests/"
+            "DevboardLib\\GitHubWebhook\\Core\\": "src/",
+            "tests\\DevboardLib\\GitHubWebhook\\Core\\": "tests/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "spec\\Devboard\\GitHub\\Webhook\\Core\\": "spec/"
+            "spec\\DevboardLib\\GitHubWebhook\\Core\\": "spec/"
         }
     },
     "require": {

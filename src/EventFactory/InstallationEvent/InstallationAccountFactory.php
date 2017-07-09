@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Devboard\GitHub\Webhook\Core\EventFactory\InstallationEvent;
+namespace DevboardLib\GitHubWebhook\Core\EventFactory\InstallationEvent;
 
 use Devboard\GitHub\Account\GitHubAccountApiUrl;
 use Devboard\GitHub\Account\GitHubAccountAvatarUrl;
